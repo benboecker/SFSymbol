@@ -3,6 +3,7 @@ import XCTest
 @testable import SFSymbol
 import UIKit
 
+@available(iOS 13.0, *)
 final class SFSymbolTests: XCTestCase {
 	
 	func test_CreateUImages() {

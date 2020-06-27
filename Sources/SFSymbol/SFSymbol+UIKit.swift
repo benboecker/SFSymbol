@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 
+@available(iOS 13.0, *)
 extension SFSymbol {
 	func image(textStyle: UIFont.TextStyle = .body, scale: UIImage.SymbolScale = .medium) -> UIImage {
 		let config = UIImage.SymbolConfiguration(textStyle: textStyle, scale: scale)
