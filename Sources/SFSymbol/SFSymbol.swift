@@ -12,7 +12,7 @@ public struct SFSymbol {
 
 extension SFSymbol {
 	init?(_ name: String) {
-		guard let symbol = SFSymbolProvider.shared.symbols(with: name).first else { return nil }
+		guard let symbol = SFSymbolProvider.shared.symbol(with: name) else { return nil }
 		self = symbol
 	}
 

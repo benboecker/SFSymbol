@@ -26,6 +26,10 @@ extension SFSymbolProvider {
 		symbols.filter { $0.name.contains(name) }
 	}
 	
+	func symbol(with name: String) -> SFSymbol? {
+		symbols.filter { $0.name == name }.first
+	}
+	
 	func restrictedSymbols() -> [SFSymbol] {
 		symbols.filter { $0.isRestricted }
 	}
