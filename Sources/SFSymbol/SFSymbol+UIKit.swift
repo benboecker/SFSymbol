@@ -25,6 +25,12 @@ public extension SFSymbol {
 		let config = UIImage.SymbolConfiguration(pointSize: pointSize, weight: weight, scale: scale)
 		return UIImage(systemName: name, withConfiguration: config)!
 	}
-	
+}
+
+@available(iOS 13.0, *)
+public extension UIImage {
+	convenience init(symbol: SFSymbol) {
+		self.init(systemName: symbol.name)!
+	}
 }
 
