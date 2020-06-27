@@ -1,0 +1,2 @@
+# SFSymbol
+Typesafe SFSymbols
