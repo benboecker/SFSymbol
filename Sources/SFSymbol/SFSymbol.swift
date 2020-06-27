@@ -2,12 +2,12 @@
 
 
 public struct SFSymbol {
-	let order: Int
-	let name: String
-	let isRestricted: Bool
-	let isMulticolor: Bool
-	let categories: [Category]
-	let searchMetadata: [String]
+	public let order: Int
+	public let name: String
+	public let isRestricted: Bool
+	public let isMulticolor: Bool
+	public let categories: [SFSymbol.Category]
+	public let searchMetadata: [String]
 }
 
 extension SFSymbol {

@@ -9,7 +9,7 @@ import Foundation
 
 
 public extension SFSymbol {
-	enum Category {
+	enum Category: CaseIterable {
 		case objectsAndTools
 		case math
 		case indicies
