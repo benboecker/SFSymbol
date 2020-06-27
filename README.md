@@ -1,2 +1,3 @@
 # SFSymbol
-Typesafe SFSymbols
+
+A description of this package.
