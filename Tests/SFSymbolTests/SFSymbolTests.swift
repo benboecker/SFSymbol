@@ -11,7 +11,7 @@ final class SFSymbolTests: XCTestCase {
 		
 		for symbol in symbols {
 			let directly = UIImage(systemName: symbol.name)
-			let property = symbol.image()
+			let property = symbol.image
 			XCTAssertNotNil(directly)
 			XCTAssertNotNil(property)
 		}
