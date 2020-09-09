@@ -9,7 +9,7 @@ import Foundation
 
 public class SFSymbolProvider {
 	public static let shared = SFSymbolProvider()
-	let symbols: [SFSymbol]
+	public let symbols: [SFSymbol]
 	
 	init() {
 		symbols = SFSymbolProvider.loadData()
@@ -17,7 +17,7 @@ public class SFSymbolProvider {
 }
 
 
-extension SFSymbolProvider {
+public extension SFSymbolProvider {
 	func symbols(in category: SFSymbol.Category) -> [SFSymbol] {
 		symbols.filter { $0.categories.contains(category) }
 	}

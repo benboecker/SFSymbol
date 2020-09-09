@@ -8,7 +8,7 @@
 import Foundation
 
 
-public extension SFSymbol {		
+public extension SFSymbol {
 	static var plus: SFSymbol { SFSymbol("plus")! }
 	static var plusCircle: SFSymbol { SFSymbol("plus.circle")! }
 	static var plusCircleFill: SFSymbol { SFSymbol("plus.circle.fill")! }
