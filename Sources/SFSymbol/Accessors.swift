@@ -9,98 +9,6 @@ import Foundation
 
 
 public extension SFSymbol {
-	static var plus: SFSymbol { SFSymbol("plus")! }
-	static var plusCircle: SFSymbol { SFSymbol("plus.circle")! }
-	static var plusCircleFill: SFSymbol { SFSymbol("plus.circle.fill")! }
-	static var plusSquare: SFSymbol { SFSymbol("plus.square")! }
-	static var plusSquareFill: SFSymbol { SFSymbol("plus.square.fill")! }
-	static var minus: SFSymbol { SFSymbol("minus")! }
-	static var minusCircle: SFSymbol { SFSymbol("minus.circle")! }
-	static var minusCircleFill: SFSymbol { SFSymbol("minus.circle.fill")! }
-	static var minusSquare: SFSymbol { SFSymbol("minus.square")! }
-	static var minusSquareFill: SFSymbol { SFSymbol("minus.square.fill")! }
-	static var multiply: SFSymbol { SFSymbol("multiply")! }
-	static var multiplyCircle: SFSymbol { SFSymbol("multiply.circle")! }
-	static var multiplyCircleFill: SFSymbol { SFSymbol("multiply.circle.fill")! }
-	static var multiplySquare: SFSymbol { SFSymbol("multiply.square")! }
-	static var multiplySquareFill: SFSymbol { SFSymbol("multiply.square.fill")! }
-	static var divide: SFSymbol { SFSymbol("divide")! }
-	static var divideCircle: SFSymbol { SFSymbol("divide.circle")! }
-	static var divideCircleFill: SFSymbol { SFSymbol("divide.circle.fill")! }
-	static var divideSquare: SFSymbol { SFSymbol("divide.square")! }
-	static var divideSquareFill: SFSymbol { SFSymbol("divide.square.fill")! }
-	static var equal: SFSymbol { SFSymbol("equal")! }
-	static var equalCircle: SFSymbol { SFSymbol("equal.circle")! }
-	static var equalCircleFill: SFSymbol { SFSymbol("equal.circle.fill")! }
-	static var equalSquare: SFSymbol { SFSymbol("equal.square")! }
-	static var equalSquareFill: SFSymbol { SFSymbol("equal.square.fill")! }
-	static var lessthan: SFSymbol { SFSymbol("lessthan")! }
-	static var lessthanCircle: SFSymbol { SFSymbol("lessthan.circle")! }
-	static var lessthanCircleFill: SFSymbol { SFSymbol("lessthan.circle.fill")! }
-	static var lessthanSquare: SFSymbol { SFSymbol("lessthan.square")! }
-	static var lessthanSquareFill: SFSymbol { SFSymbol("lessthan.square.fill")! }
-	static var greaterthan: SFSymbol { SFSymbol("greaterthan")! }
-	static var greaterthanCircle: SFSymbol { SFSymbol("greaterthan.circle")! }
-	static var greaterthanCircleFill: SFSymbol { SFSymbol("greaterthan.circle.fill")! }
-	static var greaterthanSquare: SFSymbol { SFSymbol("greaterthan.square")! }
-	static var greaterthanSquareFill: SFSymbol { SFSymbol("greaterthan.square.fill")! }
-	static var number: SFSymbol { SFSymbol("number")! }
-	static var numberCircle: SFSymbol { SFSymbol("number.circle")! }
-	static var numberCircleFill: SFSymbol { SFSymbol("number.circle.fill")! }
-	static var numberSquare: SFSymbol { SFSymbol("number.square")! }
-	static var numberSquareFill: SFSymbol { SFSymbol("number.square.fill")! }
-	static var xmark: SFSymbol { SFSymbol("xmark")! }
-	static var xmarkCircle: SFSymbol { SFSymbol("xmark.circle")! }
-	static var xmarkCircleFill: SFSymbol { SFSymbol("xmark.circle.fill")! }
-	static var xmarkSquare: SFSymbol { SFSymbol("xmark.square")! }
-	static var xmarkSquareFill: SFSymbol { SFSymbol("xmark.square.fill")! }
-	static var checkmark: SFSymbol { SFSymbol("checkmark")! }
-	static var checkmarkCircle: SFSymbol { SFSymbol("checkmark.circle")! }
-	static var checkmarkCircleFill: SFSymbol { SFSymbol("checkmark.circle.fill")! }
-	static var checkmarkSquare: SFSymbol { SFSymbol("checkmark.square")! }
-	static var checkmarkSquareFill: SFSymbol { SFSymbol("checkmark.square.fill")! }
-	static var checkmarkSeal: SFSymbol { SFSymbol("checkmark.seal")! }
-	static var checkmarkSealFill: SFSymbol { SFSymbol("checkmark.seal.fill")! }
-	static var xmarkSeal: SFSymbol { SFSymbol("xmark.seal")! }
-	static var xmarkSealFill: SFSymbol { SFSymbol("xmark.seal.fill")! }
-	static var rosette: SFSymbol { SFSymbol("rosette")! }
-	static var slashCircle: SFSymbol { SFSymbol("slash.circle")! }
-	static var slashCircleFill: SFSymbol { SFSymbol("slash.circle.fill")! }
-	static var largecircleFillCircle: SFSymbol { SFSymbol("largecircle.fill.circle")! }
-	static var smallcircleFillCircle: SFSymbol { SFSymbol("smallcircle.fill.circle")! }
-	static var smallcircleFillCircleFill: SFSymbol { SFSymbol("smallcircle.fill.circle.fill")! }
-	static var smallcircleCircle: SFSymbol { SFSymbol("smallcircle.circle")! }
-	static var smallcircleCircleFill: SFSymbol { SFSymbol("smallcircle.circle.fill")! }
-	static var asteriskCircle: SFSymbol { SFSymbol("asterisk.circle")! }
-	static var asteriskCircleFill: SFSymbol { SFSymbol("asterisk.circle.fill")! }
-	static var macwindow: SFSymbol { SFSymbol("macwindow")! }
-	static var uiwindowSplit2X1: SFSymbol { SFSymbol("uiwindow.split.2x1")! }
-	static var rectangleSplit3X1: SFSymbol { SFSymbol("rectangle.split.3x1")! }
-	static var rectangleSplit3X1Fill: SFSymbol { SFSymbol("rectangle.split.3x1.fill")! }
-	static var rectangleSplit3X3: SFSymbol { SFSymbol("rectangle.split.3x3")! }
-	static var rectangleSplit3X3Fill: SFSymbol { SFSymbol("rectangle.split.3x3.fill")! }
-	static var squareSplit2X1: SFSymbol { SFSymbol("square.split.2x1")! }
-	static var squareSplit2X1Fill: SFSymbol { SFSymbol("square.split.2x1.fill")! }
-	static var squareSplit1X2: SFSymbol { SFSymbol("square.split.1x2")! }
-	static var squareSplit1X2Fill: SFSymbol { SFSymbol("square.split.1x2.fill")! }
-	static var squareSplit2X2: SFSymbol { SFSymbol("square.split.2x2")! }
-	static var squareSplit2X2Fill: SFSymbol { SFSymbol("square.split.2x2.fill")! }
-	static var dotSquare: SFSymbol { SFSymbol("dot.square")! }
-	static var dotSquareFill: SFSymbol { SFSymbol("dot.square.fill")! }
-	static var exclamationmarkTriangle: SFSymbol { SFSymbol("exclamationmark.triangle")! }
-	static var exclamationmarkTriangleFill: SFSymbol { SFSymbol("exclamationmark.triangle.fill")! }
-	static var dropTriangle: SFSymbol { SFSymbol("drop.triangle")! }
-	static var dropTriangleFill: SFSymbol { SFSymbol("drop.triangle.fill")! }
-	static var questionmarkDiamond: SFSymbol { SFSymbol("questionmark.diamond")! }
-	static var questionmarkDiamondFill: SFSymbol { SFSymbol("questionmark.diamond.fill")! }
-	static var exclamationmarkOctagon: SFSymbol { SFSymbol("exclamationmark.octagon")! }
-	static var exclamationmarkOctagonFill: SFSymbol { SFSymbol("exclamationmark.octagon.fill")! }
-	static var xmarkOctagon: SFSymbol { SFSymbol("xmark.octagon")! }
-	static var xmarkOctagonFill: SFSymbol { SFSymbol("xmark.octagon.fill")! }
-	static var lineHorizontal3: SFSymbol { SFSymbol("line.horizontal.3")! }
-	static var lineHorizontal3Decrease: SFSymbol { SFSymbol("line.horizontal.3.decrease")! }
-	static var lineHorizontal3DecreaseCircle: SFSymbol { SFSymbol("line.horizontal.3.decrease.circle")! }
-	static var lineHorizontal3DecreaseCircleFill: SFSymbol { SFSymbol("line.horizontal.3.decrease.circle.fill")! }
 	static var squareAndArrowUp: SFSymbol { SFSymbol("square.and.arrow.up")! }
 	static var squareAndArrowUpFill: SFSymbol { SFSymbol("square.and.arrow.up.fill")! }
 	static var squareAndArrowDown: SFSymbol { SFSymbol("square.and.arrow.down")! }
@@ -114,20 +22,24 @@ public extension SFSymbol {
 	static var pencilCircleFill: SFSymbol { SFSymbol("pencil.circle.fill")! }
 	static var pencilSlash: SFSymbol { SFSymbol("pencil.slash")! }
 	static var squareAndPencil: SFSymbol { SFSymbol("square.and.pencil")! }
-	static var pencilAndEllipsisRectangle: SFSymbol { SFSymbol("pencil.and.ellipsis.rectangle")! }
+	static var rectangleAndPencilAndEllipsis: SFSymbol { SFSymbol("rectangle.and.pencil.and.ellipsis")! }
+	static var scribble: SFSymbol { SFSymbol("scribble")! }
+	static var scribbleVariable: SFSymbol { SFSymbol("scribble.variable")! }
+	static var highlighter: SFSymbol { SFSymbol("highlighter")! }
 	static var pencilAndOutline: SFSymbol { SFSymbol("pencil.and.outline")! }
 	static var pencilTip: SFSymbol { SFSymbol("pencil.tip")! }
 	static var pencilTipCropCircle: SFSymbol { SFSymbol("pencil.tip.crop.circle")! }
 	static var pencilTipCropCircleBadgePlus: SFSymbol { SFSymbol("pencil.tip.crop.circle.badge.plus")! }
 	static var pencilTipCropCircleBadgeMinus: SFSymbol { SFSymbol("pencil.tip.crop.circle.badge.minus")! }
-	static var scribble: SFSymbol { SFSymbol("scribble")! }
+	static var pencilTipCropCircleBadgeArrowRight: SFSymbol { SFSymbol("pencil.tip.crop.circle.badge.arrow.right")! }
 	static var lasso: SFSymbol { SFSymbol("lasso")! }
+	static var lassoSparkles: SFSymbol { SFSymbol("lasso.sparkles")! }
 	static var trash: SFSymbol { SFSymbol("trash")! }
 	static var trashFill: SFSymbol { SFSymbol("trash.fill")! }
-	static var trashSlash: SFSymbol { SFSymbol("trash.slash")! }
-	static var trashSlashFill: SFSymbol { SFSymbol("trash.slash.fill")! }
 	static var trashCircle: SFSymbol { SFSymbol("trash.circle")! }
 	static var trashCircleFill: SFSymbol { SFSymbol("trash.circle.fill")! }
+	static var trashSlash: SFSymbol { SFSymbol("trash.slash")! }
+	static var trashSlashFill: SFSymbol { SFSymbol("trash.slash.fill")! }
 	static var folder: SFSymbol { SFSymbol("folder")! }
 	static var folderFill: SFSymbol { SFSymbol("folder.fill")! }
 	static var folderCircle: SFSymbol { SFSymbol("folder.circle")! }
@@ -136,59 +48,114 @@ public extension SFSymbol {
 	static var folderFillBadgePlus: SFSymbol { SFSymbol("folder.fill.badge.plus")! }
 	static var folderBadgeMinus: SFSymbol { SFSymbol("folder.badge.minus")! }
 	static var folderFillBadgeMinus: SFSymbol { SFSymbol("folder.fill.badge.minus")! }
+	static var folderBadgeQuestionmark: SFSymbol { SFSymbol("folder.badge.questionmark")! }
+	static var folderFillBadgeQuestionmark: SFSymbol { SFSymbol("folder.fill.badge.questionmark")! }
 	static var folderBadgePersonCrop: SFSymbol { SFSymbol("folder.badge.person.crop")! }
 	static var folderFillBadgePersonCrop: SFSymbol { SFSymbol("folder.fill.badge.person.crop")! }
+	static var squareGrid3x1FolderBadgePlus: SFSymbol { SFSymbol("square.grid.3x1.folder.badge.plus")! }
+	static var squareGrid3x1FolderFillBadgePlus: SFSymbol { SFSymbol("square.grid.3x1.folder.fill.badge.plus")! }
+	static var folderBadgeGear: SFSymbol { SFSymbol("folder.badge.gear")! }
+	static var folderFillBadgeGear: SFSymbol { SFSymbol("folder.fill.badge.gear")! }
+	static var plusRectangleOnFolder: SFSymbol { SFSymbol("plus.rectangle.on.folder")! }
+	static var plusRectangleFillOnFolderFill: SFSymbol { SFSymbol("plus.rectangle.fill.on.folder.fill")! }
+	static var questionmarkFolder: SFSymbol { SFSymbol("questionmark.folder")! }
+	static var questionmarkFolderFill: SFSymbol { SFSymbol("questionmark.folder.fill")! }
 	static var paperplane: SFSymbol { SFSymbol("paperplane")! }
 	static var paperplaneFill: SFSymbol { SFSymbol("paperplane.fill")! }
+	static var paperplaneCircle: SFSymbol { SFSymbol("paperplane.circle")! }
+	static var paperplaneCircleFill: SFSymbol { SFSymbol("paperplane.circle.fill")! }
 	static var tray: SFSymbol { SFSymbol("tray")! }
 	static var trayFill: SFSymbol { SFSymbol("tray.fill")! }
+	static var trayCircle: SFSymbol { SFSymbol("tray.circle")! }
+	static var trayCircleFill: SFSymbol { SFSymbol("tray.circle.fill")! }
 	static var trayAndArrowUp: SFSymbol { SFSymbol("tray.and.arrow.up")! }
 	static var trayAndArrowUpFill: SFSymbol { SFSymbol("tray.and.arrow.up.fill")! }
 	static var trayAndArrowDown: SFSymbol { SFSymbol("tray.and.arrow.down")! }
 	static var trayAndArrowDownFill: SFSymbol { SFSymbol("tray.and.arrow.down.fill")! }
-	static var trayFull: SFSymbol { SFSymbol("tray.full")! }
-	static var trayFullFill: SFSymbol { SFSymbol("tray.full.fill")! }
 	static var tray2: SFSymbol { SFSymbol("tray.2")! }
 	static var tray2Fill: SFSymbol { SFSymbol("tray.2.fill")! }
+	static var trayFull: SFSymbol { SFSymbol("tray.full")! }
+	static var trayFullFill: SFSymbol { SFSymbol("tray.full.fill")! }
+	static var externaldrive: SFSymbol { SFSymbol("externaldrive")! }
+	static var externaldriveFill: SFSymbol { SFSymbol("externaldrive.fill")! }
+	static var externaldriveBadgePlus: SFSymbol { SFSymbol("externaldrive.badge.plus")! }
+	static var externaldriveFillBadgePlus: SFSymbol { SFSymbol("externaldrive.fill.badge.plus")! }
+	static var externaldriveBadgeMinus: SFSymbol { SFSymbol("externaldrive.badge.minus")! }
+	static var externaldriveFillBadgeMinus: SFSymbol { SFSymbol("externaldrive.fill.badge.minus")! }
+	static var externaldriveBadgeCheckmark: SFSymbol { SFSymbol("externaldrive.badge.checkmark")! }
+	static var externaldriveFillBadgeCheckmark: SFSymbol { SFSymbol("externaldrive.fill.badge.checkmark")! }
+	static var externaldriveBadgeXmark: SFSymbol { SFSymbol("externaldrive.badge.xmark")! }
+	static var externaldriveFillBadgeXmark: SFSymbol { SFSymbol("externaldrive.fill.badge.xmark")! }
+	static var externaldriveBadgePersonCrop: SFSymbol { SFSymbol("externaldrive.badge.person.crop")! }
+	static var externaldriveFillBadgePersonCrop: SFSymbol { SFSymbol("externaldrive.fill.badge.person.crop")! }
+	static var externaldriveBadgeIcloud: SFSymbol { SFSymbol("externaldrive.badge.icloud")! }
+	static var externaldriveFillBadgeIcloud: SFSymbol { SFSymbol("externaldrive.fill.badge.icloud")! }
+	static var externaldriveBadgeWifi: SFSymbol { SFSymbol("externaldrive.badge.wifi")! }
+	static var externaldriveFillBadgeWifi: SFSymbol { SFSymbol("externaldrive.fill.badge.wifi")! }
+	static var externaldriveBadgeTimemachine: SFSymbol { SFSymbol("externaldrive.badge.timemachine")! }
+	static var externaldriveFillBadgeTimemachine: SFSymbol { SFSymbol("externaldrive.fill.badge.timemachine")! }
+	static var internaldrive: SFSymbol { SFSymbol("internaldrive")! }
+	static var internaldriveFill: SFSymbol { SFSymbol("internaldrive.fill")! }
+	static var opticaldiscdrive: SFSymbol { SFSymbol("opticaldiscdrive")! }
+	static var opticaldiscdriveFill: SFSymbol { SFSymbol("opticaldiscdrive.fill")! }
+	static var externaldriveConnectedToLineBelow: SFSymbol { SFSymbol("externaldrive.connected.to.line.below")! }
+	static var externaldriveConnectedToLineBelowFill: SFSymbol { SFSymbol("externaldrive.connected.to.line.below.fill")! }
 	static var archivebox: SFSymbol { SFSymbol("archivebox")! }
 	static var archiveboxFill: SFSymbol { SFSymbol("archivebox.fill")! }
-	static var binXmark: SFSymbol { SFSymbol("bin.xmark")! }
-	static var binXmarkFill: SFSymbol { SFSymbol("bin.xmark.fill")! }
+	static var archiveboxCircle: SFSymbol { SFSymbol("archivebox.circle")! }
+	static var archiveboxCircleFill: SFSymbol { SFSymbol("archivebox.circle.fill")! }
+	static var xmarkBin: SFSymbol { SFSymbol("xmark.bin")! }
+	static var xmarkBinFill: SFSymbol { SFSymbol("xmark.bin.fill")! }
+	static var xmarkBinCircle: SFSymbol { SFSymbol("xmark.bin.circle")! }
+	static var xmarkBinCircleFill: SFSymbol { SFSymbol("xmark.bin.circle.fill")! }
 	static var arrowUpBin: SFSymbol { SFSymbol("arrow.up.bin")! }
 	static var arrowUpBinFill: SFSymbol { SFSymbol("arrow.up.bin.fill")! }
 	static var doc: SFSymbol { SFSymbol("doc")! }
 	static var docFill: SFSymbol { SFSymbol("doc.fill")! }
+	static var docCircle: SFSymbol { SFSymbol("doc.circle")! }
+	static var docCircleFill: SFSymbol { SFSymbol("doc.circle.fill")! }
+	static var docBadgePlus: SFSymbol { SFSymbol("doc.badge.plus")! }
+	static var docFillBadgePlus: SFSymbol { SFSymbol("doc.fill.badge.plus")! }
+	static var docBadgeGearshape: SFSymbol { SFSymbol("doc.badge.gearshape")! }
+	static var docBadgeGearshapeFill: SFSymbol { SFSymbol("doc.badge.gearshape.fill")! }
+	static var docBadgeEllipsis: SFSymbol { SFSymbol("doc.badge.ellipsis")! }
+	static var docFillBadgeEllipsis: SFSymbol { SFSymbol("doc.fill.badge.ellipsis")! }
+	static var lockDoc: SFSymbol { SFSymbol("lock.doc")! }
+	static var lockDocFill: SFSymbol { SFSymbol("lock.doc.fill")! }
 	static var arrowUpDoc: SFSymbol { SFSymbol("arrow.up.doc")! }
 	static var arrowUpDocFill: SFSymbol { SFSymbol("arrow.up.doc.fill")! }
 	static var arrowDownDoc: SFSymbol { SFSymbol("arrow.down.doc")! }
 	static var arrowDownDocFill: SFSymbol { SFSymbol("arrow.down.doc.fill")! }
-	static var docCircle: SFSymbol { SFSymbol("doc.circle")! }
-	static var docCircleFill: SFSymbol { SFSymbol("doc.circle.fill")! }
 	static var docText: SFSymbol { SFSymbol("doc.text")! }
 	static var docTextFill: SFSymbol { SFSymbol("doc.text.fill")! }
-	static var docRichtext: SFSymbol { SFSymbol("doc.richtext")! }
-	static var docPlaintext: SFSymbol { SFSymbol("doc.plaintext")! }
-	static var docAppend: SFSymbol { SFSymbol("doc.append")! }
-	static var viewfinder: SFSymbol { SFSymbol("viewfinder")! }
-	static var viewfinderCircle: SFSymbol { SFSymbol("viewfinder.circle")! }
-	static var viewfinderCircleFill: SFSymbol { SFSymbol("viewfinder.circle.fill")! }
-	static var cameraViewfinder: SFSymbol { SFSymbol("camera.viewfinder")! }
-	static var barcodeViewfinder: SFSymbol { SFSymbol("barcode.viewfinder")! }
-	static var qrcodeViewfinder: SFSymbol { SFSymbol("qrcode.viewfinder")! }
-	static var docTextViewfinder: SFSymbol { SFSymbol("doc.text.viewfinder")! }
-	static var barcode: SFSymbol { SFSymbol("barcode")! }
-	static var qrcode: SFSymbol { SFSymbol("qrcode")! }
+	static var docZipper: SFSymbol { SFSymbol("doc.zipper")! }
 	static var docOnDoc: SFSymbol { SFSymbol("doc.on.doc")! }
 	static var docOnDocFill: SFSymbol { SFSymbol("doc.on.doc.fill")! }
 	static var docOnClipboard: SFSymbol { SFSymbol("doc.on.clipboard")! }
+	static var arrowRightDocOnClipboard: SFSymbol { SFSymbol("arrow.right.doc.on.clipboard")! }
+	static var arrowUpDocOnClipboard: SFSymbol { SFSymbol("arrow.up.doc.on.clipboard")! }
+	static var arrowTriangle2CirclepathDocOnClipboard: SFSymbol { SFSymbol("arrow.triangle.2.circlepath.doc.on.clipboard")! }
 	static var docOnClipboardFill: SFSymbol { SFSymbol("doc.on.clipboard.fill")! }
-	static var scissors: SFSymbol { SFSymbol("scissors")! }
-	static var scissorsBadgeEllipsis: SFSymbol { SFSymbol("scissors.badge.ellipsis")! }
+	static var docRichtext: SFSymbol { SFSymbol("doc.richtext")! }
+	static var docRichtextFill: SFSymbol { SFSymbol("doc.richtext.fill")! }
+	static var docPlaintext: SFSymbol { SFSymbol("doc.plaintext")! }
+	static var docPlaintextFill: SFSymbol { SFSymbol("doc.plaintext.fill")! }
+	static var docAppend: SFSymbol { SFSymbol("doc.append")! }
+	static var docAppendFill: SFSymbol { SFSymbol("doc.append.fill")! }
+	static var chartBarDocHorizontal: SFSymbol { SFSymbol("chart.bar.doc.horizontal")! }
+	static var chartBarDocHorizontalFill: SFSymbol { SFSymbol("chart.bar.doc.horizontal.fill")! }
+	static var listBulletRectangle: SFSymbol { SFSymbol("list.bullet.rectangle")! }
+	static var docTextMagnifyingglass: SFSymbol { SFSymbol("doc.text.magnifyingglass")! }
+	static var note: SFSymbol { SFSymbol("note")! }
+	static var noteText: SFSymbol { SFSymbol("note.text")! }
+	static var noteTextBadgePlus: SFSymbol { SFSymbol("note.text.badge.plus")! }
 	static var calendar: SFSymbol { SFSymbol("calendar")! }
 	static var calendarCircle: SFSymbol { SFSymbol("calendar.circle")! }
 	static var calendarCircleFill: SFSymbol { SFSymbol("calendar.circle.fill")! }
 	static var calendarBadgePlus: SFSymbol { SFSymbol("calendar.badge.plus")! }
 	static var calendarBadgeMinus: SFSymbol { SFSymbol("calendar.badge.minus")! }
+	static var calendarBadgeClock: SFSymbol { SFSymbol("calendar.badge.clock")! }
+	static var calendarBadgeExclamationmark: SFSymbol { SFSymbol("calendar.badge.exclamationmark")! }
 	static var arrowshapeTurnUpLeft: SFSymbol { SFSymbol("arrowshape.turn.up.left")! }
 	static var arrowshapeTurnUpLeftFill: SFSymbol { SFSymbol("arrowshape.turn.up.left.fill")! }
 	static var arrowshapeTurnUpLeftCircle: SFSymbol { SFSymbol("arrowshape.turn.up.left.circle")! }
@@ -199,64 +166,71 @@ public extension SFSymbol {
 	static var arrowshapeTurnUpRightCircleFill: SFSymbol { SFSymbol("arrowshape.turn.up.right.circle.fill")! }
 	static var arrowshapeTurnUpLeft2: SFSymbol { SFSymbol("arrowshape.turn.up.left.2")! }
 	static var arrowshapeTurnUpLeft2Fill: SFSymbol { SFSymbol("arrowshape.turn.up.left.2.fill")! }
+	static var arrowshapeTurnUpLeft2Circle: SFSymbol { SFSymbol("arrowshape.turn.up.left.2.circle")! }
+	static var arrowshapeTurnUpLeft2CircleFill: SFSymbol { SFSymbol("arrowshape.turn.up.left.2.circle.fill")! }
+	static var arrowshapeZigzagRight: SFSymbol { SFSymbol("arrowshape.zigzag.right")! }
+	static var arrowshapeZigzagRightFill: SFSymbol { SFSymbol("arrowshape.zigzag.right.fill")! }
+	static var arrowshapeBounceRight: SFSymbol { SFSymbol("arrowshape.bounce.right")! }
+	static var arrowshapeBounceRightFill: SFSymbol { SFSymbol("arrowshape.bounce.right.fill")! }
 	static var book: SFSymbol { SFSymbol("book")! }
 	static var bookFill: SFSymbol { SFSymbol("book.fill")! }
 	static var bookCircle: SFSymbol { SFSymbol("book.circle")! }
 	static var bookCircleFill: SFSymbol { SFSymbol("book.circle.fill")! }
+	static var newspaper: SFSymbol { SFSymbol("newspaper")! }
+	static var newspaperFill: SFSymbol { SFSymbol("newspaper.fill")! }
+	static var booksVertical: SFSymbol { SFSymbol("books.vertical")! }
+	static var booksVerticalFill: SFSymbol { SFSymbol("books.vertical.fill")! }
+	static var bookClosed: SFSymbol { SFSymbol("book.closed")! }
+	static var bookClosedFill: SFSymbol { SFSymbol("book.closed.fill")! }
+	static var aBookClosed: SFSymbol { SFSymbol("a.book.closed")! }
+	static var aBookClosedFill: SFSymbol { SFSymbol("a.book.closed.fill")! }
+	static var textBookClosed: SFSymbol { SFSymbol("text.book.closed")! }
+	static var textBookClosedFill: SFSymbol { SFSymbol("text.book.closed.fill")! }
+	static var greetingcard: SFSymbol { SFSymbol("greetingcard")! }
+	static var greetingcardFill: SFSymbol { SFSymbol("greetingcard.fill")! }
 	static var bookmark: SFSymbol { SFSymbol("bookmark")! }
 	static var bookmarkFill: SFSymbol { SFSymbol("bookmark.fill")! }
-	static var magnifyingglass: SFSymbol { SFSymbol("magnifyingglass")! }
-	static var magnifyingglassCircle: SFSymbol { SFSymbol("magnifyingglass.circle")! }
-	static var magnifyingglassCircleFill: SFSymbol { SFSymbol("magnifyingglass.circle.fill")! }
-	static var plusMagnifyingglass: SFSymbol { SFSymbol("plus.magnifyingglass")! }
-	static var minusMagnifyingglass: SFSymbol { SFSymbol("minus.magnifyingglass")! }
-	static var _1Magnifyingglass: SFSymbol { SFSymbol("1.magnifyingglass")! }
-	static var docTextMagnifyingglass: SFSymbol { SFSymbol("doc.text.magnifyingglass")! }
-	static var chevronUp: SFSymbol { SFSymbol("chevron.up")! }
-	static var chevronUpCircle: SFSymbol { SFSymbol("chevron.up.circle")! }
-	static var chevronUpCircleFill: SFSymbol { SFSymbol("chevron.up.circle.fill")! }
-	static var chevronUpSquare: SFSymbol { SFSymbol("chevron.up.square")! }
-	static var chevronUpSquareFill: SFSymbol { SFSymbol("chevron.up.square.fill")! }
-	static var chevronDown: SFSymbol { SFSymbol("chevron.down")! }
-	static var chevronDownCircle: SFSymbol { SFSymbol("chevron.down.circle")! }
-	static var chevronDownCircleFill: SFSymbol { SFSymbol("chevron.down.circle.fill")! }
-	static var chevronDownSquare: SFSymbol { SFSymbol("chevron.down.square")! }
-	static var chevronDownSquareFill: SFSymbol { SFSymbol("chevron.down.square.fill")! }
-	static var chevronLeft: SFSymbol { SFSymbol("chevron.left")! }
-	static var chevronLeftCircle: SFSymbol { SFSymbol("chevron.left.circle")! }
-	static var chevronLeftCircleFill: SFSymbol { SFSymbol("chevron.left.circle.fill")! }
-	static var chevronLeftSquare: SFSymbol { SFSymbol("chevron.left.square")! }
-	static var chevronLeftSquareFill: SFSymbol { SFSymbol("chevron.left.square.fill")! }
-	static var chevronRight: SFSymbol { SFSymbol("chevron.right")! }
-	static var chevronRightCircle: SFSymbol { SFSymbol("chevron.right.circle")! }
-	static var chevronRightCircleFill: SFSymbol { SFSymbol("chevron.right.circle.fill")! }
-	static var chevronRightSquare: SFSymbol { SFSymbol("chevron.right.square")! }
-	static var chevronRightSquareFill: SFSymbol { SFSymbol("chevron.right.square.fill")! }
-	static var chevronUpChevronDown: SFSymbol { SFSymbol("chevron.up.chevron.down")! }
-	static var chevronLeft2: SFSymbol { SFSymbol("chevron.left.2")! }
-	static var chevronRight2: SFSymbol { SFSymbol("chevron.right.2")! }
-	static var chevronCompactUp: SFSymbol { SFSymbol("chevron.compact.up")! }
-	static var chevronCompactDown: SFSymbol { SFSymbol("chevron.compact.down")! }
-	static var chevronCompactLeft: SFSymbol { SFSymbol("chevron.compact.left")! }
-	static var chevronCompactRight: SFSymbol { SFSymbol("chevron.compact.right")! }
+	static var bookmarkCircle: SFSymbol { SFSymbol("bookmark.circle")! }
+	static var bookmarkCircleFill: SFSymbol { SFSymbol("bookmark.circle.fill")! }
+	static var bookmarkSlash: SFSymbol { SFSymbol("bookmark.slash")! }
+	static var bookmarkSlashFill: SFSymbol { SFSymbol("bookmark.slash.fill")! }
+	static var rosette: SFSymbol { SFSymbol("rosette")! }
+	static var graduationcap: SFSymbol { SFSymbol("graduationcap")! }
+	static var graduationcapFill: SFSymbol { SFSymbol("graduationcap.fill")! }
+	static var ticket: SFSymbol { SFSymbol("ticket")! }
+	static var ticketFill: SFSymbol { SFSymbol("ticket.fill")! }
 	static var paperclip: SFSymbol { SFSymbol("paperclip")! }
 	static var paperclipCircle: SFSymbol { SFSymbol("paperclip.circle")! }
 	static var paperclipCircleFill: SFSymbol { SFSymbol("paperclip.circle.fill")! }
+	static var paperclipBadgeEllipsis: SFSymbol { SFSymbol("paperclip.badge.ellipsis")! }
 	static var rectangleAndPaperclip: SFSymbol { SFSymbol("rectangle.and.paperclip")! }
-	static var house: SFSymbol { SFSymbol("house")! }
-	static var houseFill: SFSymbol { SFSymbol("house.fill")! }
-	static var musicHouse: SFSymbol { SFSymbol("music.house")! }
-	static var musicHouseFill: SFSymbol { SFSymbol("music.house.fill")! }
+	static var rectangleDashedAndPaperclip: SFSymbol { SFSymbol("rectangle.dashed.and.paperclip")! }
+	static var link: SFSymbol { SFSymbol("link")! }
+	static var linkCircle: SFSymbol { SFSymbol("link.circle")! }
+	static var linkCircleFill: SFSymbol { SFSymbol("link.circle.fill")! }
+	static var linkBadgePlus: SFSymbol { SFSymbol("link.badge.plus")! }
+	static var personalhotspot: SFSymbol { SFSymbol("personalhotspot")! }
+	static var lineweight: SFSymbol { SFSymbol("lineweight")! }
 	static var person: SFSymbol { SFSymbol("person")! }
 	static var personFill: SFSymbol { SFSymbol("person.fill")! }
+	static var personFillTurnRight: SFSymbol { SFSymbol("person.fill.turn.right")! }
+	static var personFillTurnDown: SFSymbol { SFSymbol("person.fill.turn.down")! }
+	static var personFillTurnLeft: SFSymbol { SFSymbol("person.fill.turn.left")! }
+	static var personFillCheckmark: SFSymbol { SFSymbol("person.fill.checkmark")! }
+	static var personFillXmark: SFSymbol { SFSymbol("person.fill.xmark")! }
+	static var personFillQuestionmark: SFSymbol { SFSymbol("person.fill.questionmark")! }
 	static var personCircle: SFSymbol { SFSymbol("person.circle")! }
 	static var personCircleFill: SFSymbol { SFSymbol("person.circle.fill")! }
 	static var personBadgePlus: SFSymbol { SFSymbol("person.badge.plus")! }
-	static var personBadgePlusFill: SFSymbol { SFSymbol("person.badge.plus.fill")! }
+	static var personFillBadgePlus: SFSymbol { SFSymbol("person.fill.badge.plus")! }
 	static var personBadgeMinus: SFSymbol { SFSymbol("person.badge.minus")! }
-	static var personBadgeMinusFill: SFSymbol { SFSymbol("person.badge.minus.fill")! }
+	static var personFillBadgeMinus: SFSymbol { SFSymbol("person.fill.badge.minus")! }
+	static var personAndArrowLeftAndArrowRight: SFSymbol { SFSymbol("person.and.arrow.left.and.arrow.right")! }
+	static var personFillAndArrowLeftAndArrowRight: SFSymbol { SFSymbol("person.fill.and.arrow.left.and.arrow.right")! }
 	static var person2: SFSymbol { SFSymbol("person.2")! }
 	static var person2Fill: SFSymbol { SFSymbol("person.2.fill")! }
+	static var person2Circle: SFSymbol { SFSymbol("person.2.circle")! }
+	static var person2CircleFill: SFSymbol { SFSymbol("person.2.circle.fill")! }
 	static var person3: SFSymbol { SFSymbol("person.3")! }
 	static var person3Fill: SFSymbol { SFSymbol("person.3.fill")! }
 	static var personCropCircle: SFSymbol { SFSymbol("person.crop.circle")! }
@@ -269,181 +243,44 @@ public extension SFSymbol {
 	static var personCropCircleFillBadgeCheckmark: SFSymbol { SFSymbol("person.crop.circle.fill.badge.checkmark")! }
 	static var personCropCircleBadgeXmark: SFSymbol { SFSymbol("person.crop.circle.badge.xmark")! }
 	static var personCropCircleFillBadgeXmark: SFSymbol { SFSymbol("person.crop.circle.fill.badge.xmark")! }
-	static var personCropCircleBadgeExclam: SFSymbol { SFSymbol("person.crop.circle.badge.exclam")! }
-	static var personCropCircleFillBadgeExclam: SFSymbol { SFSymbol("person.crop.circle.fill.badge.exclam")! }
+	static var personCropCircleBadgeQuestionmark: SFSymbol { SFSymbol("person.crop.circle.badge.questionmark")! }
+	static var personCropCircleFillBadgeQuestionmark: SFSymbol { SFSymbol("person.crop.circle.fill.badge.questionmark")! }
+	static var personCropCircleBadgeExclamationmark: SFSymbol { SFSymbol("person.crop.circle.badge.exclamationmark")! }
+	static var personCropCircleFillBadgeExclamationmark: SFSymbol { SFSymbol("person.crop.circle.fill.badge.exclamationmark")! }
 	static var personCropSquare: SFSymbol { SFSymbol("person.crop.square")! }
 	static var personCropSquareFill: SFSymbol { SFSymbol("person.crop.square.fill")! }
-	static var handRaised: SFSymbol { SFSymbol("hand.raised")! }
-	static var handRaisedFill: SFSymbol { SFSymbol("hand.raised.fill")! }
-	static var handRaisedSlash: SFSymbol { SFSymbol("hand.raised.slash")! }
-	static var handRaisedSlashFill: SFSymbol { SFSymbol("hand.raised.slash.fill")! }
-	static var handPointLeft: SFSymbol { SFSymbol("hand.point.left")! }
-	static var handPointLeftFill: SFSymbol { SFSymbol("hand.point.left.fill")! }
-	static var handPointRight: SFSymbol { SFSymbol("hand.point.right")! }
-	static var handPointRightFill: SFSymbol { SFSymbol("hand.point.right.fill")! }
-	static var handDraw: SFSymbol { SFSymbol("hand.draw")! }
-	static var handDrawFill: SFSymbol { SFSymbol("hand.draw.fill")! }
-	static var handThumbsup: SFSymbol { SFSymbol("hand.thumbsup")! }
-	static var handThumbsupFill: SFSymbol { SFSymbol("hand.thumbsup.fill")! }
-	static var handThumbsdown: SFSymbol { SFSymbol("hand.thumbsdown")! }
-	static var handThumbsdownFill: SFSymbol { SFSymbol("hand.thumbsdown.fill")! }
-	static var ear: SFSymbol { SFSymbol("ear")! }
-	static var sliderHorizontal3: SFSymbol { SFSymbol("slider.horizontal.3")! }
-	static var sliderHorizontalBelowRectangle: SFSymbol { SFSymbol("slider.horizontal.below.rectangle")! }
-	static var location: SFSymbol { SFSymbol("location")! }
-	static var locationFill: SFSymbol { SFSymbol("location.fill")! }
-	static var locationSlash: SFSymbol { SFSymbol("location.slash")! }
-	static var locationSlashFill: SFSymbol { SFSymbol("location.slash.fill")! }
-	static var locationNorth: SFSymbol { SFSymbol("location.north")! }
-	static var locationNorthFill: SFSymbol { SFSymbol("location.north.fill")! }
-	static var locationCircle: SFSymbol { SFSymbol("location.circle")! }
-	static var locationCircleFill: SFSymbol { SFSymbol("location.circle.fill")! }
-	static var locationNorthLine: SFSymbol { SFSymbol("location.north.line")! }
-	static var locationNorthLineFill: SFSymbol { SFSymbol("location.north.line.fill")! }
-	static var heart: SFSymbol { SFSymbol("heart")! }
-	static var heartFill: SFSymbol { SFSymbol("heart.fill")! }
-	static var heartSlash: SFSymbol { SFSymbol("heart.slash")! }
-	static var heartSlashFill: SFSymbol { SFSymbol("heart.slash.fill")! }
-	static var heartCircle: SFSymbol { SFSymbol("heart.circle")! }
-	static var heartCircleFill: SFSymbol { SFSymbol("heart.circle.fill")! }
-	static var heartSlashCircle: SFSymbol { SFSymbol("heart.slash.circle")! }
-	static var heartSlashCircleFill: SFSymbol { SFSymbol("heart.slash.circle.fill")! }
-	static var suitHeart: SFSymbol { SFSymbol("suit.heart")! }
-	static var suitHeartFill: SFSymbol { SFSymbol("suit.heart.fill")! }
-	static var suitClub: SFSymbol { SFSymbol("suit.club")! }
-	static var suitClubFill: SFSymbol { SFSymbol("suit.club.fill")! }
-	static var suitDiamond: SFSymbol { SFSymbol("suit.diamond")! }
-	static var suitDiamondFill: SFSymbol { SFSymbol("suit.diamond.fill")! }
-	static var suitSpade: SFSymbol { SFSymbol("suit.spade")! }
-	static var suitSpadeFill: SFSymbol { SFSymbol("suit.spade.fill")! }
-	static var rhombus: SFSymbol { SFSymbol("rhombus")! }
-	static var rhombusFill: SFSymbol { SFSymbol("rhombus.fill")! }
-	static var star: SFSymbol { SFSymbol("star")! }
-	static var starFill: SFSymbol { SFSymbol("star.fill")! }
-	static var starLefthalfFill: SFSymbol { SFSymbol("star.lefthalf.fill")! }
-	static var starSlash: SFSymbol { SFSymbol("star.slash")! }
-	static var starSlashFill: SFSymbol { SFSymbol("star.slash.fill")! }
-	static var starCircle: SFSymbol { SFSymbol("star.circle")! }
-	static var starCircleFill: SFSymbol { SFSymbol("star.circle.fill")! }
-	static var flag: SFSymbol { SFSymbol("flag")! }
-	static var flagFill: SFSymbol { SFSymbol("flag.fill")! }
-	static var flagCircle: SFSymbol { SFSymbol("flag.circle")! }
-	static var flagCircleFill: SFSymbol { SFSymbol("flag.circle.fill")! }
-	static var flagSlash: SFSymbol { SFSymbol("flag.slash")! }
-	static var flagSlashFill: SFSymbol { SFSymbol("flag.slash.fill")! }
-	static var bell: SFSymbol { SFSymbol("bell")! }
-	static var bellFill: SFSymbol { SFSymbol("bell.fill")! }
-	static var bellCircle: SFSymbol { SFSymbol("bell.circle")! }
-	static var bellCircleFill: SFSymbol { SFSymbol("bell.circle.fill")! }
-	static var bellSlash: SFSymbol { SFSymbol("bell.slash")! }
-	static var bellSlashFill: SFSymbol { SFSymbol("bell.slash.fill")! }
-	static var tag: SFSymbol { SFSymbol("tag")! }
-	static var tagFill: SFSymbol { SFSymbol("tag.fill")! }
-	static var tagCircle: SFSymbol { SFSymbol("tag.circle")! }
-	static var tagCircleFill: SFSymbol { SFSymbol("tag.circle.fill")! }
-	static var bolt: SFSymbol { SFSymbol("bolt")! }
-	static var boltFill: SFSymbol { SFSymbol("bolt.fill")! }
-	static var boltCircle: SFSymbol { SFSymbol("bolt.circle")! }
-	static var boltCircleFill: SFSymbol { SFSymbol("bolt.circle.fill")! }
-	static var boltBadgeA: SFSymbol { SFSymbol("bolt.badge.a")! }
-	static var boltBadgeAFill: SFSymbol { SFSymbol("bolt.badge.a.fill")! }
-	static var boltSlash: SFSymbol { SFSymbol("bolt.slash")! }
-	static var boltSlashFill: SFSymbol { SFSymbol("bolt.slash.fill")! }
-	static var boltHorizontal: SFSymbol { SFSymbol("bolt.horizontal")! }
-	static var boltHorizontalFill: SFSymbol { SFSymbol("bolt.horizontal.fill")! }
-	static var boltHorizontalCircle: SFSymbol { SFSymbol("bolt.horizontal.circle")! }
-	static var boltHorizontalCircleFill: SFSymbol { SFSymbol("bolt.horizontal.circle.fill")! }
-	static var speaker: SFSymbol { SFSymbol("speaker")! }
-	static var speakerFill: SFSymbol { SFSymbol("speaker.fill")! }
-	static var speakerSlash: SFSymbol { SFSymbol("speaker.slash")! }
-	static var speakerSlashFill: SFSymbol { SFSymbol("speaker.slash.fill")! }
-	static var speakerSlashRtl: SFSymbol { SFSymbol("speaker.slash.rtl")! }
-	static var speakerSlashFillRtl: SFSymbol { SFSymbol("speaker.slash.fill.rtl")! }
-	static var speaker1: SFSymbol { SFSymbol("speaker.1")! }
-	static var speaker1Fill: SFSymbol { SFSymbol("speaker.1.fill")! }
-	static var speaker2: SFSymbol { SFSymbol("speaker.2")! }
-	static var speaker2Fill: SFSymbol { SFSymbol("speaker.2.fill")! }
-	static var speaker3: SFSymbol { SFSymbol("speaker.3")! }
-	static var speaker3Fill: SFSymbol { SFSymbol("speaker.3.fill")! }
-	static var speakerZzz: SFSymbol { SFSymbol("speaker.zzz")! }
-	static var speakerZzzFill: SFSymbol { SFSymbol("speaker.zzz.fill")! }
-	static var speakerZzzRtl: SFSymbol { SFSymbol("speaker.zzz.rtl")! }
-	static var speakerZzzFillRtl: SFSymbol { SFSymbol("speaker.zzz.fill.rtl")! }
-	static var antennaRadiowavesLeftAndRight: SFSymbol { SFSymbol("antenna.radiowaves.left.and.right")! }
-	static var info: SFSymbol { SFSymbol("info")! }
-	static var infoCircle: SFSymbol { SFSymbol("info.circle")! }
-	static var infoCircleFill: SFSymbol { SFSymbol("info.circle.fill")! }
-	static var a: SFSymbol { SFSymbol("a")! }
-	static var textformatSuperscript: SFSymbol { SFSymbol("textformat.superscript")! }
-	static var textformatSubscript: SFSymbol { SFSymbol("textformat.subscript")! }
-	static var textformat: SFSymbol { SFSymbol("textformat")! }
-	static var textformatAlt: SFSymbol { SFSymbol("textformat.alt")! }
-	static var textformatSize: SFSymbol { SFSymbol("textformat.size")! }
-	static var textformatAbc: SFSymbol { SFSymbol("textformat.abc")! }
-	static var textformatAbcDottedunderline: SFSymbol { SFSymbol("textformat.abc.dottedunderline")! }
-	static var textformat123: SFSymbol { SFSymbol("textformat.123")! }
-	static var textCursor: SFSymbol { SFSymbol("text.cursor")! }
-	static var textbox: SFSymbol { SFSymbol("textbox")! }
-	static var bold: SFSymbol { SFSymbol("bold")! }
-	static var italic: SFSymbol { SFSymbol("italic")! }
-	static var underline: SFSymbol { SFSymbol("underline")! }
-	static var strikethrough: SFSymbol { SFSymbol("strikethrough")! }
-	static var boldItalicUnderline: SFSymbol { SFSymbol("bold.italic.underline")! }
-	static var boldUnderline: SFSymbol { SFSymbol("bold.underline")! }
-	static var paragraph: SFSymbol { SFSymbol("paragraph")! }
-	static var xSquareroot: SFSymbol { SFSymbol("x.squareroot")! }
-	static var fx: SFSymbol { SFSymbol("fx")! }
-	static var function: SFSymbol { SFSymbol("function")! }
-	static var fCursive: SFSymbol { SFSymbol("f.cursive")! }
-	static var fCursiveCircle: SFSymbol { SFSymbol("f.cursive.circle")! }
-	static var fCursiveCircleFill: SFSymbol { SFSymbol("f.cursive.circle.fill")! }
-	static var sum: SFSymbol { SFSymbol("sum")! }
-	static var percent: SFSymbol { SFSymbol("percent")! }
-	static var view2D: SFSymbol { SFSymbol("view.2d")! }
-	static var view3D: SFSymbol { SFSymbol("view.3d")! }
-	static var at: SFSymbol { SFSymbol("at")! }
-	static var atBadgePlus: SFSymbol { SFSymbol("at.badge.plus")! }
-	static var atBadgeMinus: SFSymbol { SFSymbol("at.badge.minus")! }
-	static var plusSlashMinus: SFSymbol { SFSymbol("plus.slash.minus")! }
-	static var minusSlashPlus: SFSymbol { SFSymbol("minus.slash.plus")! }
-	static var plusminus: SFSymbol { SFSymbol("plusminus")! }
-	static var plusminusCircle: SFSymbol { SFSymbol("plusminus.circle")! }
-	static var plusminusCircleFill: SFSymbol { SFSymbol("plusminus.circle.fill")! }
-	static var questionmark: SFSymbol { SFSymbol("questionmark")! }
-	static var exclamationmark: SFSymbol { SFSymbol("exclamationmark")! }
-	static var flashlightOffFill: SFSymbol { SFSymbol("flashlight.off.fill")! }
-	static var flashlightOnFill: SFSymbol { SFSymbol("flashlight.on.fill")! }
-	static var arrowUpLeftAndArrowDownRight: SFSymbol { SFSymbol("arrow.up.left.and.arrow.down.right")! }
-	static var arrowDownRightAndArrowUpLeft: SFSymbol { SFSymbol("arrow.down.right.and.arrow.up.left")! }
-	static var icloud: SFSymbol { SFSymbol("icloud")! }
-	static var icloudFill: SFSymbol { SFSymbol("icloud.fill")! }
-	static var icloudCircle: SFSymbol { SFSymbol("icloud.circle")! }
-	static var icloudCircleFill: SFSymbol { SFSymbol("icloud.circle.fill")! }
-	static var icloudSlash: SFSymbol { SFSymbol("icloud.slash")! }
-	static var icloudSlashFill: SFSymbol { SFSymbol("icloud.slash.fill")! }
-	static var exclamationmarkIcloud: SFSymbol { SFSymbol("exclamationmark.icloud")! }
-	static var exclamationmarkIcloudFill: SFSymbol { SFSymbol("exclamationmark.icloud.fill")! }
-	static var xmarkIcloud: SFSymbol { SFSymbol("xmark.icloud")! }
-	static var xmarkIcloudFill: SFSymbol { SFSymbol("xmark.icloud.fill")! }
-	static var linkIcloud: SFSymbol { SFSymbol("link.icloud")! }
-	static var linkIcloudFill: SFSymbol { SFSymbol("link.icloud.fill")! }
-	static var boltHorizontalIcloud: SFSymbol { SFSymbol("bolt.horizontal.icloud")! }
-	static var boltHorizontalIcloudFill: SFSymbol { SFSymbol("bolt.horizontal.icloud.fill")! }
-	static var personIcloud: SFSymbol { SFSymbol("person.icloud")! }
-	static var personIcloudFill: SFSymbol { SFSymbol("person.icloud.fill")! }
-	static var lockIcloud: SFSymbol { SFSymbol("lock.icloud")! }
-	static var lockIcloudFill: SFSymbol { SFSymbol("lock.icloud.fill")! }
-	static var arrowClockwiseIcloud: SFSymbol { SFSymbol("arrow.clockwise.icloud")! }
-	static var arrowClockwiseIcloudFill: SFSymbol { SFSymbol("arrow.clockwise.icloud.fill")! }
-	static var arrowCounterclockwiseIcloud: SFSymbol { SFSymbol("arrow.counterclockwise.icloud")! }
-	static var arrowCounterclockwiseIcloudFill: SFSymbol { SFSymbol("arrow.counterclockwise.icloud.fill")! }
-	static var icloudAndArrowDown: SFSymbol { SFSymbol("icloud.and.arrow.down")! }
-	static var icloudAndArrowDownFill: SFSymbol { SFSymbol("icloud.and.arrow.down.fill")! }
-	static var icloudAndArrowUp: SFSymbol { SFSymbol("icloud.and.arrow.up")! }
-	static var icloudAndArrowUpFill: SFSymbol { SFSymbol("icloud.and.arrow.up.fill")! }
-	static var circleBottomthirdSplit: SFSymbol { SFSymbol("circle.bottomthird.split")! }
-	static var lightMin: SFSymbol { SFSymbol("light.min")! }
-	static var lightMax: SFSymbol { SFSymbol("light.max")! }
+	static var rectangleStackPersonCrop: SFSymbol { SFSymbol("rectangle.stack.person.crop")! }
+	static var rectangleStackPersonCropFill: SFSymbol { SFSymbol("rectangle.stack.person.crop.fill")! }
+	static var person2SquareStack: SFSymbol { SFSymbol("person.2.square.stack")! }
+	static var person2SquareStackFill: SFSymbol { SFSymbol("person.2.square.stack.fill")! }
+	static var personCropSquareFillAndAtRectangle: SFSymbol { SFSymbol("person.crop.square.fill.and.at.rectangle")! }
+	static var squareAndAtRectangle: SFSymbol { SFSymbol("square.and.at.rectangle")! }
+	static var command: SFSymbol { SFSymbol("command")! }
+	static var commandCircle: SFSymbol { SFSymbol("command.circle")! }
+	static var commandCircleFill: SFSymbol { SFSymbol("command.circle.fill")! }
+	static var commandSquare: SFSymbol { SFSymbol("command.square")! }
+	static var commandSquareFill: SFSymbol { SFSymbol("command.square.fill")! }
+	static var option: SFSymbol { SFSymbol("option")! }
+	static var alt: SFSymbol { SFSymbol("alt")! }
+	static var deleteRight: SFSymbol { SFSymbol("delete.right")! }
+	static var deleteRightFill: SFSymbol { SFSymbol("delete.right.fill")! }
+	static var clear: SFSymbol { SFSymbol("clear")! }
+	static var clearFill: SFSymbol { SFSymbol("clear.fill")! }
+	static var deleteLeft: SFSymbol { SFSymbol("delete.left")! }
+	static var deleteLeftFill: SFSymbol { SFSymbol("delete.left.fill")! }
+	static var shift: SFSymbol { SFSymbol("shift")! }
+	static var shiftFill: SFSymbol { SFSymbol("shift.fill")! }
+	static var capslock: SFSymbol { SFSymbol("capslock")! }
+	static var capslockFill: SFSymbol { SFSymbol("capslock.fill")! }
+	static var escape: SFSymbol { SFSymbol("escape")! }
+	static var restart: SFSymbol { SFSymbol("restart")! }
+	static var restartCircle: SFSymbol { SFSymbol("restart.circle")! }
+	static var sleep: SFSymbol { SFSymbol("sleep")! }
+	static var wake: SFSymbol { SFSymbol("wake")! }
+	static var power: SFSymbol { SFSymbol("power")! }
+	static var dotArrowtrianglesUpRightDownLeftCircle: SFSymbol { SFSymbol("dot.arrowtriangles.up.right.down.left.circle")! }
+	static var globe: SFSymbol { SFSymbol("globe")! }
+	static var network: SFSymbol { SFSymbol("network")! }
 	static var sunMin: SFSymbol { SFSymbol("sun.min")! }
 	static var sunMinFill: SFSymbol { SFSymbol("sun.min.fill")! }
 	static var sunMax: SFSymbol { SFSymbol("sun.max")! }
@@ -463,6 +300,7 @@ public extension SFSymbol {
 	static var zzz: SFSymbol { SFSymbol("zzz")! }
 	static var moonZzz: SFSymbol { SFSymbol("moon.zzz")! }
 	static var moonZzzFill: SFSymbol { SFSymbol("moon.zzz.fill")! }
+	static var sparkle: SFSymbol { SFSymbol("sparkle")! }
 	static var sparkles: SFSymbol { SFSymbol("sparkles")! }
 	static var moonStars: SFSymbol { SFSymbol("moon.stars")! }
 	static var moonStarsFill: SFSymbol { SFSymbol("moon.stars.fill")! }
@@ -484,6 +322,8 @@ public extension SFSymbol {
 	static var cloudSleetFill: SFSymbol { SFSymbol("cloud.sleet.fill")! }
 	static var cloudBolt: SFSymbol { SFSymbol("cloud.bolt")! }
 	static var cloudBoltFill: SFSymbol { SFSymbol("cloud.bolt.fill")! }
+	static var cloudBoltRain: SFSymbol { SFSymbol("cloud.bolt.rain")! }
+	static var cloudBoltRainFill: SFSymbol { SFSymbol("cloud.bolt.rain.fill")! }
 	static var cloudSun: SFSymbol { SFSymbol("cloud.sun")! }
 	static var cloudSunFill: SFSymbol { SFSymbol("cloud.sun.fill")! }
 	static var cloudSunRain: SFSymbol { SFSymbol("cloud.sun.rain")! }
@@ -494,187 +334,107 @@ public extension SFSymbol {
 	static var cloudMoonFill: SFSymbol { SFSymbol("cloud.moon.fill")! }
 	static var cloudMoonRain: SFSymbol { SFSymbol("cloud.moon.rain")! }
 	static var cloudMoonRainFill: SFSymbol { SFSymbol("cloud.moon.rain.fill")! }
-	static var cloudBoltRain: SFSymbol { SFSymbol("cloud.bolt.rain")! }
-	static var cloudBoltRainFill: SFSymbol { SFSymbol("cloud.bolt.rain.fill")! }
 	static var cloudMoonBolt: SFSymbol { SFSymbol("cloud.moon.bolt")! }
 	static var cloudMoonBoltFill: SFSymbol { SFSymbol("cloud.moon.bolt.fill")! }
 	static var smoke: SFSymbol { SFSymbol("smoke")! }
 	static var smokeFill: SFSymbol { SFSymbol("smoke.fill")! }
 	static var wind: SFSymbol { SFSymbol("wind")! }
-	static var snow: SFSymbol { SFSymbol("snow")! }
 	static var windSnow: SFSymbol { SFSymbol("wind.snow")! }
+	static var snow: SFSymbol { SFSymbol("snow")! }
 	static var tornado: SFSymbol { SFSymbol("tornado")! }
 	static var tropicalstorm: SFSymbol { SFSymbol("tropicalstorm")! }
 	static var hurricane: SFSymbol { SFSymbol("hurricane")! }
 	static var thermometerSun: SFSymbol { SFSymbol("thermometer.sun")! }
+	static var thermometerSunFill: SFSymbol { SFSymbol("thermometer.sun.fill")! }
 	static var thermometerSnowflake: SFSymbol { SFSymbol("thermometer.snowflake")! }
 	static var thermometer: SFSymbol { SFSymbol("thermometer")! }
-	static var listNumber: SFSymbol { SFSymbol("list.number")! }
-	static var listNumberRtl: SFSymbol { SFSymbol("list.number.rtl")! }
-	static var listDash: SFSymbol { SFSymbol("list.dash")! }
-	static var listBullet: SFSymbol { SFSymbol("list.bullet")! }
-	static var listBulletIndent: SFSymbol { SFSymbol("list.bullet.indent")! }
-	static var listBulletBelowRectangle: SFSymbol { SFSymbol("list.bullet.below.rectangle")! }
-	static var increaseQuotelevel: SFSymbol { SFSymbol("increase.quotelevel")! }
-	static var decreaseQuotelevel: SFSymbol { SFSymbol("decrease.quotelevel")! }
-	static var increaseIndent: SFSymbol { SFSymbol("increase.indent")! }
-	static var decreaseIndent: SFSymbol { SFSymbol("decrease.indent")! }
-	static var textBadgePlus: SFSymbol { SFSymbol("text.badge.plus")! }
-	static var textBadgeMinus: SFSymbol { SFSymbol("text.badge.minus")! }
-	static var textBadgeCheckmark: SFSymbol { SFSymbol("text.badge.checkmark")! }
-	static var textBadgeXmark: SFSymbol { SFSymbol("text.badge.xmark")! }
-	static var textBadgeStar: SFSymbol { SFSymbol("text.badge.star")! }
-	static var textInsert: SFSymbol { SFSymbol("text.insert")! }
-	static var textAppend: SFSymbol { SFSymbol("text.append")! }
-	static var textQuote: SFSymbol { SFSymbol("text.quote")! }
-	static var textAlignleft: SFSymbol { SFSymbol("text.alignleft")! }
-	static var textAligncenter: SFSymbol { SFSymbol("text.aligncenter")! }
-	static var textAlignright: SFSymbol { SFSymbol("text.alignright")! }
-	static var textJustify: SFSymbol { SFSymbol("text.justify")! }
-	static var textJustifyleft: SFSymbol { SFSymbol("text.justifyleft")! }
-	static var textJustifyright: SFSymbol { SFSymbol("text.justifyright")! }
-	static var dotRadiowavesLeftAndRight: SFSymbol { SFSymbol("dot.radiowaves.left.and.right")! }
-	static var dotRadiowavesRight: SFSymbol { SFSymbol("dot.radiowaves.right")! }
-	static var radiowavesLeft: SFSymbol { SFSymbol("radiowaves.left")! }
-	static var radiowavesRight: SFSymbol { SFSymbol("radiowaves.right")! }
-	static var badgePlusRadiowavesRight: SFSymbol { SFSymbol("badge.plus.radiowaves.right")! }
-	static var eye: SFSymbol { SFSymbol("eye")! }
-	static var eyeFill: SFSymbol { SFSymbol("eye.fill")! }
-	static var eyeSlash: SFSymbol { SFSymbol("eye.slash")! }
-	static var eyeSlashFill: SFSymbol { SFSymbol("eye.slash.fill")! }
-	static var ant: SFSymbol { SFSymbol("ant")! }
-	static var antFill: SFSymbol { SFSymbol("ant.fill")! }
-	static var antCircle: SFSymbol { SFSymbol("ant.circle")! }
-	static var antCircleFill: SFSymbol { SFSymbol("ant.circle.fill")! }
-	static var hare: SFSymbol { SFSymbol("hare")! }
-	static var hareFill: SFSymbol { SFSymbol("hare.fill")! }
-	static var tortoise: SFSymbol { SFSymbol("tortoise")! }
-	static var tortoiseFill: SFSymbol { SFSymbol("tortoise.fill")! }
-	static var camera: SFSymbol { SFSymbol("camera")! }
-	static var cameraFill: SFSymbol { SFSymbol("camera.fill")! }
-	static var cameraCircle: SFSymbol { SFSymbol("camera.circle")! }
-	static var cameraCircleFill: SFSymbol { SFSymbol("camera.circle.fill")! }
-	static var cameraOnRectangle: SFSymbol { SFSymbol("camera.on.rectangle")! }
-	static var cameraOnRectangleFill: SFSymbol { SFSymbol("camera.on.rectangle.fill")! }
-	static var cameraRotate: SFSymbol { SFSymbol("camera.rotate")! }
-	static var cameraRotateFill: SFSymbol { SFSymbol("camera.rotate.fill")! }
-	static var message: SFSymbol { SFSymbol("message")! }
-	static var messageFill: SFSymbol { SFSymbol("message.fill")! }
-	static var messageCircle: SFSymbol { SFSymbol("message.circle")! }
-	static var messageCircleFill: SFSymbol { SFSymbol("message.circle.fill")! }
-	static var bubbleRight: SFSymbol { SFSymbol("bubble.right")! }
-	static var bubbleRightFill: SFSymbol { SFSymbol("bubble.right.fill")! }
-	static var bubbleLeft: SFSymbol { SFSymbol("bubble.left")! }
-	static var bubbleLeftFill: SFSymbol { SFSymbol("bubble.left.fill")! }
-	static var exclamationmarkBubble: SFSymbol { SFSymbol("exclamationmark.bubble")! }
-	static var exclamationmarkBubbleFill: SFSymbol { SFSymbol("exclamationmark.bubble.fill")! }
-	static var ellipsesBubble: SFSymbol { SFSymbol("ellipses.bubble")! }
-	static var ellipsesBubbleFill: SFSymbol { SFSymbol("ellipses.bubble.fill")! }
-	static var quoteBubble: SFSymbol { SFSymbol("quote.bubble")! }
-	static var quoteBubbleFill: SFSymbol { SFSymbol("quote.bubble.fill")! }
-	static var tBubble: SFSymbol { SFSymbol("t.bubble")! }
-	static var tBubbleFill: SFSymbol { SFSymbol("t.bubble.fill")! }
-	static var textBubble: SFSymbol { SFSymbol("text.bubble")! }
-	static var textBubbleFill: SFSymbol { SFSymbol("text.bubble.fill")! }
-	static var captionsBubble: SFSymbol { SFSymbol("captions.bubble")! }
-	static var captionsBubbleFill: SFSymbol { SFSymbol("captions.bubble.fill")! }
-	static var plusBubble: SFSymbol { SFSymbol("plus.bubble")! }
-	static var plusBubbleFill: SFSymbol { SFSymbol("plus.bubble.fill")! }
-	static var bubbleLeftAndBubbleRight: SFSymbol { SFSymbol("bubble.left.and.bubble.right")! }
-	static var bubbleLeftAndBubbleRightFill: SFSymbol { SFSymbol("bubble.left.and.bubble.right.fill")! }
-	static var bubbleMiddleBottom: SFSymbol { SFSymbol("bubble.middle.bottom")! }
-	static var bubbleMiddleBottomFill: SFSymbol { SFSymbol("bubble.middle.bottom.fill")! }
-	static var bubbleMiddleTop: SFSymbol { SFSymbol("bubble.middle.top")! }
-	static var bubbleMiddleTopFill: SFSymbol { SFSymbol("bubble.middle.top.fill")! }
-	static var phone: SFSymbol { SFSymbol("phone")! }
-	static var phoneFill: SFSymbol { SFSymbol("phone.fill")! }
-	static var phoneCircle: SFSymbol { SFSymbol("phone.circle")! }
-	static var phoneCircleFill: SFSymbol { SFSymbol("phone.circle.fill")! }
-	static var phoneArrowUpRight: SFSymbol { SFSymbol("phone.arrow.up.right")! }
-	static var phoneFillArrowUpRight: SFSymbol { SFSymbol("phone.fill.arrow.up.right")! }
-	static var phoneArrowDownLeft: SFSymbol { SFSymbol("phone.arrow.down.left")! }
-	static var phoneFillArrowDownLeft: SFSymbol { SFSymbol("phone.fill.arrow.down.left")! }
-	static var phoneArrowRight: SFSymbol { SFSymbol("phone.arrow.right")! }
-	static var phoneFillArrowRight: SFSymbol { SFSymbol("phone.fill.arrow.right")! }
-	static var phoneBadgePlus: SFSymbol { SFSymbol("phone.badge.plus")! }
-	static var phoneFillBadgePlus: SFSymbol { SFSymbol("phone.fill.badge.plus")! }
-	static var phoneDown: SFSymbol { SFSymbol("phone.down")! }
-	static var phoneDownFill: SFSymbol { SFSymbol("phone.down.fill")! }
-	static var phoneDownCircle: SFSymbol { SFSymbol("phone.down.circle")! }
-	static var phoneDownCircleFill: SFSymbol { SFSymbol("phone.down.circle.fill")! }
-	static var teletype: SFSymbol { SFSymbol("teletype")! }
-	static var teletypeAnswer: SFSymbol { SFSymbol("teletype.answer")! }
-	static var recordingtape: SFSymbol { SFSymbol("recordingtape")! }
-	static var video: SFSymbol { SFSymbol("video")! }
-	static var videoFill: SFSymbol { SFSymbol("video.fill")! }
-	static var videoCircle: SFSymbol { SFSymbol("video.circle")! }
-	static var videoCircleFill: SFSymbol { SFSymbol("video.circle.fill")! }
-	static var videoSlash: SFSymbol { SFSymbol("video.slash")! }
-	static var videoSlashFill: SFSymbol { SFSymbol("video.slash.fill")! }
-	static var videoBadgePlus: SFSymbol { SFSymbol("video.badge.plus")! }
-	static var videoBadgePlusFill: SFSymbol { SFSymbol("video.badge.plus.fill")! }
-	static var arrowUpRightVideo: SFSymbol { SFSymbol("arrow.up.right.video")! }
-	static var arrowUpRightVideoFill: SFSymbol { SFSymbol("arrow.up.right.video.fill")! }
-	static var arrowDownLeftVideo: SFSymbol { SFSymbol("arrow.down.left.video")! }
-	static var arrowDownLeftVideoFill: SFSymbol { SFSymbol("arrow.down.left.video.fill")! }
-	static var questionmarkVideo: SFSymbol { SFSymbol("questionmark.video")! }
-	static var questionmarkVideoFill: SFSymbol { SFSymbol("questionmark.video.fill")! }
-	static var questionmarkVideoRtl: SFSymbol { SFSymbol("questionmark.video.rtl")! }
-	static var questionmarkVideoFillRtl: SFSymbol { SFSymbol("questionmark.video.fill.rtl")! }
-	static var envelope: SFSymbol { SFSymbol("envelope")! }
-	static var envelopeFill: SFSymbol { SFSymbol("envelope.fill")! }
-	static var envelopeCircle: SFSymbol { SFSymbol("envelope.circle")! }
-	static var envelopeCircleFill: SFSymbol { SFSymbol("envelope.circle.fill")! }
-	static var envelopeOpen: SFSymbol { SFSymbol("envelope.open")! }
-	static var envelopeOpenFill: SFSymbol { SFSymbol("envelope.open.fill")! }
-	static var envelopeBadge: SFSymbol { SFSymbol("envelope.badge")! }
-	static var envelopeBadgeFill: SFSymbol { SFSymbol("envelope.badge.fill")! }
-	static var gear: SFSymbol { SFSymbol("gear")! }
-	static var ellipsis: SFSymbol { SFSymbol("ellipsis")! }
-	static var ellipsisCircle: SFSymbol { SFSymbol("ellipsis.circle")! }
-	static var ellipsisCircleFill: SFSymbol { SFSymbol("ellipsis.circle.fill")! }
-	static var mic: SFSymbol { SFSymbol("mic")! }
-	static var micFill: SFSymbol { SFSymbol("mic.fill")! }
-	static var micCircle: SFSymbol { SFSymbol("mic.circle")! }
-	static var micCircleFill: SFSymbol { SFSymbol("mic.circle.fill")! }
-	static var micSlash: SFSymbol { SFSymbol("mic.slash")! }
-	static var micSlashFill: SFSymbol { SFSymbol("mic.slash.fill")! }
-	static var bag: SFSymbol { SFSymbol("bag")! }
-	static var bagFill: SFSymbol { SFSymbol("bag.fill")! }
-	static var bagBadgePlus: SFSymbol { SFSymbol("bag.badge.plus")! }
-	static var bagFillBadgePlus: SFSymbol { SFSymbol("bag.fill.badge.plus")! }
-	static var bagBadgeMinus: SFSymbol { SFSymbol("bag.badge.minus")! }
-	static var bagFillBadgeMinus: SFSymbol { SFSymbol("bag.fill.badge.minus")! }
-	static var cart: SFSymbol { SFSymbol("cart")! }
-	static var cartFill: SFSymbol { SFSymbol("cart.fill")! }
-	static var cartBadgePlus: SFSymbol { SFSymbol("cart.badge.plus")! }
-	static var cartFillBadgePlus: SFSymbol { SFSymbol("cart.fill.badge.plus")! }
-	static var cartBadgeMinus: SFSymbol { SFSymbol("cart.badge.minus")! }
-	static var cartFillBadgeMinus: SFSymbol { SFSymbol("cart.fill.badge.minus")! }
-	static var creditcard: SFSymbol { SFSymbol("creditcard")! }
-	static var creditcardFill: SFSymbol { SFSymbol("creditcard.fill")! }
-	static var wandAndRays: SFSymbol { SFSymbol("wand.and.rays")! }
-	static var wandAndRaysInverse: SFSymbol { SFSymbol("wand.and.rays.inverse")! }
-	static var wandAndStars: SFSymbol { SFSymbol("wand.and.stars")! }
-	static var wandAndStarsInverse: SFSymbol { SFSymbol("wand.and.stars.inverse")! }
-	static var crop: SFSymbol { SFSymbol("crop")! }
-	static var cropRotate: SFSymbol { SFSymbol("crop.rotate")! }
-	static var perspective: SFSymbol { SFSymbol("perspective")! }
-	static var skew: SFSymbol { SFSymbol("skew")! }
-	static var aspectratio: SFSymbol { SFSymbol("aspectratio")! }
-	static var aspectratioFill: SFSymbol { SFSymbol("aspectratio.fill")! }
-	static var dial: SFSymbol { SFSymbol("dial")! }
-	static var dialFill: SFSymbol { SFSymbol("dial.fill")! }
-	static var gauge: SFSymbol { SFSymbol("gauge")! }
-	static var gaugeBadgePlus: SFSymbol { SFSymbol("gauge.badge.plus")! }
-	static var gaugeBadgeMinus: SFSymbol { SFSymbol("gauge.badge.minus")! }
-	static var speedometer: SFSymbol { SFSymbol("speedometer")! }
+	static var umbrella: SFSymbol { SFSymbol("umbrella")! }
+	static var umbrellaFill: SFSymbol { SFSymbol("umbrella.fill")! }
+	static var flame: SFSymbol { SFSymbol("flame")! }
+	static var flameFill: SFSymbol { SFSymbol("flame.fill")! }
+	static var lightMin: SFSymbol { SFSymbol("light.min")! }
+	static var lightMax: SFSymbol { SFSymbol("light.max")! }
+	static var rays: SFSymbol { SFSymbol("rays")! }
+	static var slowmo: SFSymbol { SFSymbol("slowmo")! }
+	static var timelapse: SFSymbol { SFSymbol("timelapse")! }
+	static var cursorarrowRays: SFSymbol { SFSymbol("cursorarrow.rays")! }
+	static var cursorarrow: SFSymbol { SFSymbol("cursorarrow")! }
+	static var cursorarrowSquare: SFSymbol { SFSymbol("cursorarrow.square")! }
+	static var cursorarrowAndSquareOnSquareDashed: SFSymbol { SFSymbol("cursorarrow.and.square.on.square.dashed")! }
+	static var cursorarrowClick: SFSymbol { SFSymbol("cursorarrow.click")! }
+	static var cursorarrowClick2: SFSymbol { SFSymbol("cursorarrow.click.2")! }
+	static var contextualmenuAndCursorarrow: SFSymbol { SFSymbol("contextualmenu.and.cursorarrow")! }
+	static var filemenuAndCursorarrow: SFSymbol { SFSymbol("filemenu.and.cursorarrow")! }
+	static var dotCircleAndCursorarrow: SFSymbol { SFSymbol("dot.circle.and.cursorarrow")! }
+	static var cursorarrowMotionlines: SFSymbol { SFSymbol("cursorarrow.motionlines")! }
+	static var cursorarrowMotionlinesClick: SFSymbol { SFSymbol("cursorarrow.motionlines.click")! }
+	static var cursorarrowClickBadgeClock: SFSymbol { SFSymbol("cursorarrow.click.badge.clock")! }
+	static var keyboard: SFSymbol { SFSymbol("keyboard")! }
+	static var keyboardBadgeEllipsis: SFSymbol { SFSymbol("keyboard.badge.ellipsis")! }
+	static var keyboardChevronCompactDown: SFSymbol { SFSymbol("keyboard.chevron.compact.down")! }
+	static var keyboardChevronCompactLeft: SFSymbol { SFSymbol("keyboard.chevron.compact.left")! }
+	static var keyboardOnehandedLeft: SFSymbol { SFSymbol("keyboard.onehanded.left")! }
+	static var keyboardOnehandedRight: SFSymbol { SFSymbol("keyboard.onehanded.right")! }
+	static var rectangle3Offgrid: SFSymbol { SFSymbol("rectangle.3.offgrid")! }
+	static var rectangle3OffgridFill: SFSymbol { SFSymbol("rectangle.3.offgrid.fill")! }
+	static var squareGrid3x2: SFSymbol { SFSymbol("square.grid.3x2")! }
+	static var squareGrid3x2Fill: SFSymbol { SFSymbol("square.grid.3x2.fill")! }
+	static var rectangleGrid3x2: SFSymbol { SFSymbol("rectangle.grid.3x2")! }
+	static var rectangleGrid3x2Fill: SFSymbol { SFSymbol("rectangle.grid.3x2.fill")! }
+	static var squareGrid2x2: SFSymbol { SFSymbol("square.grid.2x2")! }
+	static var squareGrid2x2Fill: SFSymbol { SFSymbol("square.grid.2x2.fill")! }
+	static var rectangleGrid2x2: SFSymbol { SFSymbol("rectangle.grid.2x2")! }
+	static var rectangleGrid2x2Fill: SFSymbol { SFSymbol("rectangle.grid.2x2.fill")! }
+	static var squareGrid3x1BelowLineGrid1x2: SFSymbol { SFSymbol("square.grid.3x1.below.line.grid.1x2")! }
+	static var squareGrid3x1FillBelowLineGrid1x2: SFSymbol { SFSymbol("square.grid.3x1.fill.below.line.grid.1x2")! }
+	static var squareGrid4x3Fill: SFSymbol { SFSymbol("square.grid.4x3.fill")! }
+	static var rectangleGrid1x2: SFSymbol { SFSymbol("rectangle.grid.1x2")! }
+	static var rectangleGrid1x2Fill: SFSymbol { SFSymbol("rectangle.grid.1x2.fill")! }
+	static var circleGrid2x2: SFSymbol { SFSymbol("circle.grid.2x2")! }
+	static var circleGrid2x2Fill: SFSymbol { SFSymbol("circle.grid.2x2.fill")! }
+	static var circleGrid3x3: SFSymbol { SFSymbol("circle.grid.3x3")! }
+	static var circleGrid3x3Fill: SFSymbol { SFSymbol("circle.grid.3x3.fill")! }
+	static var squareGrid3x3: SFSymbol { SFSymbol("square.grid.3x3")! }
+	static var squareGrid3x3Fill: SFSymbol { SFSymbol("square.grid.3x3.fill")! }
+	static var squareGrid3x3TopleftFill: SFSymbol { SFSymbol("square.grid.3x3.topleft.fill")! }
+	static var squareGrid3x3TopmiddleFill: SFSymbol { SFSymbol("square.grid.3x3.topmiddle.fill")! }
+	static var squareGrid3x3ToprightFill: SFSymbol { SFSymbol("square.grid.3x3.topright.fill")! }
+	static var squareGrid3x3MiddleleftFill: SFSymbol { SFSymbol("square.grid.3x3.middleleft.fill")! }
+	static var squareGrid3x3MiddleFill: SFSymbol { SFSymbol("square.grid.3x3.middle.fill")! }
+	static var squareGrid3x3MiddlerightFill: SFSymbol { SFSymbol("square.grid.3x3.middleright.fill")! }
+	static var squareGrid3x3BottomleftFill: SFSymbol { SFSymbol("square.grid.3x3.bottomleft.fill")! }
+	static var squareGrid3x3BottommiddleFill: SFSymbol { SFSymbol("square.grid.3x3.bottommiddle.fill")! }
+	static var squareGrid3x3BottomrightFill: SFSymbol { SFSymbol("square.grid.3x3.bottomright.fill")! }
+	static var circlesHexagongrid: SFSymbol { SFSymbol("circles.hexagongrid")! }
+	static var circlesHexagongridFill: SFSymbol { SFSymbol("circles.hexagongrid.fill")! }
+	static var circlesHexagonpath: SFSymbol { SFSymbol("circles.hexagonpath")! }
+	static var circlesHexagonpathFill: SFSymbol { SFSymbol("circles.hexagonpath.fill")! }
+	static var circleGridCross: SFSymbol { SFSymbol("circle.grid.cross")! }
+	static var circleGridCrossFill: SFSymbol { SFSymbol("circle.grid.cross.fill")! }
+	static var circleGridCrossLeftFill: SFSymbol { SFSymbol("circle.grid.cross.left.fill")! }
+	static var circleGridCrossUpFill: SFSymbol { SFSymbol("circle.grid.cross.up.fill")! }
+	static var circleGridCrossRightFill: SFSymbol { SFSymbol("circle.grid.cross.right.fill")! }
+	static var circleGridCrossDownFill: SFSymbol { SFSymbol("circle.grid.cross.down.fill")! }
+	static var seal: SFSymbol { SFSymbol("seal")! }
+	static var sealFill: SFSymbol { SFSymbol("seal.fill")! }
+	static var checkmarkSeal: SFSymbol { SFSymbol("checkmark.seal")! }
+	static var checkmarkSealFill: SFSymbol { SFSymbol("checkmark.seal.fill")! }
+	static var xmarkSeal: SFSymbol { SFSymbol("xmark.seal")! }
+	static var xmarkSealFill: SFSymbol { SFSymbol("xmark.seal.fill")! }
+	static var exclamationmarkTriangle: SFSymbol { SFSymbol("exclamationmark.triangle")! }
+	static var exclamationmarkTriangleFill: SFSymbol { SFSymbol("exclamationmark.triangle.fill")! }
+	static var drop: SFSymbol { SFSymbol("drop")! }
+	static var dropFill: SFSymbol { SFSymbol("drop.fill")! }
+	static var dropTriangle: SFSymbol { SFSymbol("drop.triangle")! }
+	static var dropTriangleFill: SFSymbol { SFSymbol("drop.triangle.fill")! }
 	static var play: SFSymbol { SFSymbol("play")! }
 	static var playFill: SFSymbol { SFSymbol("play.fill")! }
 	static var playCircle: SFSymbol { SFSymbol("play.circle")! }
 	static var playCircleFill: SFSymbol { SFSymbol("play.circle.fill")! }
 	static var playRectangle: SFSymbol { SFSymbol("play.rectangle")! }
 	static var playRectangleFill: SFSymbol { SFSymbol("play.rectangle.fill")! }
+	static var playSlash: SFSymbol { SFSymbol("play.slash")! }
+	static var playSlashFill: SFSymbol { SFSymbol("play.slash.fill")! }
 	static var pause: SFSymbol { SFSymbol("pause")! }
 	static var pauseFill: SFSymbol { SFSymbol("pause.fill")! }
 	static var pauseCircle: SFSymbol { SFSymbol("pause.circle")! }
@@ -685,6 +445,8 @@ public extension SFSymbol {
 	static var stopFill: SFSymbol { SFSymbol("stop.fill")! }
 	static var stopCircle: SFSymbol { SFSymbol("stop.circle")! }
 	static var stopCircleFill: SFSymbol { SFSymbol("stop.circle.fill")! }
+	static var recordCircle: SFSymbol { SFSymbol("record.circle")! }
+	static var recordCircleFill: SFSymbol { SFSymbol("record.circle.fill")! }
 	static var playpause: SFSymbol { SFSymbol("playpause")! }
 	static var playpauseFill: SFSymbol { SFSymbol("playpause.fill")! }
 	static var backward: SFSymbol { SFSymbol("backward")! }
@@ -699,9 +461,47 @@ public extension SFSymbol {
 	static var backwardEndAltFill: SFSymbol { SFSymbol("backward.end.alt.fill")! }
 	static var forwardEndAlt: SFSymbol { SFSymbol("forward.end.alt")! }
 	static var forwardEndAltFill: SFSymbol { SFSymbol("forward.end.alt.fill")! }
+	static var backwardFrame: SFSymbol { SFSymbol("backward.frame")! }
+	static var backwardFrameFill: SFSymbol { SFSymbol("backward.frame.fill")! }
+	static var forwardFrame: SFSymbol { SFSymbol("forward.frame")! }
+	static var forwardFrameFill: SFSymbol { SFSymbol("forward.frame.fill")! }
+	static var eject: SFSymbol { SFSymbol("eject")! }
+	static var ejectFill: SFSymbol { SFSymbol("eject.fill")! }
+	static var ejectCircle: SFSymbol { SFSymbol("eject.circle")! }
+	static var ejectCircleFill: SFSymbol { SFSymbol("eject.circle.fill")! }
+	static var mount: SFSymbol { SFSymbol("mount")! }
+	static var mountFill: SFSymbol { SFSymbol("mount.fill")! }
+	static var memories: SFSymbol { SFSymbol("memories")! }
+	static var memoriesBadgePlus: SFSymbol { SFSymbol("memories.badge.plus")! }
+	static var memoriesBadgeMinus: SFSymbol { SFSymbol("memories.badge.minus")! }
 	static var shuffle: SFSymbol { SFSymbol("shuffle")! }
-	static var `repeat`: SFSymbol { SFSymbol("repeat")! }
+	static var `repeat`: SFSymbol { SFSymbol( "repeat")! }
 	static var repeat1: SFSymbol { SFSymbol("repeat.1")! }
+	static var infinity: SFSymbol { SFSymbol("infinity")! }
+	static var megaphone: SFSymbol { SFSymbol("megaphone")! }
+	static var megaphoneFill: SFSymbol { SFSymbol("megaphone.fill")! }
+	static var speaker: SFSymbol { SFSymbol("speaker")! }
+	static var speakerFill: SFSymbol { SFSymbol("speaker.fill")! }
+	static var speakerSlash: SFSymbol { SFSymbol("speaker.slash")! }
+	static var speakerSlashFill: SFSymbol { SFSymbol("speaker.slash.fill")! }
+	static var speakerSlashCircle: SFSymbol { SFSymbol("speaker.slash.circle")! }
+	static var speakerSlashCircleFill: SFSymbol { SFSymbol("speaker.slash.circle.fill")! }
+	static var speakerZzz: SFSymbol { SFSymbol("speaker.zzz")! }
+	static var speakerZzzFill: SFSymbol { SFSymbol("speaker.zzz.fill")! }
+	static var speakerWave1: SFSymbol { SFSymbol("speaker.wave.1")! }
+	static var speakerWave1Fill: SFSymbol { SFSymbol("speaker.wave.1.fill")! }
+	static var speakerWave2: SFSymbol { SFSymbol("speaker.wave.2")! }
+	static var speakerWave2Fill: SFSymbol { SFSymbol("speaker.wave.2.fill")! }
+	static var speakerWave2Circle: SFSymbol { SFSymbol("speaker.wave.2.circle")! }
+	static var speakerWave2CircleFill: SFSymbol { SFSymbol("speaker.wave.2.circle.fill")! }
+	static var speakerWave3: SFSymbol { SFSymbol("speaker.wave.3")! }
+	static var speakerWave3Fill: SFSymbol { SFSymbol("speaker.wave.3.fill")! }
+	static var badgePlusRadiowavesRight: SFSymbol { SFSymbol("badge.plus.radiowaves.right")! }
+	static var musicNote: SFSymbol { SFSymbol("music.note")! }
+	static var musicNoteList: SFSymbol { SFSymbol("music.note.list")! }
+	static var musicQuarternote3: SFSymbol { SFSymbol("music.quarternote.3")! }
+	static var musicMic: SFSymbol { SFSymbol("music.mic")! }
+	static var arrowRectanglepath: SFSymbol { SFSymbol("arrow.rectanglepath")! }
 	static var goforward: SFSymbol { SFSymbol("goforward")! }
 	static var gobackward: SFSymbol { SFSymbol("gobackward")! }
 	static var goforward10: SFSymbol { SFSymbol("goforward.10")! }
@@ -718,43 +518,400 @@ public extension SFSymbol {
 	static var gobackward75: SFSymbol { SFSymbol("gobackward.75")! }
 	static var goforward90: SFSymbol { SFSymbol("goforward.90")! }
 	static var gobackward90: SFSymbol { SFSymbol("gobackward.90")! }
-	static var goforward10Ar: SFSymbol { SFSymbol("goforward.10.ar")! }
-	static var gobackward10Ar: SFSymbol { SFSymbol("gobackward.10.ar")! }
-	static var goforward15Ar: SFSymbol { SFSymbol("goforward.15.ar")! }
-	static var gobackward15Ar: SFSymbol { SFSymbol("gobackward.15.ar")! }
-	static var goforward30Ar: SFSymbol { SFSymbol("goforward.30.ar")! }
-	static var gobackward30Ar: SFSymbol { SFSymbol("gobackward.30.ar")! }
-	static var goforward45Ar: SFSymbol { SFSymbol("goforward.45.ar")! }
-	static var gobackward45Ar: SFSymbol { SFSymbol("gobackward.45.ar")! }
-	static var goforward60Ar: SFSymbol { SFSymbol("goforward.60.ar")! }
-	static var gobackward60Ar: SFSymbol { SFSymbol("gobackward.60.ar")! }
-	static var goforward75Ar: SFSymbol { SFSymbol("goforward.75.ar")! }
-	static var gobackward75Ar: SFSymbol { SFSymbol("gobackward.75.ar")! }
-	static var goforward90Ar: SFSymbol { SFSymbol("goforward.90.ar")! }
-	static var gobackward90Ar: SFSymbol { SFSymbol("gobackward.90.ar")! }
-	static var goforward10Hi: SFSymbol { SFSymbol("goforward.10.hi")! }
-	static var gobackward10Hi: SFSymbol { SFSymbol("gobackward.10.hi")! }
-	static var goforward15Hi: SFSymbol { SFSymbol("goforward.15.hi")! }
-	static var gobackward15Hi: SFSymbol { SFSymbol("gobackward.15.hi")! }
-	static var goforward30Hi: SFSymbol { SFSymbol("goforward.30.hi")! }
-	static var gobackward30Hi: SFSymbol { SFSymbol("gobackward.30.hi")! }
-	static var goforward45Hi: SFSymbol { SFSymbol("goforward.45.hi")! }
-	static var gobackward45Hi: SFSymbol { SFSymbol("gobackward.45.hi")! }
-	static var goforward60Hi: SFSymbol { SFSymbol("goforward.60.hi")! }
-	static var gobackward60Hi: SFSymbol { SFSymbol("gobackward.60.hi")! }
-	static var goforward75Hi: SFSymbol { SFSymbol("goforward.75.hi")! }
-	static var gobackward75Hi: SFSymbol { SFSymbol("gobackward.75.hi")! }
-	static var goforward90Hi: SFSymbol { SFSymbol("goforward.90.hi")! }
-	static var gobackward90Hi: SFSymbol { SFSymbol("gobackward.90.hi")! }
 	static var goforwardPlus: SFSymbol { SFSymbol("goforward.plus")! }
 	static var gobackwardMinus: SFSymbol { SFSymbol("gobackward.minus")! }
-	static var selectionPinInOut: SFSymbol { SFSymbol("selection.pin.in.out")! }
+	static var swift: SFSymbol { SFSymbol("swift")! }
+	static var magnifyingglass: SFSymbol { SFSymbol("magnifyingglass")! }
+	static var magnifyingglassCircle: SFSymbol { SFSymbol("magnifyingglass.circle")! }
+	static var magnifyingglassCircleFill: SFSymbol { SFSymbol("magnifyingglass.circle.fill")! }
+	static var plusMagnifyingglass: SFSymbol { SFSymbol("plus.magnifyingglass")! }
+	static var minusMagnifyingglass: SFSymbol { SFSymbol("minus.magnifyingglass")! }
+	static var number1Magnifyingglass: SFSymbol { SFSymbol("1.magnifyingglass")! }
+	static var arrowUpLeftAndDownRightMagnifyingglass: SFSymbol { SFSymbol("arrow.up.left.and.down.right.magnifyingglass")! }
+	static var textMagnifyingglass: SFSymbol { SFSymbol("text.magnifyingglass")! }
+	static var loupe: SFSymbol { SFSymbol("loupe")! }
+	static var mic: SFSymbol { SFSymbol("mic")! }
+	static var micFill: SFSymbol { SFSymbol("mic.fill")! }
+	static var micCircle: SFSymbol { SFSymbol("mic.circle")! }
+	static var micCircleFill: SFSymbol { SFSymbol("mic.circle.fill")! }
+	static var micSlash: SFSymbol { SFSymbol("mic.slash")! }
+	static var micSlashFill: SFSymbol { SFSymbol("mic.slash.fill")! }
+	static var lineDiagonal: SFSymbol { SFSymbol("line.diagonal")! }
+	static var lineDiagonalArrow: SFSymbol { SFSymbol("line.diagonal.arrow")! }
+	static var circle: SFSymbol { SFSymbol("circle")! }
+	static var circleFill: SFSymbol { SFSymbol("circle.fill")! }
+	static var circleLefthalfFill: SFSymbol { SFSymbol("circle.lefthalf.fill")! }
+	static var circleRighthalfFill: SFSymbol { SFSymbol("circle.righthalf.fill")! }
+	static var circleBottomhalfFill: SFSymbol { SFSymbol("circle.bottomhalf.fill")! }
+	static var circleTophalfFill: SFSymbol { SFSymbol("circle.tophalf.fill")! }
+	static var largecircleFillCircle: SFSymbol { SFSymbol("largecircle.fill.circle")! }
+	static var smallcircleFillCircle: SFSymbol { SFSymbol("smallcircle.fill.circle")! }
+	static var smallcircleFillCircleFill: SFSymbol { SFSymbol("smallcircle.fill.circle.fill")! }
+	static var circleDashed: SFSymbol { SFSymbol("circle.dashed")! }
+	static var circleDashedInsetFill: SFSymbol { SFSymbol("circle.dashed.inset.fill")! }
+	static var circlebadge: SFSymbol { SFSymbol("circlebadge")! }
+	static var circlebadgeFill: SFSymbol { SFSymbol("circlebadge.fill")! }
+	static var smallcircleCircle: SFSymbol { SFSymbol("smallcircle.circle")! }
+	static var smallcircleCircleFill: SFSymbol { SFSymbol("smallcircle.circle.fill")! }
+	static var target: SFSymbol { SFSymbol("target")! }
+	static var capsule: SFSymbol { SFSymbol("capsule")! }
+	static var capsuleFill: SFSymbol { SFSymbol("capsule.fill")! }
+	static var capsulePortrait: SFSymbol { SFSymbol("capsule.portrait")! }
+	static var capsulePortraitFill: SFSymbol { SFSymbol("capsule.portrait.fill")! }
+	static var placeholdertextFill: SFSymbol { SFSymbol("placeholdertext.fill")! }
+	static var square: SFSymbol { SFSymbol("square")! }
+	static var squareFill: SFSymbol { SFSymbol("square.fill")! }
+	static var squareLefthalfFill: SFSymbol { SFSymbol("square.lefthalf.fill")! }
+	static var squareRighthalfFill: SFSymbol { SFSymbol("square.righthalf.fill")! }
+	static var squareBottomhalfFill: SFSymbol { SFSymbol("square.bottomhalf.fill")! }
+	static var squareTophalfFill: SFSymbol { SFSymbol("square.tophalf.fill")! }
+	static var squareSlash: SFSymbol { SFSymbol("square.slash")! }
+	static var squareSlashFill: SFSymbol { SFSymbol("square.slash.fill")! }
+	static var dotSquare: SFSymbol { SFSymbol("dot.square")! }
+	static var dotSquareFill: SFSymbol { SFSymbol("dot.square.fill")! }
+	static var circleSquare: SFSymbol { SFSymbol("circle.square")! }
+	static var circleFillSquareFill: SFSymbol { SFSymbol("circle.fill.square.fill")! }
+	static var squareDashed: SFSymbol { SFSymbol("square.dashed")! }
+	static var squareDashedInsetFill: SFSymbol { SFSymbol("square.dashed.inset.fill")! }
+	static var questionmarkSquareDashed: SFSymbol { SFSymbol("questionmark.square.dashed")! }
+	static var squareshape: SFSymbol { SFSymbol("squareshape")! }
+	static var squareshapeFill: SFSymbol { SFSymbol("squareshape.fill")! }
+	static var squareshapeDashedSquareshape: SFSymbol { SFSymbol("squareshape.dashed.squareshape")! }
+	static var squareshapeSquareshapeDashed: SFSymbol { SFSymbol("squareshape.squareshape.dashed")! }
+	static var dotSquareshape: SFSymbol { SFSymbol("dot.squareshape")! }
+	static var dotSquareshapeFill: SFSymbol { SFSymbol("dot.squareshape.fill")! }
+	static var app: SFSymbol { SFSymbol("app")! }
+	static var appFill: SFSymbol { SFSymbol("app.fill")! }
+	static var rectangle: SFSymbol { SFSymbol("rectangle")! }
+	static var rectangleFill: SFSymbol { SFSymbol("rectangle.fill")! }
+	static var rectangleSlash: SFSymbol { SFSymbol("rectangle.slash")! }
+	static var rectangleSlashFill: SFSymbol { SFSymbol("rectangle.slash.fill")! }
+	static var rectanglePortrait: SFSymbol { SFSymbol("rectangle.portrait")! }
+	static var rectanglePortraitFill: SFSymbol { SFSymbol("rectangle.portrait.fill")! }
+	static var triangle: SFSymbol { SFSymbol("triangle")! }
+	static var triangleFill: SFSymbol { SFSymbol("triangle.fill")! }
+	static var triangleLefthalfFill: SFSymbol { SFSymbol("triangle.lefthalf.fill")! }
+	static var triangleRighthalfFill: SFSymbol { SFSymbol("triangle.righthalf.fill")! }
+	static var diamond: SFSymbol { SFSymbol("diamond")! }
+	static var diamondFill: SFSymbol { SFSymbol("diamond.fill")! }
+	static var octagon: SFSymbol { SFSymbol("octagon")! }
+	static var octagonFill: SFSymbol { SFSymbol("octagon.fill")! }
+	static var hexagon: SFSymbol { SFSymbol("hexagon")! }
+	static var hexagonFill: SFSymbol { SFSymbol("hexagon.fill")! }
+	static var suitHeart: SFSymbol { SFSymbol("suit.heart")! }
+	static var suitHeartFill: SFSymbol { SFSymbol("suit.heart.fill")! }
+	static var suitClub: SFSymbol { SFSymbol("suit.club")! }
+	static var suitClubFill: SFSymbol { SFSymbol("suit.club.fill")! }
+	static var suitSpade: SFSymbol { SFSymbol("suit.spade")! }
+	static var suitSpadeFill: SFSymbol { SFSymbol("suit.spade.fill")! }
+	static var suitDiamond: SFSymbol { SFSymbol("suit.diamond")! }
+	static var suitDiamondFill: SFSymbol { SFSymbol("suit.diamond.fill")! }
+	static var heart: SFSymbol { SFSymbol("heart")! }
+	static var heartFill: SFSymbol { SFSymbol("heart.fill")! }
+	static var heartCircle: SFSymbol { SFSymbol("heart.circle")! }
+	static var heartCircleFill: SFSymbol { SFSymbol("heart.circle.fill")! }
+	static var heartSlash: SFSymbol { SFSymbol("heart.slash")! }
+	static var heartSlashFill: SFSymbol { SFSymbol("heart.slash.fill")! }
+	static var heartSlashCircle: SFSymbol { SFSymbol("heart.slash.circle")! }
+	static var heartSlashCircleFill: SFSymbol { SFSymbol("heart.slash.circle.fill")! }
+	static var heartTextSquare: SFSymbol { SFSymbol("heart.text.square")! }
+	static var heartTextSquareFill: SFSymbol { SFSymbol("heart.text.square.fill")! }
+	static var boltHeart: SFSymbol { SFSymbol("bolt.heart")! }
+	static var boltHeartFill: SFSymbol { SFSymbol("bolt.heart.fill")! }
+	static var rhombus: SFSymbol { SFSymbol("rhombus")! }
+	static var rhombusFill: SFSymbol { SFSymbol("rhombus.fill")! }
+	static var star: SFSymbol { SFSymbol("star")! }
+	static var starFill: SFSymbol { SFSymbol("star.fill")! }
+	static var starLefthalfFill: SFSymbol { SFSymbol("star.lefthalf.fill")! }
+	static var starCircle: SFSymbol { SFSymbol("star.circle")! }
+	static var starCircleFill: SFSymbol { SFSymbol("star.circle.fill")! }
+	static var starSquare: SFSymbol { SFSymbol("star.square")! }
+	static var starSquareFill: SFSymbol { SFSymbol("star.square.fill")! }
+	static var starSlash: SFSymbol { SFSymbol("star.slash")! }
+	static var starSlashFill: SFSymbol { SFSymbol("star.slash.fill")! }
+	static var lineHorizontalStarFillLineHorizontal: SFSymbol { SFSymbol("line.horizontal.star.fill.line.horizontal")! }
+	static var flag: SFSymbol { SFSymbol("flag")! }
+	static var flagFill: SFSymbol { SFSymbol("flag.fill")! }
+	static var flagCircle: SFSymbol { SFSymbol("flag.circle")! }
+	static var flagCircleFill: SFSymbol { SFSymbol("flag.circle.fill")! }
+	static var flagSlash: SFSymbol { SFSymbol("flag.slash")! }
+	static var flagSlashFill: SFSymbol { SFSymbol("flag.slash.fill")! }
+	static var flagSlashCircle: SFSymbol { SFSymbol("flag.slash.circle")! }
+	static var flagSlashCircleFill: SFSymbol { SFSymbol("flag.slash.circle.fill")! }
+	static var flagBadgeEllipsis: SFSymbol { SFSymbol("flag.badge.ellipsis")! }
+	static var flagBadgeEllipsisFill: SFSymbol { SFSymbol("flag.badge.ellipsis.fill")! }
+	static var location: SFSymbol { SFSymbol("location")! }
+	static var locationFill: SFSymbol { SFSymbol("location.fill")! }
+	static var locationSlash: SFSymbol { SFSymbol("location.slash")! }
+	static var locationSlashFill: SFSymbol { SFSymbol("location.slash.fill")! }
+	static var locationNorth: SFSymbol { SFSymbol("location.north")! }
+	static var locationNorthFill: SFSymbol { SFSymbol("location.north.fill")! }
+	static var locationCircle: SFSymbol { SFSymbol("location.circle")! }
+	static var locationCircleFill: SFSymbol { SFSymbol("location.circle.fill")! }
+	static var locationNorthLine: SFSymbol { SFSymbol("location.north.line")! }
+	static var locationNorthLineFill: SFSymbol { SFSymbol("location.north.line.fill")! }
+	static var bell: SFSymbol { SFSymbol("bell")! }
+	static var bellFill: SFSymbol { SFSymbol("bell.fill")! }
+	static var bellCircle: SFSymbol { SFSymbol("bell.circle")! }
+	static var bellCircleFill: SFSymbol { SFSymbol("bell.circle.fill")! }
+	static var bellSlash: SFSymbol { SFSymbol("bell.slash")! }
+	static var bellSlashFill: SFSymbol { SFSymbol("bell.slash.fill")! }
+	static var bellSlashCircle: SFSymbol { SFSymbol("bell.slash.circle")! }
+	static var bellSlashCircleFill: SFSymbol { SFSymbol("bell.slash.circle.fill")! }
+	static var bellBadge: SFSymbol { SFSymbol("bell.badge")! }
+	static var bellBadgeFill: SFSymbol { SFSymbol("bell.badge.fill")! }
+	static var tag: SFSymbol { SFSymbol("tag")! }
+	static var tagFill: SFSymbol { SFSymbol("tag.fill")! }
+	static var tagCircle: SFSymbol { SFSymbol("tag.circle")! }
+	static var tagCircleFill: SFSymbol { SFSymbol("tag.circle.fill")! }
+	static var tagSlash: SFSymbol { SFSymbol("tag.slash")! }
+	static var tagSlashFill: SFSymbol { SFSymbol("tag.slash.fill")! }
+	static var bolt: SFSymbol { SFSymbol("bolt")! }
+	static var boltFill: SFSymbol { SFSymbol("bolt.fill")! }
+	static var boltCircle: SFSymbol { SFSymbol("bolt.circle")! }
+	static var boltCircleFill: SFSymbol { SFSymbol("bolt.circle.fill")! }
+	static var boltSlash: SFSymbol { SFSymbol("bolt.slash")! }
+	static var boltSlashFill: SFSymbol { SFSymbol("bolt.slash.fill")! }
+	static var boltSlashCircle: SFSymbol { SFSymbol("bolt.slash.circle")! }
+	static var boltSlashCircleFill: SFSymbol { SFSymbol("bolt.slash.circle.fill")! }
+	static var boltBadgeA: SFSymbol { SFSymbol("bolt.badge.a")! }
+	static var boltBadgeAFill: SFSymbol { SFSymbol("bolt.badge.a.fill")! }
+	static var boltHorizontal: SFSymbol { SFSymbol("bolt.horizontal")! }
+	static var boltHorizontalFill: SFSymbol { SFSymbol("bolt.horizontal.fill")! }
+	static var boltHorizontalCircle: SFSymbol { SFSymbol("bolt.horizontal.circle")! }
+	static var boltHorizontalCircleFill: SFSymbol { SFSymbol("bolt.horizontal.circle.fill")! }
+	static var eye: SFSymbol { SFSymbol("eye")! }
+	static var eyeFill: SFSymbol { SFSymbol("eye.fill")! }
+	static var eyeCircle: SFSymbol { SFSymbol("eye.circle")! }
+	static var eyeCircleFill: SFSymbol { SFSymbol("eye.circle.fill")! }
+	static var eyeSlash: SFSymbol { SFSymbol("eye.slash")! }
+	static var eyeSlashFill: SFSymbol { SFSymbol("eye.slash.fill")! }
+	static var eyes: SFSymbol { SFSymbol("eyes")! }
+	static var eyesInverse: SFSymbol { SFSymbol("eyes.inverse")! }
+	static var eyebrow: SFSymbol { SFSymbol("eyebrow")! }
+	static var nose: SFSymbol { SFSymbol("nose")! }
+	static var noseFill: SFSymbol { SFSymbol("nose.fill")! }
+	static var mustache: SFSymbol { SFSymbol("mustache")! }
+	static var mustacheFill: SFSymbol { SFSymbol("mustache.fill")! }
+	static var mouth: SFSymbol { SFSymbol("mouth")! }
+	static var mouthFill: SFSymbol { SFSymbol("mouth.fill")! }
+	static var icloud: SFSymbol { SFSymbol("icloud")! }
+	static var icloudFill: SFSymbol { SFSymbol("icloud.fill")! }
+	static var icloudCircle: SFSymbol { SFSymbol("icloud.circle")! }
+	static var icloudCircleFill: SFSymbol { SFSymbol("icloud.circle.fill")! }
+	static var icloudSlash: SFSymbol { SFSymbol("icloud.slash")! }
+	static var icloudSlashFill: SFSymbol { SFSymbol("icloud.slash.fill")! }
+	static var exclamationmarkIcloud: SFSymbol { SFSymbol("exclamationmark.icloud")! }
+	static var exclamationmarkIcloudFill: SFSymbol { SFSymbol("exclamationmark.icloud.fill")! }
+	static var checkmarkIcloud: SFSymbol { SFSymbol("checkmark.icloud")! }
+	static var checkmarkIcloudFill: SFSymbol { SFSymbol("checkmark.icloud.fill")! }
+	static var xmarkIcloud: SFSymbol { SFSymbol("xmark.icloud")! }
+	static var xmarkIcloudFill: SFSymbol { SFSymbol("xmark.icloud.fill")! }
+	static var linkIcloud: SFSymbol { SFSymbol("link.icloud")! }
+	static var linkIcloudFill: SFSymbol { SFSymbol("link.icloud.fill")! }
+	static var boltHorizontalIcloud: SFSymbol { SFSymbol("bolt.horizontal.icloud")! }
+	static var boltHorizontalIcloudFill: SFSymbol { SFSymbol("bolt.horizontal.icloud.fill")! }
+	static var personIcloud: SFSymbol { SFSymbol("person.icloud")! }
+	static var personIcloudFill: SFSymbol { SFSymbol("person.icloud.fill")! }
+	static var lockIcloud: SFSymbol { SFSymbol("lock.icloud")! }
+	static var lockIcloudFill: SFSymbol { SFSymbol("lock.icloud.fill")! }
+	static var keyIcloud: SFSymbol { SFSymbol("key.icloud")! }
+	static var keyIcloudFill: SFSymbol { SFSymbol("key.icloud.fill")! }
+	static var arrowClockwiseIcloud: SFSymbol { SFSymbol("arrow.clockwise.icloud")! }
+	static var arrowClockwiseIcloudFill: SFSymbol { SFSymbol("arrow.clockwise.icloud.fill")! }
+	static var arrowCounterclockwiseIcloud: SFSymbol { SFSymbol("arrow.counterclockwise.icloud")! }
+	static var arrowCounterclockwiseIcloudFill: SFSymbol { SFSymbol("arrow.counterclockwise.icloud.fill")! }
+	static var icloudAndArrowDown: SFSymbol { SFSymbol("icloud.and.arrow.down")! }
+	static var icloudAndArrowDownFill: SFSymbol { SFSymbol("icloud.and.arrow.down.fill")! }
+	static var icloudAndArrowUp: SFSymbol { SFSymbol("icloud.and.arrow.up")! }
+	static var icloudAndArrowUpFill: SFSymbol { SFSymbol("icloud.and.arrow.up.fill")! }
+	static var flashlightOffFill: SFSymbol { SFSymbol("flashlight.off.fill")! }
+	static var flashlightOnFill: SFSymbol { SFSymbol("flashlight.on.fill")! }
+	static var camera: SFSymbol { SFSymbol("camera")! }
+	static var cameraFill: SFSymbol { SFSymbol("camera.fill")! }
+	static var cameraCircle: SFSymbol { SFSymbol("camera.circle")! }
+	static var cameraCircleFill: SFSymbol { SFSymbol("camera.circle.fill")! }
+	static var cameraBadgeEllipsis: SFSymbol { SFSymbol("camera.badge.ellipsis")! }
+	static var cameraFillBadgeEllipsis: SFSymbol { SFSymbol("camera.fill.badge.ellipsis")! }
+	static var arrowTriangle2CirclepathCamera: SFSymbol { SFSymbol("arrow.triangle.2.circlepath.camera")! }
+	static var arrowTriangle2CirclepathCameraFill: SFSymbol { SFSymbol("arrow.triangle.2.circlepath.camera.fill")! }
+	static var cameraOnRectangle: SFSymbol { SFSymbol("camera.on.rectangle")! }
+	static var cameraOnRectangleFill: SFSymbol { SFSymbol("camera.on.rectangle.fill")! }
+	static var message: SFSymbol { SFSymbol("message")! }
+	static var messageFill: SFSymbol { SFSymbol("message.fill")! }
+	static var messageCircle: SFSymbol { SFSymbol("message.circle")! }
+	static var messageCircleFill: SFSymbol { SFSymbol("message.circle.fill")! }
+	static var arrowUpMessage: SFSymbol { SFSymbol("arrow.up.message")! }
+	static var arrowUpMessageFill: SFSymbol { SFSymbol("arrow.up.message.fill")! }
+	static var plusMessage: SFSymbol { SFSymbol("plus.message")! }
+	static var plusMessageFill: SFSymbol { SFSymbol("plus.message.fill")! }
+	static var bubbleRight: SFSymbol { SFSymbol("bubble.right")! }
+	static var bubbleRightFill: SFSymbol { SFSymbol("bubble.right.fill")! }
+	static var bubbleLeft: SFSymbol { SFSymbol("bubble.left")! }
+	static var bubbleLeftFill: SFSymbol { SFSymbol("bubble.left.fill")! }
+	static var exclamationmarkBubble: SFSymbol { SFSymbol("exclamationmark.bubble")! }
+	static var exclamationmarkBubbleFill: SFSymbol { SFSymbol("exclamationmark.bubble.fill")! }
+	static var quoteBubble: SFSymbol { SFSymbol("quote.bubble")! }
+	static var quoteBubbleFill: SFSymbol { SFSymbol("quote.bubble.fill")! }
+	static var tBubble: SFSymbol { SFSymbol("t.bubble")! }
+	static var tBubbleFill: SFSymbol { SFSymbol("t.bubble.fill")! }
+	static var textBubble: SFSymbol { SFSymbol("text.bubble")! }
+	static var textBubbleFill: SFSymbol { SFSymbol("text.bubble.fill")! }
+	static var captionsBubble: SFSymbol { SFSymbol("captions.bubble")! }
+	static var captionsBubbleFill: SFSymbol { SFSymbol("captions.bubble.fill")! }
+	static var plusBubble: SFSymbol { SFSymbol("plus.bubble")! }
+	static var plusBubbleFill: SFSymbol { SFSymbol("plus.bubble.fill")! }
+	static var rectangle3OffgridBubbleLeft: SFSymbol { SFSymbol("rectangle.3.offgrid.bubble.left")! }
+	static var rectangle3OffgridBubbleLeftFill: SFSymbol { SFSymbol("rectangle.3.offgrid.bubble.left.fill")! }
+	static var ellipsisBubble: SFSymbol { SFSymbol("ellipsis.bubble")! }
+	static var ellipsisBubbleFill: SFSymbol { SFSymbol("ellipsis.bubble.fill")! }
+	static var bubbleMiddleBottom: SFSymbol { SFSymbol("bubble.middle.bottom")! }
+	static var bubbleMiddleBottomFill: SFSymbol { SFSymbol("bubble.middle.bottom.fill")! }
+	static var bubbleMiddleTop: SFSymbol { SFSymbol("bubble.middle.top")! }
+	static var bubbleMiddleTopFill: SFSymbol { SFSymbol("bubble.middle.top.fill")! }
+	static var bubbleLeftAndBubbleRight: SFSymbol { SFSymbol("bubble.left.and.bubble.right")! }
+	static var bubbleLeftAndBubbleRightFill: SFSymbol { SFSymbol("bubble.left.and.bubble.right.fill")! }
+	static var translate: SFSymbol { SFSymbol("translate")! }
+	static var phone: SFSymbol { SFSymbol("phone")! }
+	static var phoneFill: SFSymbol { SFSymbol("phone.fill")! }
+	static var phoneCircle: SFSymbol { SFSymbol("phone.circle")! }
+	static var phoneCircleFill: SFSymbol { SFSymbol("phone.circle.fill")! }
+	static var phoneBadgePlus: SFSymbol { SFSymbol("phone.badge.plus")! }
+	static var phoneFillBadgePlus: SFSymbol { SFSymbol("phone.fill.badge.plus")! }
+	static var phoneConnection: SFSymbol { SFSymbol("phone.connection")! }
+	static var phoneFillConnection: SFSymbol { SFSymbol("phone.fill.connection")! }
+	static var phoneArrowUpRight: SFSymbol { SFSymbol("phone.arrow.up.right")! }
+	static var phoneFillArrowUpRight: SFSymbol { SFSymbol("phone.fill.arrow.up.right")! }
+	static var phoneArrowDownLeft: SFSymbol { SFSymbol("phone.arrow.down.left")! }
+	static var phoneFillArrowDownLeft: SFSymbol { SFSymbol("phone.fill.arrow.down.left")! }
+	static var phoneArrowRight: SFSymbol { SFSymbol("phone.arrow.right")! }
+	static var phoneFillArrowRight: SFSymbol { SFSymbol("phone.fill.arrow.right")! }
+	static var phoneDown: SFSymbol { SFSymbol("phone.down")! }
+	static var phoneDownFill: SFSymbol { SFSymbol("phone.down.fill")! }
+	static var phoneDownCircle: SFSymbol { SFSymbol("phone.down.circle")! }
+	static var phoneDownCircleFill: SFSymbol { SFSymbol("phone.down.circle.fill")! }
+	static var teletype: SFSymbol { SFSymbol("teletype")! }
+	static var teletypeCircle: SFSymbol { SFSymbol("teletype.circle")! }
+	static var teletypeCircleFill: SFSymbol { SFSymbol("teletype.circle.fill")! }
+	static var teletypeAnswer: SFSymbol { SFSymbol("teletype.answer")! }
+	static var video: SFSymbol { SFSymbol("video")! }
+	static var videoFill: SFSymbol { SFSymbol("video.fill")! }
+	static var videoCircle: SFSymbol { SFSymbol("video.circle")! }
+	static var videoCircleFill: SFSymbol { SFSymbol("video.circle.fill")! }
+	static var videoSlash: SFSymbol { SFSymbol("video.slash")! }
+	static var videoSlashFill: SFSymbol { SFSymbol("video.slash.fill")! }
+	static var videoBadgePlus: SFSymbol { SFSymbol("video.badge.plus")! }
+	static var videoFillBadgePlus: SFSymbol { SFSymbol("video.fill.badge.plus")! }
+	static var videoBadgeCheckmark: SFSymbol { SFSymbol("video.badge.checkmark")! }
+	static var videoFillBadgeCheckmark: SFSymbol { SFSymbol("video.fill.badge.checkmark")! }
+	static var arrowUpRightVideo: SFSymbol { SFSymbol("arrow.up.right.video")! }
+	static var arrowUpRightVideoFill: SFSymbol { SFSymbol("arrow.up.right.video.fill")! }
+	static var arrowDownLeftVideo: SFSymbol { SFSymbol("arrow.down.left.video")! }
+	static var arrowDownLeftVideoFill: SFSymbol { SFSymbol("arrow.down.left.video.fill")! }
+	static var questionmarkVideo: SFSymbol { SFSymbol("questionmark.video")! }
+	static var questionmarkVideoFill: SFSymbol { SFSymbol("questionmark.video.fill")! }
+	static var envelope: SFSymbol { SFSymbol("envelope")! }
+	static var envelopeFill: SFSymbol { SFSymbol("envelope.fill")! }
+	static var envelopeCircle: SFSymbol { SFSymbol("envelope.circle")! }
+	static var envelopeCircleFill: SFSymbol { SFSymbol("envelope.circle.fill")! }
+	static var envelopeArrowTriangleBranch: SFSymbol { SFSymbol("envelope.arrow.triangle.branch")! }
+	static var envelopeArrowTriangleBranchFill: SFSymbol { SFSymbol("envelope.arrow.triangle.branch.fill")! }
+	static var envelopeOpen: SFSymbol { SFSymbol("envelope.open")! }
+	static var envelopeOpenFill: SFSymbol { SFSymbol("envelope.open.fill")! }
+	static var envelopeBadge: SFSymbol { SFSymbol("envelope.badge")! }
+	static var envelopeBadgeFill: SFSymbol { SFSymbol("envelope.badge.fill")! }
+	static var envelopeBadgeShieldLefthalfFill: SFSymbol { SFSymbol("envelope.badge.shield.lefthalf.fill")! }
+	static var envelopeFillBadgeShieldRighthalfFill: SFSymbol { SFSymbol("envelope.fill.badge.shield.righthalf.fill")! }
+	static var mailStack: SFSymbol { SFSymbol("mail.stack")! }
+	static var mailStackFill: SFSymbol { SFSymbol("mail.stack.fill")! }
+	static var mail: SFSymbol { SFSymbol("mail")! }
+	static var mailFill: SFSymbol { SFSymbol("mail.fill")! }
+	static var mailAndTextMagnifyingglass: SFSymbol { SFSymbol("mail.and.text.magnifyingglass")! }
+	static var rectangleAndTextMagnifyingglass: SFSymbol { SFSymbol("rectangle.and.text.magnifyingglass")! }
+	static var arrowUpRightAndArrowDownLeftRectangle: SFSymbol { SFSymbol("arrow.up.right.and.arrow.down.left.rectangle")! }
+	static var arrowUpRightAndArrowDownLeftRectangleFill: SFSymbol { SFSymbol("arrow.up.right.and.arrow.down.left.rectangle.fill")! }
+	static var gear: SFSymbol { SFSymbol("gear")! }
+	static var gearshape: SFSymbol { SFSymbol("gearshape")! }
+	static var gearshapeFill: SFSymbol { SFSymbol("gearshape.fill")! }
+	static var gearshape2: SFSymbol { SFSymbol("gearshape.2")! }
+	static var gearshape2Fill: SFSymbol { SFSymbol("gearshape.2.fill")! }
+	static var signature: SFSymbol { SFSymbol("signature")! }
+	static var line3CrossedSwirlCircle: SFSymbol { SFSymbol("line.3.crossed.swirl.circle")! }
+	static var line3CrossedSwirlCircleFill: SFSymbol { SFSymbol("line.3.crossed.swirl.circle.fill")! }
+	static var scissors: SFSymbol { SFSymbol("scissors")! }
+	static var scissorsBadgeEllipsis: SFSymbol { SFSymbol("scissors.badge.ellipsis")! }
+	static var ellipsis: SFSymbol { SFSymbol("ellipsis")! }
+	static var ellipsisCircle: SFSymbol { SFSymbol("ellipsis.circle")! }
+	static var ellipsisCircleFill: SFSymbol { SFSymbol("ellipsis.circle.fill")! }
+	static var ellipsisRectangle: SFSymbol { SFSymbol("ellipsis.rectangle")! }
+	static var ellipsisRectangleFill: SFSymbol { SFSymbol("ellipsis.rectangle.fill")! }
+	static var bag: SFSymbol { SFSymbol("bag")! }
+	static var bagFill: SFSymbol { SFSymbol("bag.fill")! }
+	static var bagCircle: SFSymbol { SFSymbol("bag.circle")! }
+	static var bagCircleFill: SFSymbol { SFSymbol("bag.circle.fill")! }
+	static var bagBadgePlus: SFSymbol { SFSymbol("bag.badge.plus")! }
+	static var bagFillBadgePlus: SFSymbol { SFSymbol("bag.fill.badge.plus")! }
+	static var bagBadgeMinus: SFSymbol { SFSymbol("bag.badge.minus")! }
+	static var bagFillBadgeMinus: SFSymbol { SFSymbol("bag.fill.badge.minus")! }
+	static var cart: SFSymbol { SFSymbol("cart")! }
+	static var cartFill: SFSymbol { SFSymbol("cart.fill")! }
+	static var cartBadgePlus: SFSymbol { SFSymbol("cart.badge.plus")! }
+	static var cartFillBadgePlus: SFSymbol { SFSymbol("cart.fill.badge.plus")! }
+	static var cartBadgeMinus: SFSymbol { SFSymbol("cart.badge.minus")! }
+	static var cartFillBadgeMinus: SFSymbol { SFSymbol("cart.fill.badge.minus")! }
+	static var creditcard: SFSymbol { SFSymbol("creditcard")! }
+	static var creditcardFill: SFSymbol { SFSymbol("creditcard.fill")! }
+	static var creditcardCircle: SFSymbol { SFSymbol("creditcard.circle")! }
+	static var creditcardCircleFill: SFSymbol { SFSymbol("creditcard.circle.fill")! }
+	static var giftcard: SFSymbol { SFSymbol("giftcard")! }
+	static var giftcardFill: SFSymbol { SFSymbol("giftcard.fill")! }
+	static var walletPass: SFSymbol { SFSymbol("wallet.pass")! }
+	static var walletPassFill: SFSymbol { SFSymbol("wallet.pass.fill")! }
+	static var wandAndRays: SFSymbol { SFSymbol("wand.and.rays")! }
+	static var wandAndRaysInverse: SFSymbol { SFSymbol("wand.and.rays.inverse")! }
+	static var wandAndStars: SFSymbol { SFSymbol("wand.and.stars")! }
+	static var wandAndStarsInverse: SFSymbol { SFSymbol("wand.and.stars.inverse")! }
+	static var crop: SFSymbol { SFSymbol("crop")! }
+	static var cropRotate: SFSymbol { SFSymbol("crop.rotate")! }
+	static var dialMin: SFSymbol { SFSymbol("dial.min")! }
+	static var dialMinFill: SFSymbol { SFSymbol("dial.min.fill")! }
+	static var dialMax: SFSymbol { SFSymbol("dial.max")! }
+	static var dialMaxFill: SFSymbol { SFSymbol("dial.max.fill")! }
+	static var gyroscope: SFSymbol { SFSymbol("gyroscope")! }
+	static var nosign: SFSymbol { SFSymbol("nosign")! }
+	static var gauge: SFSymbol { SFSymbol("gauge")! }
+	static var gaugeBadgePlus: SFSymbol { SFSymbol("gauge.badge.plus")! }
+	static var gaugeBadgeMinus: SFSymbol { SFSymbol("gauge.badge.minus")! }
+	static var speedometer: SFSymbol { SFSymbol("speedometer")! }
+	static var barometer: SFSymbol { SFSymbol("barometer")! }
 	static var metronome: SFSymbol { SFSymbol("metronome")! }
-	static var bandage: SFSymbol { SFSymbol("bandage")! }
-	static var bandageFill: SFSymbol { SFSymbol("bandage.fill")! }
+	static var metronomeFill: SFSymbol { SFSymbol("metronome.fill")! }
+	static var amplifier: SFSymbol { SFSymbol("amplifier")! }
+	static var dieFace1: SFSymbol { SFSymbol("die.face.1")! }
+	static var dieFace1Fill: SFSymbol { SFSymbol("die.face.1.fill")! }
+	static var dieFace2: SFSymbol { SFSymbol("die.face.2")! }
+	static var dieFace2Fill: SFSymbol { SFSymbol("die.face.2.fill")! }
+	static var dieFace3: SFSymbol { SFSymbol("die.face.3")! }
+	static var dieFace3Fill: SFSymbol { SFSymbol("die.face.3.fill")! }
+	static var dieFace4: SFSymbol { SFSymbol("die.face.4")! }
+	static var dieFace4Fill: SFSymbol { SFSymbol("die.face.4.fill")! }
+	static var dieFace5: SFSymbol { SFSymbol("die.face.5")! }
+	static var dieFace5Fill: SFSymbol { SFSymbol("die.face.5.fill")! }
+	static var dieFace6: SFSymbol { SFSymbol("die.face.6")! }
+	static var dieFace6Fill: SFSymbol { SFSymbol("die.face.6.fill")! }
+	static var squareGrid3x3FillSquare: SFSymbol { SFSymbol("square.grid.3x3.fill.square")! }
+	static var pianokeys: SFSymbol { SFSymbol("pianokeys")! }
 	static var tuningfork: SFSymbol { SFSymbol("tuningfork")! }
 	static var paintbrush: SFSymbol { SFSymbol("paintbrush")! }
 	static var paintbrushFill: SFSymbol { SFSymbol("paintbrush.fill")! }
+	static var paintbrushPointed: SFSymbol { SFSymbol("paintbrush.pointed")! }
+	static var paintbrushPointedFill: SFSymbol { SFSymbol("paintbrush.pointed.fill")! }
+	static var bandage: SFSymbol { SFSymbol("bandage")! }
+	static var bandageFill: SFSymbol { SFSymbol("bandage.fill")! }
+	static var ruler: SFSymbol { SFSymbol("ruler")! }
+	static var rulerFill: SFSymbol { SFSymbol("ruler.fill")! }
+	static var level: SFSymbol { SFSymbol("level")! }
+	static var levelFill: SFSymbol { SFSymbol("level.fill")! }
 	static var wrench: SFSymbol { SFSymbol("wrench")! }
 	static var wrenchFill: SFSymbol { SFSymbol("wrench.fill")! }
 	static var hammer: SFSymbol { SFSymbol("hammer")! }
@@ -762,24 +919,76 @@ public extension SFSymbol {
 	static var eyedropper: SFSymbol { SFSymbol("eyedropper")! }
 	static var eyedropperHalffull: SFSymbol { SFSymbol("eyedropper.halffull")! }
 	static var eyedropperFull: SFSymbol { SFSymbol("eyedropper.full")! }
+	static var wrenchAndScrewdriver: SFSymbol { SFSymbol("wrench.and.screwdriver")! }
+	static var wrenchAndScrewdriverFill: SFSymbol { SFSymbol("wrench.and.screwdriver.fill")! }
+	static var applescript: SFSymbol { SFSymbol("applescript")! }
+	static var applescriptFill: SFSymbol { SFSymbol("applescript.fill")! }
+	static var scroll: SFSymbol { SFSymbol("scroll")! }
+	static var scrollFill: SFSymbol { SFSymbol("scroll.fill")! }
+	static var stethoscope: SFSymbol { SFSymbol("stethoscope")! }
 	static var printer: SFSymbol { SFSymbol("printer")! }
 	static var printerFill: SFSymbol { SFSymbol("printer.fill")! }
+	static var printerFillAndPaperFill: SFSymbol { SFSymbol("printer.fill.and.paper.fill")! }
+	static var printerDotmatrix: SFSymbol { SFSymbol("printer.dotmatrix")! }
+	static var printerDotmatrixFill: SFSymbol { SFSymbol("printer.dotmatrix.fill")! }
+	static var printerDotmatrixFillAndPaperFill: SFSymbol { SFSymbol("printer.dotmatrix.fill.and.paper.fill")! }
+	static var scanner: SFSymbol { SFSymbol("scanner")! }
+	static var scannerFill: SFSymbol { SFSymbol("scanner.fill")! }
+	static var faxmachine: SFSymbol { SFSymbol("faxmachine")! }
+	static var briefcase: SFSymbol { SFSymbol("briefcase")! }
+	static var briefcaseFill: SFSymbol { SFSymbol("briefcase.fill")! }
+	static var `case`: SFSymbol { SFSymbol( "case")! }
+	static var caseFill: SFSymbol { SFSymbol("case.fill")! }
+	static var latch2Case: SFSymbol { SFSymbol("latch.2.case")! }
+	static var latch2CaseFill: SFSymbol { SFSymbol("latch.2.case.fill")! }
+	static var crossCase: SFSymbol { SFSymbol("cross.case")! }
+	static var crossCaseFill: SFSymbol { SFSymbol("cross.case.fill")! }
+	static var puzzlepiece: SFSymbol { SFSymbol("puzzlepiece")! }
+	static var puzzlepieceFill: SFSymbol { SFSymbol("puzzlepiece.fill")! }
+	static var homekit: SFSymbol { SFSymbol("homekit")! }
+	static var house: SFSymbol { SFSymbol("house")! }
+	static var houseFill: SFSymbol { SFSymbol("house.fill")! }
+	static var houseCircle: SFSymbol { SFSymbol("house.circle")! }
+	static var houseCircleFill: SFSymbol { SFSymbol("house.circle.fill")! }
+	static var musicNoteHouse: SFSymbol { SFSymbol("music.note.house")! }
+	static var musicNoteHouseFill: SFSymbol { SFSymbol("music.note.house.fill")! }
+	static var buildingColumns: SFSymbol { SFSymbol("building.columns")! }
+	static var buildingColumnsFill: SFSymbol { SFSymbol("building.columns.fill")! }
+	static var squareSplitBottomrightquarter: SFSymbol { SFSymbol("square.split.bottomrightquarter")! }
+	static var squareSplitBottomrightquarterFill: SFSymbol { SFSymbol("square.split.bottomrightquarter.fill")! }
+	static var building: SFSymbol { SFSymbol("building")! }
+	static var buildingFill: SFSymbol { SFSymbol("building.fill")! }
+	static var building2: SFSymbol { SFSymbol("building.2")! }
+	static var building2Fill: SFSymbol { SFSymbol("building.2.fill")! }
+	static var building2CropCircle: SFSymbol { SFSymbol("building.2.crop.circle")! }
+	static var building2CropCircleFill: SFSymbol { SFSymbol("building.2.crop.circle.fill")! }
 	static var lock: SFSymbol { SFSymbol("lock")! }
 	static var lockFill: SFSymbol { SFSymbol("lock.fill")! }
 	static var lockCircle: SFSymbol { SFSymbol("lock.circle")! }
 	static var lockCircleFill: SFSymbol { SFSymbol("lock.circle.fill")! }
+	static var lockSquare: SFSymbol { SFSymbol("lock.square")! }
+	static var lockSquareFill: SFSymbol { SFSymbol("lock.square.fill")! }
+	static var lockSquareStack: SFSymbol { SFSymbol("lock.square.stack")! }
+	static var lockSquareStackFill: SFSymbol { SFSymbol("lock.square.stack.fill")! }
+	static var lockRectangle: SFSymbol { SFSymbol("lock.rectangle")! }
+	static var lockRectangleFill: SFSymbol { SFSymbol("lock.rectangle.fill")! }
+	static var lockRectangleStack: SFSymbol { SFSymbol("lock.rectangle.stack")! }
+	static var lockRectangleStackFill: SFSymbol { SFSymbol("lock.rectangle.stack.fill")! }
+	static var lockRectangleOnRectangle: SFSymbol { SFSymbol("lock.rectangle.on.rectangle")! }
+	static var lockRectangleOnRectangleFill: SFSymbol { SFSymbol("lock.rectangle.on.rectangle.fill")! }
+	static var lockShield: SFSymbol { SFSymbol("lock.shield")! }
+	static var lockShieldFill: SFSymbol { SFSymbol("lock.shield.fill")! }
 	static var lockSlash: SFSymbol { SFSymbol("lock.slash")! }
 	static var lockSlashFill: SFSymbol { SFSymbol("lock.slash.fill")! }
 	static var lockOpen: SFSymbol { SFSymbol("lock.open")! }
 	static var lockOpenFill: SFSymbol { SFSymbol("lock.open.fill")! }
 	static var lockRotation: SFSymbol { SFSymbol("lock.rotation")! }
 	static var lockRotationOpen: SFSymbol { SFSymbol("lock.rotation.open")! }
+	static var key: SFSymbol { SFSymbol("key")! }
+	static var keyFill: SFSymbol { SFSymbol("key.fill")! }
 	static var wifi: SFSymbol { SFSymbol("wifi")! }
 	static var wifiSlash: SFSymbol { SFSymbol("wifi.slash")! }
 	static var wifiExclamationmark: SFSymbol { SFSymbol("wifi.exclamationmark")! }
-	static var battery100: SFSymbol { SFSymbol("battery.100")! }
-	static var battery25: SFSymbol { SFSymbol("battery.25")! }
-	static var battery0: SFSymbol { SFSymbol("battery.0")! }
 	static var pin: SFSymbol { SFSymbol("pin")! }
 	static var pinFill: SFSymbol { SFSymbol("pin.fill")! }
 	static var pinCircle: SFSymbol { SFSymbol("pin.circle")! }
@@ -795,70 +1004,272 @@ public extension SFSymbol {
 	static var mapFill: SFSymbol { SFSymbol("map.fill")! }
 	static var safari: SFSymbol { SFSymbol("safari")! }
 	static var safariFill: SFSymbol { SFSymbol("safari.fill")! }
+	static var move3d: SFSymbol { SFSymbol("move.3d")! }
+	static var scale3d: SFSymbol { SFSymbol("scale.3d")! }
+	static var rotate3d: SFSymbol { SFSymbol("rotate.3d")! }
 	static var rotateLeft: SFSymbol { SFSymbol("rotate.left")! }
 	static var rotateLeftFill: SFSymbol { SFSymbol("rotate.left.fill")! }
 	static var rotateRight: SFSymbol { SFSymbol("rotate.right")! }
 	static var rotateRightFill: SFSymbol { SFSymbol("rotate.right.fill")! }
-	static var flipHorizontal: SFSymbol { SFSymbol("flip.horizontal")! }
-	static var flipHorizontalFill: SFSymbol { SFSymbol("flip.horizontal.fill")! }
-	static var table: SFSymbol { SFSymbol("table")! }
-	static var tableFill: SFSymbol { SFSymbol("table.fill")! }
-	static var tableBadgeMore: SFSymbol { SFSymbol("table.badge.more")! }
-	static var tableBadgeMoreFill: SFSymbol { SFSymbol("table.badge.more.fill")! }
-	static var airplayvideo: SFSymbol { SFSymbol("airplayvideo")! }
-	static var airplayaudio: SFSymbol { SFSymbol("airplayaudio")! }
-	static var squareStack: SFSymbol { SFSymbol("square.stack")! }
-	static var squareStackFill: SFSymbol { SFSymbol("square.stack.fill")! }
-	static var person2SquareStack: SFSymbol { SFSymbol("person.2.square.stack")! }
-	static var person2SquareStackFill: SFSymbol { SFSymbol("person.2.square.stack.fill")! }
-	static var musicNote: SFSymbol { SFSymbol("music.note")! }
-	static var musicMic: SFSymbol { SFSymbol("music.mic")! }
-	static var musicNoteList: SFSymbol { SFSymbol("music.note.list")! }
-	static var guitars: SFSymbol { SFSymbol("guitars")! }
-	static var hifispeaker: SFSymbol { SFSymbol("hifispeaker")! }
-	static var hifispeakerFill: SFSymbol { SFSymbol("hifispeaker.fill")! }
+	static var selectionPinInOut: SFSymbol { SFSymbol("selection.pin.in.out")! }
+	static var timelineSelection: SFSymbol { SFSymbol("timeline.selection")! }
+	static var cpu: SFSymbol { SFSymbol("cpu")! }
+	static var memorychip: SFSymbol { SFSymbol("memorychip")! }
+	static var opticaldisc: SFSymbol { SFSymbol("opticaldisc")! }
 	static var tv: SFSymbol { SFSymbol("tv")! }
 	static var tvFill: SFSymbol { SFSymbol("tv.fill")! }
 	static var tvCircle: SFSymbol { SFSymbol("tv.circle")! }
 	static var tvCircleFill: SFSymbol { SFSymbol("tv.circle.fill")! }
+	static var number4kTv: SFSymbol { SFSymbol("4k.tv")! }
+	static var number4kTvFill: SFSymbol { SFSymbol("4k.tv.fill")! }
 	static var tvMusicNote: SFSymbol { SFSymbol("tv.music.note")! }
 	static var tvMusicNoteFill: SFSymbol { SFSymbol("tv.music.note.fill")! }
+	static var tvAndHifispeakerFill: SFSymbol { SFSymbol("tv.and.hifispeaker.fill")! }
+	static var display: SFSymbol { SFSymbol("display")! }
+	static var displayTrianglebadgeExclamationmark: SFSymbol { SFSymbol("display.trianglebadge.exclamationmark")! }
+	static var display2: SFSymbol { SFSymbol("display.2")! }
+	static var desktopcomputer: SFSymbol { SFSymbol("desktopcomputer")! }
+	static var pc: SFSymbol { SFSymbol("pc")! }
+	static var macproGen1: SFSymbol { SFSymbol("macpro.gen1")! }
+	static var macproGen2: SFSymbol { SFSymbol("macpro.gen2")! }
+	static var macproGen2Fill: SFSymbol { SFSymbol("macpro.gen2.fill")! }
+	static var macproGen3: SFSymbol { SFSymbol("macpro.gen3")! }
+	static var serverRack: SFSymbol { SFSymbol("server.rack")! }
+	static var xserve: SFSymbol { SFSymbol("xserve")! }
+	static var macproGen3Server: SFSymbol { SFSymbol("macpro.gen3.server")! }
+	static var laptopcomputer: SFSymbol { SFSymbol("laptopcomputer")! }
+	static var laptopcomputerAndIphone: SFSymbol { SFSymbol("laptopcomputer.and.iphone")! }
+	static var macmini: SFSymbol { SFSymbol("macmini")! }
+	static var macminiFill: SFSymbol { SFSymbol("macmini.fill")! }
+	static var airportExpress: SFSymbol { SFSymbol("airport.express")! }
+	static var airportExtremeTower: SFSymbol { SFSymbol("airport.extreme.tower")! }
+	static var airportExtreme: SFSymbol { SFSymbol("airport.extreme")! }
+	static var ipod: SFSymbol { SFSymbol("ipod")! }
+	static var flipphone: SFSymbol { SFSymbol("flipphone")! }
+	static var candybarphone: SFSymbol { SFSymbol("candybarphone")! }
+	static var iphoneHomebutton: SFSymbol { SFSymbol("iphone.homebutton")! }
+	static var iphoneHomebuttonRadiowavesLeftAndRight: SFSymbol { SFSymbol("iphone.homebutton.radiowaves.left.and.right")! }
+	static var iphoneHomebuttonSlash: SFSymbol { SFSymbol("iphone.homebutton.slash")! }
+	static var iphone: SFSymbol { SFSymbol("iphone")! }
+	static var iphoneRadiowavesLeftAndRight: SFSymbol { SFSymbol("iphone.radiowaves.left.and.right")! }
+	static var iphoneSlash: SFSymbol { SFSymbol("iphone.slash")! }
+	static var arrowTurnUpRightIphone: SFSymbol { SFSymbol("arrow.turn.up.right.iphone")! }
+	static var arrowTurnUpRightIphoneFill: SFSymbol { SFSymbol("arrow.turn.up.right.iphone.fill")! }
+	static var appsIphone: SFSymbol { SFSymbol("apps.iphone")! }
+	static var appsIphoneBadgePlus: SFSymbol { SFSymbol("apps.iphone.badge.plus")! }
+	static var appsIphoneLandscape: SFSymbol { SFSymbol("apps.iphone.landscape")! }
+	static var ipodtouch: SFSymbol { SFSymbol("ipodtouch")! }
+	static var ipodshuffleGen1: SFSymbol { SFSymbol("ipodshuffle.gen1")! }
+	static var ipodshuffleGen2: SFSymbol { SFSymbol("ipodshuffle.gen2")! }
+	static var ipodshuffleGen3: SFSymbol { SFSymbol("ipodshuffle.gen3")! }
+	static var ipodshuffleGen4: SFSymbol { SFSymbol("ipodshuffle.gen4")! }
+	static var ipadHomebutton: SFSymbol { SFSymbol("ipad.homebutton")! }
+	static var ipad: SFSymbol { SFSymbol("ipad")! }
+	static var appsIpad: SFSymbol { SFSymbol("apps.ipad")! }
+	static var ipadHomebuttonLandscape: SFSymbol { SFSymbol("ipad.homebutton.landscape")! }
+	static var ipadLandscape: SFSymbol { SFSymbol("ipad.landscape")! }
+	static var appsIpadLandscape: SFSymbol { SFSymbol("apps.ipad.landscape")! }
+	static var applewatch: SFSymbol { SFSymbol("applewatch")! }
+	static var applewatchWatchface: SFSymbol { SFSymbol("applewatch.watchface")! }
+	static var applewatchRadiowavesLeftAndRight: SFSymbol { SFSymbol("applewatch.radiowaves.left.and.right")! }
+	static var applewatchSlash: SFSymbol { SFSymbol("applewatch.slash")! }
+	static var airpods: SFSymbol { SFSymbol("airpods")! }
+	static var earpods: SFSymbol { SFSymbol("earpods")! }
+	static var airpodspro: SFSymbol { SFSymbol("airpodspro")! }
+	static var homepod: SFSymbol { SFSymbol("homepod")! }
+	static var homepodFill: SFSymbol { SFSymbol("homepod.fill")! }
+	static var hifispeaker: SFSymbol { SFSymbol("hifispeaker")! }
+	static var hifispeakerFill: SFSymbol { SFSymbol("hifispeaker.fill")! }
+	static var radio: SFSymbol { SFSymbol("radio")! }
+	static var radioFill: SFSymbol { SFSymbol("radio.fill")! }
+	static var appletv: SFSymbol { SFSymbol("appletv")! }
+	static var appletvFill: SFSymbol { SFSymbol("appletv.fill")! }
+	static var signpostRight: SFSymbol { SFSymbol("signpost.right")! }
+	static var signpostRightFill: SFSymbol { SFSymbol("signpost.right.fill")! }
+	static var airplayvideo: SFSymbol { SFSymbol("airplayvideo")! }
+	static var airplayaudio: SFSymbol { SFSymbol("airplayaudio")! }
+	static var dotRadiowavesLeftAndRight: SFSymbol { SFSymbol("dot.radiowaves.left.and.right")! }
+	static var dotRadiowavesRight: SFSymbol { SFSymbol("dot.radiowaves.right")! }
+	static var wave3Left: SFSymbol { SFSymbol("wave.3.left")! }
+	static var wave3LeftCircle: SFSymbol { SFSymbol("wave.3.left.circle")! }
+	static var wave3LeftCircleFill: SFSymbol { SFSymbol("wave.3.left.circle.fill")! }
+	static var wave3Right: SFSymbol { SFSymbol("wave.3.right")! }
+	static var wave3RightCircle: SFSymbol { SFSymbol("wave.3.right.circle")! }
+	static var wave3RightCircleFill: SFSymbol { SFSymbol("wave.3.right.circle.fill")! }
+	static var antennaRadiowavesLeftAndRight: SFSymbol { SFSymbol("antenna.radiowaves.left.and.right")! }
+	static var pip: SFSymbol { SFSymbol("pip")! }
+	static var pipFill: SFSymbol { SFSymbol("pip.fill")! }
+	static var pipExit: SFSymbol { SFSymbol("pip.exit")! }
+	static var pipEnter: SFSymbol { SFSymbol("pip.enter")! }
+	static var pipSwap: SFSymbol { SFSymbol("pip.swap")! }
+	static var pipRemove: SFSymbol { SFSymbol("pip.remove")! }
+	static var rectangleArrowtriangle2Outward: SFSymbol { SFSymbol("rectangle.arrowtriangle.2.outward")! }
+	static var rectangleArrowtriangle2Inward: SFSymbol { SFSymbol("rectangle.arrowtriangle.2.inward")! }
+	static var rectanglePortraitArrowtriangle2Outward: SFSymbol { SFSymbol("rectangle.portrait.arrowtriangle.2.outward")! }
+	static var rectanglePortraitArrowtriangle2Inward: SFSymbol { SFSymbol("rectangle.portrait.arrowtriangle.2.inward")! }
+	static var guitars: SFSymbol { SFSymbol("guitars")! }
+	static var guitarsFill: SFSymbol { SFSymbol("guitars.fill")! }
+	static var car: SFSymbol { SFSymbol("car")! }
+	static var carFill: SFSymbol { SFSymbol("car.fill")! }
+	static var carCircle: SFSymbol { SFSymbol("car.circle")! }
+	static var carCircleFill: SFSymbol { SFSymbol("car.circle.fill")! }
+	static var boltCar: SFSymbol { SFSymbol("bolt.car")! }
+	static var boltCarFill: SFSymbol { SFSymbol("bolt.car.fill")! }
+	static var car2: SFSymbol { SFSymbol("car.2")! }
+	static var car2Fill: SFSymbol { SFSymbol("car.2.fill")! }
+	static var bus: SFSymbol { SFSymbol("bus")! }
+	static var busFill: SFSymbol { SFSymbol("bus.fill")! }
+	static var busDoubledecker: SFSymbol { SFSymbol("bus.doubledecker")! }
+	static var busDoubledeckerFill: SFSymbol { SFSymbol("bus.doubledecker.fill")! }
+	static var tram: SFSymbol { SFSymbol("tram")! }
+	static var tramFill: SFSymbol { SFSymbol("tram.fill")! }
+	static var tramTunnelFill: SFSymbol { SFSymbol("tram.tunnel.fill")! }
+	static var bicycle: SFSymbol { SFSymbol("bicycle")! }
+	static var bedDouble: SFSymbol { SFSymbol("bed.double")! }
+	static var bedDoubleFill: SFSymbol { SFSymbol("bed.double.fill")! }
+	static var lungs: SFSymbol { SFSymbol("lungs")! }
+	static var lungsFill: SFSymbol { SFSymbol("lungs.fill")! }
+	static var pills: SFSymbol { SFSymbol("pills")! }
+	static var pillsFill: SFSymbol { SFSymbol("pills.fill")! }
+	static var cross: SFSymbol { SFSymbol("cross")! }
+	static var crossFill: SFSymbol { SFSymbol("cross.fill")! }
+	static var crossCircle: SFSymbol { SFSymbol("cross.circle")! }
+	static var crossCircleFill: SFSymbol { SFSymbol("cross.circle.fill")! }
+	static var hare: SFSymbol { SFSymbol("hare")! }
+	static var hareFill: SFSymbol { SFSymbol("hare.fill")! }
+	static var tortoise: SFSymbol { SFSymbol("tortoise")! }
+	static var tortoiseFill: SFSymbol { SFSymbol("tortoise.fill")! }
+	static var ant: SFSymbol { SFSymbol("ant")! }
+	static var antFill: SFSymbol { SFSymbol("ant.fill")! }
+	static var antCircle: SFSymbol { SFSymbol("ant.circle")! }
+	static var antCircleFill: SFSymbol { SFSymbol("ant.circle.fill")! }
+	static var leaf: SFSymbol { SFSymbol("leaf")! }
+	static var leafFill: SFSymbol { SFSymbol("leaf.fill")! }
+	static var leafArrowTriangleCirclepath: SFSymbol { SFSymbol("leaf.arrow.triangle.circlepath")! }
 	static var film: SFSymbol { SFSymbol("film")! }
 	static var filmFill: SFSymbol { SFSymbol("film.fill")! }
 	static var sportscourt: SFSymbol { SFSymbol("sportscourt")! }
 	static var sportscourtFill: SFSymbol { SFSymbol("sportscourt.fill")! }
-	static var smiley: SFSymbol { SFSymbol("smiley")! }
-	static var smileyFill: SFSymbol { SFSymbol("smiley.fill")! }
-	static var memories: SFSymbol { SFSymbol("memories")! }
-	static var memoriesBadgePlus: SFSymbol { SFSymbol("memories.badge.plus")! }
-	static var memoriesBadgeMinus: SFSymbol { SFSymbol("memories.badge.minus")! }
-	static var airplane: SFSymbol { SFSymbol("airplane")! }
-	static var staroflife: SFSymbol { SFSymbol("staroflife")! }
-	static var staroflifeFill: SFSymbol { SFSymbol("staroflife.fill")! }
-	static var rectangle: SFSymbol { SFSymbol("rectangle")! }
-	static var rectangleFill: SFSymbol { SFSymbol("rectangle.fill")! }
-	static var plusRectangle: SFSymbol { SFSymbol("plus.rectangle")! }
-	static var plusRectangleFill: SFSymbol { SFSymbol("plus.rectangle.fill")! }
-	static var minusRectangle: SFSymbol { SFSymbol("minus.rectangle")! }
-	static var minusRectangleFill: SFSymbol { SFSymbol("minus.rectangle.fill")! }
-	static var checkmarkRectangle: SFSymbol { SFSymbol("checkmark.rectangle")! }
-	static var checkmarkRectangleFill: SFSymbol { SFSymbol("checkmark.rectangle.fill")! }
-	static var xmarkRectangle: SFSymbol { SFSymbol("xmark.rectangle")! }
-	static var xmarkRectangleFill: SFSymbol { SFSymbol("xmark.rectangle.fill")! }
+	static var faceSmiling: SFSymbol { SFSymbol("face.smiling")! }
+	static var faceSmilingFill: SFSymbol { SFSymbol("face.smiling.fill")! }
+	static var faceDashed: SFSymbol { SFSymbol("face.dashed")! }
+	static var faceDashedFill: SFSymbol { SFSymbol("face.dashed.fill")! }
+	static var crown: SFSymbol { SFSymbol("crown")! }
+	static var crownFill: SFSymbol { SFSymbol("crown.fill")! }
+	static var comb: SFSymbol { SFSymbol("comb")! }
+	static var combFill: SFSymbol { SFSymbol("comb.fill")! }
+	static var qrcode: SFSymbol { SFSymbol("qrcode")! }
+	static var barcode: SFSymbol { SFSymbol("barcode")! }
+	static var viewfinder: SFSymbol { SFSymbol("viewfinder")! }
+	static var viewfinderCircle: SFSymbol { SFSymbol("viewfinder.circle")! }
+	static var viewfinderCircleFill: SFSymbol { SFSymbol("viewfinder.circle.fill")! }
+	static var barcodeViewfinder: SFSymbol { SFSymbol("barcode.viewfinder")! }
+	static var qrcodeViewfinder: SFSymbol { SFSymbol("qrcode.viewfinder")! }
+	static var plusViewfinder: SFSymbol { SFSymbol("plus.viewfinder")! }
+	static var cameraViewfinder: SFSymbol { SFSymbol("camera.viewfinder")! }
+	static var faceid: SFSymbol { SFSymbol("faceid")! }
+	static var docTextViewfinder: SFSymbol { SFSymbol("doc.text.viewfinder")! }
+	static var docTextFillViewfinder: SFSymbol { SFSymbol("doc.text.fill.viewfinder")! }
+	static var locationViewfinder: SFSymbol { SFSymbol("location.viewfinder")! }
+	static var locationFillViewfinder: SFSymbol { SFSymbol("location.fill.viewfinder")! }
+	static var rectangleInsetFill: SFSymbol { SFSymbol("rectangle.inset.fill")! }
+	static var rectangleLefthalfInsetFill: SFSymbol { SFSymbol("rectangle.lefthalf.inset.fill")! }
+	static var rectangleRighthalfInsetFill: SFSymbol { SFSymbol("rectangle.righthalf.inset.fill")! }
+	static var rectangleBottomthirdInsetFill: SFSymbol { SFSymbol("rectangle.bottomthird.inset.fill")! }
+	static var rectangleLeftthirdInsetFill: SFSymbol { SFSymbol("rectangle.leftthird.inset.fill")! }
+	static var rectangleRightthirdInsetFill: SFSymbol { SFSymbol("rectangle.rightthird.inset.fill")! }
+	static var rectangleCenterInsetFill: SFSymbol { SFSymbol("rectangle.center.inset.fill")! }
+	static var rectangleInsetTopleftFill: SFSymbol { SFSymbol("rectangle.inset.topleft.fill")! }
+	static var rectangleInsetToprightFill: SFSymbol { SFSymbol("rectangle.inset.topright.fill")! }
+	static var rectangleInsetBottomleftFill: SFSymbol { SFSymbol("rectangle.inset.bottomleft.fill")! }
+	static var rectangleInsetBottomrightFill: SFSymbol { SFSymbol("rectangle.inset.bottomright.fill")! }
+	static var rectangleLefthalfInsetFillArrowLeft: SFSymbol { SFSymbol("rectangle.lefthalf.inset.fill.arrow.left")! }
+	static var rectangleRighthalfInsetFillArrowRight: SFSymbol { SFSymbol("rectangle.righthalf.inset.fill.arrow.right")! }
+	static var rectangleLefthalfFill: SFSymbol { SFSymbol("rectangle.lefthalf.fill")! }
+	static var rectangleRighthalfFill: SFSymbol { SFSymbol("rectangle.righthalf.fill")! }
+	static var personCropRectangle: SFSymbol { SFSymbol("person.crop.rectangle")! }
+	static var personCropRectangleFill: SFSymbol { SFSymbol("person.crop.rectangle.fill")! }
+	static var arrowUpAndPersonRectanglePortrait: SFSymbol { SFSymbol("arrow.up.and.person.rectangle.portrait")! }
+	static var arrowUpAndPersonRectangleTurnRight: SFSymbol { SFSymbol("arrow.up.and.person.rectangle.turn.right")! }
+	static var arrowUpAndPersonRectangleTurnLeft: SFSymbol { SFSymbol("arrow.up.and.person.rectangle.turn.left")! }
+	static var photo: SFSymbol { SFSymbol("photo")! }
+	static var photoFill: SFSymbol { SFSymbol("photo.fill")! }
+	static var checkerboardRectangle: SFSymbol { SFSymbol("checkerboard.rectangle")! }
+	static var cameraMeteringCenterWeightedAverage: SFSymbol { SFSymbol("camera.metering.center.weighted.average")! }
+	static var cameraMeteringCenterWeighted: SFSymbol { SFSymbol("camera.metering.center.weighted")! }
+	static var cameraMeteringMatrix: SFSymbol { SFSymbol("camera.metering.matrix")! }
+	static var cameraMeteringMultispot: SFSymbol { SFSymbol("camera.metering.multispot")! }
+	static var cameraMeteringNone: SFSymbol { SFSymbol("camera.metering.none")! }
+	static var cameraMeteringPartial: SFSymbol { SFSymbol("camera.metering.partial")! }
+	static var cameraMeteringSpot: SFSymbol { SFSymbol("camera.metering.spot")! }
+	static var cameraMeteringUnknown: SFSymbol { SFSymbol("camera.metering.unknown")! }
+	static var cameraAperture: SFSymbol { SFSymbol("camera.aperture")! }
+	static var rectangleDashed: SFSymbol { SFSymbol("rectangle.dashed")! }
+	static var rectangleDashedBadgeRecord: SFSymbol { SFSymbol("rectangle.dashed.badge.record")! }
+	static var rectangleBadgePlus: SFSymbol { SFSymbol("rectangle.badge.plus")! }
+	static var rectangleFillBadgePlus: SFSymbol { SFSymbol("rectangle.fill.badge.plus")! }
+	static var rectangleBadgeMinus: SFSymbol { SFSymbol("rectangle.badge.minus")! }
+	static var rectangleFillBadgeMinus: SFSymbol { SFSymbol("rectangle.fill.badge.minus")! }
 	static var rectangleBadgeCheckmark: SFSymbol { SFSymbol("rectangle.badge.checkmark")! }
 	static var rectangleFillBadgeCheckmark: SFSymbol { SFSymbol("rectangle.fill.badge.checkmark")! }
 	static var rectangleBadgeXmark: SFSymbol { SFSymbol("rectangle.badge.xmark")! }
 	static var rectangleFillBadgeXmark: SFSymbol { SFSymbol("rectangle.fill.badge.xmark")! }
-	static var photo: SFSymbol { SFSymbol("photo")! }
-	static var photoFill: SFSymbol { SFSymbol("photo.fill")! }
-	static var personCropRectangle: SFSymbol { SFSymbol("person.crop.rectangle")! }
-	static var personCropRectangleFill: SFSymbol { SFSymbol("person.crop.rectangle.fill")! }
+	static var sidebarLeft: SFSymbol { SFSymbol("sidebar.left")! }
+	static var sidebarRight: SFSymbol { SFSymbol("sidebar.right")! }
+	static var macwindow: SFSymbol { SFSymbol("macwindow")! }
+	static var macwindowBadgePlus: SFSymbol { SFSymbol("macwindow.badge.plus")! }
+	static var dockRectangle: SFSymbol { SFSymbol("dock.rectangle")! }
+	static var dockArrowUpRectangle: SFSymbol { SFSymbol("dock.arrow.up.rectangle")! }
+	static var dockArrowDownRectangle: SFSymbol { SFSymbol("dock.arrow.down.rectangle")! }
+	static var menubarRectangle: SFSymbol { SFSymbol("menubar.rectangle")! }
+	static var menubarDockRectangle: SFSymbol { SFSymbol("menubar.dock.rectangle")! }
+	static var menubarDockRectangleBadgeRecord: SFSymbol { SFSymbol("menubar.dock.rectangle.badge.record")! }
+	static var menubarArrowUpRectangle: SFSymbol { SFSymbol("menubar.arrow.up.rectangle")! }
+	static var menubarArrowDownRectangle: SFSymbol { SFSymbol("menubar.arrow.down.rectangle")! }
+	static var macwindowOnRectangle: SFSymbol { SFSymbol("macwindow.on.rectangle")! }
+	static var textAndCommandMacwindow: SFSymbol { SFSymbol("text.and.command.macwindow")! }
+	static var keyboardMacwindow: SFSymbol { SFSymbol("keyboard.macwindow")! }
+	static var uiwindowSplit2x1: SFSymbol { SFSymbol("uiwindow.split.2x1")! }
+	static var rectangleSplit3x1: SFSymbol { SFSymbol("rectangle.split.3x1")! }
+	static var rectangleSplit3x1Fill: SFSymbol { SFSymbol("rectangle.split.3x1.fill")! }
+	static var squareSplit2x1: SFSymbol { SFSymbol("square.split.2x1")! }
+	static var squareSplit2x1Fill: SFSymbol { SFSymbol("square.split.2x1.fill")! }
+	static var squareSplit1x2: SFSymbol { SFSymbol("square.split.1x2")! }
+	static var squareSplit1x2Fill: SFSymbol { SFSymbol("square.split.1x2.fill")! }
+	static var squareSplit2x2: SFSymbol { SFSymbol("square.split.2x2")! }
+	static var squareSplit2x2Fill: SFSymbol { SFSymbol("square.split.2x2.fill")! }
+	static var squareSplitDiagonal2x2: SFSymbol { SFSymbol("square.split.diagonal.2x2")! }
+	static var squareSplitDiagonal2x2Fill: SFSymbol { SFSymbol("square.split.diagonal.2x2.fill")! }
+	static var squareSplitDiagonal: SFSymbol { SFSymbol("square.split.diagonal")! }
+	static var squareSplitDiagonalFill: SFSymbol { SFSymbol("square.split.diagonal.fill")! }
+	static var mosaic: SFSymbol { SFSymbol("mosaic")! }
+	static var mosaicFill: SFSymbol { SFSymbol("mosaic.fill")! }
+	static var squaresBelowRectangle: SFSymbol { SFSymbol("squares.below.rectangle")! }
+	static var rectangleSplit3x3: SFSymbol { SFSymbol("rectangle.split.3x3")! }
+	static var rectangleSplit3x3Fill: SFSymbol { SFSymbol("rectangle.split.3x3.fill")! }
+	static var rectangleSplit2x1: SFSymbol { SFSymbol("rectangle.split.2x1")! }
+	static var rectangleSplit2x1Fill: SFSymbol { SFSymbol("rectangle.split.2x1.fill")! }
+	static var rectangleSplit1x2: SFSymbol { SFSymbol("rectangle.split.1x2")! }
+	static var rectangleSplit1x2Fill: SFSymbol { SFSymbol("rectangle.split.1x2.fill")! }
+	static var rectangleSplit2x2: SFSymbol { SFSymbol("rectangle.split.2x2")! }
+	static var rectangleSplit2x2Fill: SFSymbol { SFSymbol("rectangle.split.2x2.fill")! }
+	static var tablecells: SFSymbol { SFSymbol("tablecells")! }
+	static var tablecellsFill: SFSymbol { SFSymbol("tablecells.fill")! }
+	static var tablecellsBadgeEllipsis: SFSymbol { SFSymbol("tablecells.badge.ellipsis")! }
+	static var tablecellsBadgeEllipsisFill: SFSymbol { SFSymbol("tablecells.badge.ellipsis.fill")! }
 	static var rectangleOnRectangle: SFSymbol { SFSymbol("rectangle.on.rectangle")! }
 	static var rectangleFillOnRectangleFill: SFSymbol { SFSymbol("rectangle.fill.on.rectangle.fill")! }
+	static var rectangleFillOnRectangleFillCircle: SFSymbol { SFSymbol("rectangle.fill.on.rectangle.fill.circle")! }
+	static var rectangleFillOnRectangleFillCircleFill: SFSymbol { SFSymbol("rectangle.fill.on.rectangle.fill.circle.fill")! }
+	static var rectangleOnRectangleSlash: SFSymbol { SFSymbol("rectangle.on.rectangle.slash")! }
+	static var rectangleFillOnRectangleFillSlashFill: SFSymbol { SFSymbol("rectangle.fill.on.rectangle.fill.slash.fill")! }
 	static var plusRectangleOnRectangle: SFSymbol { SFSymbol("plus.rectangle.on.rectangle")! }
 	static var plusRectangleFillOnRectangleFill: SFSymbol { SFSymbol("plus.rectangle.fill.on.rectangle.fill")! }
 	static var photoOnRectangle: SFSymbol { SFSymbol("photo.on.rectangle")! }
 	static var photoFillOnRectangleFill: SFSymbol { SFSymbol("photo.fill.on.rectangle.fill")! }
+	static var rectangleOnRectangleAngled: SFSymbol { SFSymbol("rectangle.on.rectangle.angled")! }
+	static var rectangleFillOnRectangleAngledFill: SFSymbol { SFSymbol("rectangle.fill.on.rectangle.angled.fill")! }
+	static var photoOnRectangleAngled: SFSymbol { SFSymbol("photo.on.rectangle.angled")! }
 	static var rectangleStack: SFSymbol { SFSymbol("rectangle.stack")! }
 	static var rectangleStackFill: SFSymbol { SFSymbol("rectangle.stack.fill")! }
 	static var rectangleStackBadgePlus: SFSymbol { SFSymbol("rectangle.stack.badge.plus")! }
@@ -867,174 +1278,490 @@ public extension SFSymbol {
 	static var rectangleStackFillBadgeMinus: SFSymbol { SFSymbol("rectangle.stack.fill.badge.minus")! }
 	static var rectangleStackBadgePersonCrop: SFSymbol { SFSymbol("rectangle.stack.badge.person.crop")! }
 	static var rectangleStackFillBadgePersonCrop: SFSymbol { SFSymbol("rectangle.stack.fill.badge.person.crop")! }
-	static var rectangleStackPersonCrop: SFSymbol { SFSymbol("rectangle.stack.person.crop")! }
-	static var rectangleStackPersonCropFill: SFSymbol { SFSymbol("rectangle.stack.person.crop.fill")! }
-	static var rectangleOnRectangleAngled: SFSymbol { SFSymbol("rectangle.on.rectangle.angled")! }
-	static var rectangleFillOnRectangleAngledFill: SFSymbol { SFSymbol("rectangle.fill.on.rectangle.angled.fill")! }
-	static var sidebarLeft: SFSymbol { SFSymbol("sidebar.left")! }
-	static var sidebarRight: SFSymbol { SFSymbol("sidebar.right")! }
-	static var squaresBelowRectangle: SFSymbol { SFSymbol("squares.below.rectangle")! }
+	static var rSquareOnSquare: SFSymbol { SFSymbol("r.square.on.square")! }
+	static var rSquareFillOnSquareFill: SFSymbol { SFSymbol("r.square.fill.on.square.fill")! }
+	static var jSquareOnSquare: SFSymbol { SFSymbol("j.square.on.square")! }
+	static var jSquareFillOnSquareFill: SFSymbol { SFSymbol("j.square.fill.on.square.fill")! }
+	static var hSquareOnSquare: SFSymbol { SFSymbol("h.square.on.square")! }
+	static var hSquareFillOnSquareFill: SFSymbol { SFSymbol("h.square.fill.on.square.fill")! }
 	static var squareOnSquare: SFSymbol { SFSymbol("square.on.square")! }
 	static var squareFillOnSquareFill: SFSymbol { SFSymbol("square.fill.on.square.fill")! }
+	static var squareOnSquareDashed: SFSymbol { SFSymbol("square.on.square.dashed")! }
 	static var plusSquareOnSquare: SFSymbol { SFSymbol("plus.square.on.square")! }
 	static var plusSquareFillOnSquareFill: SFSymbol { SFSymbol("plus.square.fill.on.square.fill")! }
 	static var squareOnCircle: SFSymbol { SFSymbol("square.on.circle")! }
 	static var squareFillOnCircleFill: SFSymbol { SFSymbol("square.fill.on.circle.fill")! }
+	static var squareOnSquareSquareshapeControlhandles: SFSymbol { SFSymbol("square.on.square.squareshape.controlhandles")! }
+	static var squareshapeControlhandlesOnSquareshapeControlhandles: SFSymbol { SFSymbol("squareshape.controlhandles.on.squareshape.controlhandles")! }
+	static var squareStack: SFSymbol { SFSymbol("square.stack")! }
+	static var squareStackFill: SFSymbol { SFSymbol("square.stack.fill")! }
+	static var pano: SFSymbol { SFSymbol("pano")! }
+	static var panoFill: SFSymbol { SFSymbol("pano.fill")! }
 	static var squareAndLineVerticalAndSquare: SFSymbol { SFSymbol("square.and.line.vertical.and.square")! }
 	static var squareFillAndLineVerticalSquareFill: SFSymbol { SFSymbol("square.fill.and.line.vertical.square.fill")! }
 	static var squareFillAndLineVerticalAndSquare: SFSymbol { SFSymbol("square.fill.and.line.vertical.and.square")! }
 	static var squareAndLineVerticalAndSquareFill: SFSymbol { SFSymbol("square.and.line.vertical.and.square.fill")! }
-	static var hexagon: SFSymbol { SFSymbol("hexagon")! }
-	static var hexagonFill: SFSymbol { SFSymbol("hexagon.fill")! }
-	static var cube: SFSymbol { SFSymbol("cube")! }
-	static var cubeFill: SFSymbol { SFSymbol("cube.fill")! }
-	static var cubeBox: SFSymbol { SFSymbol("cube.box")! }
-	static var cubeBoxFill: SFSymbol { SFSymbol("cube.box.fill")! }
-	static var arkit: SFSymbol { SFSymbol("arkit")! }
-	static var squareStack3DDownRight: SFSymbol { SFSymbol("square.stack.3d.down.right")! }
-	static var squareStack3DDownRightFill: SFSymbol { SFSymbol("square.stack.3d.down.right.fill")! }
-	static var squareStack3DUp: SFSymbol { SFSymbol("square.stack.3d.up")! }
-	static var squareStack3DUpFill: SFSymbol { SFSymbol("square.stack.3d.up.fill")! }
-	static var squareStack3DUpSlash: SFSymbol { SFSymbol("square.stack.3d.up.slash")! }
-	static var squareStack3DUpSlashFill: SFSymbol { SFSymbol("square.stack.3d.up.slash.fill")! }
-	static var squareStack3DDownDottedline: SFSymbol { SFSymbol("square.stack.3d.down.dottedline")! }
-	static var livephoto: SFSymbol { SFSymbol("livephoto")! }
-	static var livephotoSlash: SFSymbol { SFSymbol("livephoto.slash")! }
-	static var livephotoPlay: SFSymbol { SFSymbol("livephoto.play")! }
-	static var pano: SFSymbol { SFSymbol("pano")! }
-	static var panoFill: SFSymbol { SFSymbol("pano.fill")! }
-	static var capsule: SFSymbol { SFSymbol("capsule")! }
-	static var capsuleFill: SFSymbol { SFSymbol("capsule.fill")! }
-	static var stopwatch: SFSymbol { SFSymbol("stopwatch")! }
-	static var stopwatchFill: SFSymbol { SFSymbol("stopwatch.fill")! }
-	static var alarm: SFSymbol { SFSymbol("alarm")! }
-	static var alarmFill: SFSymbol { SFSymbol("alarm.fill")! }
-	static var clock: SFSymbol { SFSymbol("clock")! }
-	static var clockFill: SFSymbol { SFSymbol("clock.fill")! }
-	static var timer: SFSymbol { SFSymbol("timer")! }
-	static var umbrella: SFSymbol { SFSymbol("umbrella")! }
-	static var umbrellaFill: SFSymbol { SFSymbol("umbrella.fill")! }
-	static var lightbulb: SFSymbol { SFSymbol("lightbulb")! }
-	static var lightbulbFill: SFSymbol { SFSymbol("lightbulb.fill")! }
-	static var lightbulbSlash: SFSymbol { SFSymbol("lightbulb.slash")! }
-	static var lightbulbSlashFill: SFSymbol { SFSymbol("lightbulb.slash.fill")! }
-	static var flame: SFSymbol { SFSymbol("flame")! }
-	static var flameFill: SFSymbol { SFSymbol("flame.fill")! }
-	static var gamecontroller: SFSymbol { SFSymbol("gamecontroller")! }
-	static var gamecontrollerFill: SFSymbol { SFSymbol("gamecontroller.fill")! }
 	static var flowchart: SFSymbol { SFSymbol("flowchart")! }
 	static var flowchartFill: SFSymbol { SFSymbol("flowchart.fill")! }
+	static var rectangleConnectedToLineBelow: SFSymbol { SFSymbol("rectangle.connected.to.line.below")! }
 	static var shield: SFSymbol { SFSymbol("shield")! }
 	static var shieldFill: SFSymbol { SFSymbol("shield.fill")! }
-	static var shieldLefthalfFill: SFSymbol { SFSymbol("shield.lefthalf.fill")! }
 	static var shieldSlash: SFSymbol { SFSymbol("shield.slash")! }
 	static var shieldSlashFill: SFSymbol { SFSymbol("shield.slash.fill")! }
-	static var lockShield: SFSymbol { SFSymbol("lock.shield")! }
-	static var lockShieldFill: SFSymbol { SFSymbol("lock.shield.fill")! }
-	static var checkmarkShield: SFSymbol { SFSymbol("checkmark.shield")! }
-	static var checkmarkShieldFill: SFSymbol { SFSymbol("checkmark.shield.fill")! }
-	static var xmarkShield: SFSymbol { SFSymbol("xmark.shield")! }
-	static var xmarkShieldFill: SFSymbol { SFSymbol("xmark.shield.fill")! }
-	static var exclamationmarkShield: SFSymbol { SFSymbol("exclamationmark.shield")! }
-	static var exclamationmarkShieldFill: SFSymbol { SFSymbol("exclamationmark.shield.fill")! }
-	static var desktopcomputer: SFSymbol { SFSymbol("desktopcomputer")! }
-	static var rectangleDock: SFSymbol { SFSymbol("rectangle.dock")! }
-	static var car: SFSymbol { SFSymbol("car")! }
-	static var carFill: SFSymbol { SFSymbol("car.fill")! }
-	static var tramFill: SFSymbol { SFSymbol("tram.fill")! }
-	static var nosign: SFSymbol { SFSymbol("nosign")! }
-	static var link: SFSymbol { SFSymbol("link")! }
-	static var linkCircle: SFSymbol { SFSymbol("link.circle")! }
-	static var linkCircleFill: SFSymbol { SFSymbol("link.circle.fill")! }
-	static var personalhotspot: SFSymbol { SFSymbol("personalhotspot")! }
-	static var studentdesk: SFSymbol { SFSymbol("studentdesk")! }
-	static var eyeglasses: SFSymbol { SFSymbol("eyeglasses")! }
-	static var briefcase: SFSymbol { SFSymbol("briefcase")! }
-	static var briefcaseFill: SFSymbol { SFSymbol("briefcase.fill")! }
+	static var shieldLefthalfFill: SFSymbol { SFSymbol("shield.lefthalf.fill")! }
+	static var switch2: SFSymbol { SFSymbol("switch.2")! }
+	static var pointTopleftDownCurvedtoPointBottomrightUp: SFSymbol { SFSymbol("point.topleft.down.curvedto.point.bottomright.up")! }
+	static var pointFillTopleftDownCurvedtoPointFillBottomrightUp: SFSymbol { SFSymbol("point.fill.topleft.down.curvedto.point.fill.bottomright.up")! }
+	static var sliderHorizontal3: SFSymbol { SFSymbol("slider.horizontal.3")! }
+	static var sliderHorizontalBelowRectangle: SFSymbol { SFSymbol("slider.horizontal.below.rectangle")! }
+	static var sliderVertical3: SFSymbol { SFSymbol("slider.vertical.3")! }
+	static var cube: SFSymbol { SFSymbol("cube")! }
+	static var cubeFill: SFSymbol { SFSymbol("cube.fill")! }
+	static var cubeTransparent: SFSymbol { SFSymbol("cube.transparent")! }
+	static var shippingbox: SFSymbol { SFSymbol("shippingbox")! }
+	static var shippingboxFill: SFSymbol { SFSymbol("shippingbox.fill")! }
+	static var arkit: SFSymbol { SFSymbol("arkit")! }
+	static var squareStack3dDownRight: SFSymbol { SFSymbol("square.stack.3d.down.right")! }
+	static var squareStack3dDownRightFill: SFSymbol { SFSymbol("square.stack.3d.down.right.fill")! }
+	static var squareStack3dUp: SFSymbol { SFSymbol("square.stack.3d.up")! }
+	static var squareStack3dUpFill: SFSymbol { SFSymbol("square.stack.3d.up.fill")! }
+	static var squareStack3dUpSlash: SFSymbol { SFSymbol("square.stack.3d.up.slash")! }
+	static var squareStack3dUpSlashFill: SFSymbol { SFSymbol("square.stack.3d.up.slash.fill")! }
+	static var squareStack3dUpBadgeA: SFSymbol { SFSymbol("square.stack.3d.up.badge.a")! }
+	static var squareStack3dUpBadgeAFill: SFSymbol { SFSymbol("square.stack.3d.up.badge.a.fill")! }
+	static var squareStack3dDownDottedline: SFSymbol { SFSymbol("square.stack.3d.down.dottedline")! }
+	static var livephoto: SFSymbol { SFSymbol("livephoto")! }
+	static var livephotoSlash: SFSymbol { SFSymbol("livephoto.slash")! }
+	static var livephotoBadgeA: SFSymbol { SFSymbol("livephoto.badge.a")! }
+	static var livephotoPlay: SFSymbol { SFSymbol("livephoto.play")! }
 	static var scope: SFSymbol { SFSymbol("scope")! }
 	static var helm: SFSymbol { SFSymbol("helm")! }
-	static var faceid: SFSymbol { SFSymbol("faceid")! }
-	static var purchased: SFSymbol { SFSymbol("purchased")! }
-	static var purchasedCircle: SFSymbol { SFSymbol("purchased.circle")! }
-	static var purchasedCircleFill: SFSymbol { SFSymbol("purchased.circle.fill")! }
-	static var chevronLeftSlashChevronRight: SFSymbol { SFSymbol("chevron.left.slash.chevron.right")! }
+	static var clock: SFSymbol { SFSymbol("clock")! }
+	static var clockFill: SFSymbol { SFSymbol("clock.fill")! }
+	static var deskclock: SFSymbol { SFSymbol("deskclock")! }
+	static var deskclockFill: SFSymbol { SFSymbol("deskclock.fill")! }
+	static var alarm: SFSymbol { SFSymbol("alarm")! }
+	static var alarmFill: SFSymbol { SFSymbol("alarm.fill")! }
+	static var stopwatch: SFSymbol { SFSymbol("stopwatch")! }
+	static var stopwatchFill: SFSymbol { SFSymbol("stopwatch.fill")! }
+	static var timer: SFSymbol { SFSymbol("timer")! }
+	static var timerSquare: SFSymbol { SFSymbol("timer.square")! }
+	static var clockArrowCirclepath: SFSymbol { SFSymbol("clock.arrow.circlepath")! }
+	static var gamecontroller: SFSymbol { SFSymbol("gamecontroller")! }
+	static var gamecontrollerFill: SFSymbol { SFSymbol("gamecontroller.fill")! }
+	static var lJoystick: SFSymbol { SFSymbol("l.joystick")! }
+	static var lJoystickFill: SFSymbol { SFSymbol("l.joystick.fill")! }
+	static var rJoystick: SFSymbol { SFSymbol("r.joystick")! }
+	static var rJoystickFill: SFSymbol { SFSymbol("r.joystick.fill")! }
+	static var lJoystickDown: SFSymbol { SFSymbol("l.joystick.down")! }
+	static var lJoystickDownFill: SFSymbol { SFSymbol("l.joystick.down.fill")! }
+	static var rJoystickDown: SFSymbol { SFSymbol("r.joystick.down")! }
+	static var rJoystickDownFill: SFSymbol { SFSymbol("r.joystick.down.fill")! }
+	static var dpad: SFSymbol { SFSymbol("dpad")! }
+	static var dpadFill: SFSymbol { SFSymbol("dpad.fill")! }
+	static var dpadLeftFill: SFSymbol { SFSymbol("dpad.left.fill")! }
+	static var dpadUpFill: SFSymbol { SFSymbol("dpad.up.fill")! }
+	static var dpadRightFill: SFSymbol { SFSymbol("dpad.right.fill")! }
+	static var dpadDownFill: SFSymbol { SFSymbol("dpad.down.fill")! }
+	static var circleCircle: SFSymbol { SFSymbol("circle.circle")! }
+	static var circleCircleFill: SFSymbol { SFSymbol("circle.circle.fill")! }
+	static var squareCircle: SFSymbol { SFSymbol("square.circle")! }
+	static var squareCircleFill: SFSymbol { SFSymbol("square.circle.fill")! }
+	static var triangleCircle: SFSymbol { SFSymbol("triangle.circle")! }
+	static var triangleCircleFill: SFSymbol { SFSymbol("triangle.circle.fill")! }
+	static var rectangleRoundedtop: SFSymbol { SFSymbol("rectangle.roundedtop")! }
+	static var rectangleRoundedtopFill: SFSymbol { SFSymbol("rectangle.roundedtop.fill")! }
+	static var rectangleRoundedbottom: SFSymbol { SFSymbol("rectangle.roundedbottom")! }
+	static var rectangleRoundedbottomFill: SFSymbol { SFSymbol("rectangle.roundedbottom.fill")! }
+	static var lRectangleRoundedbottom: SFSymbol { SFSymbol("l.rectangle.roundedbottom")! }
+	static var lRectangleRoundedbottomFill: SFSymbol { SFSymbol("l.rectangle.roundedbottom.fill")! }
+	static var l1RectangleRoundedbottom: SFSymbol { SFSymbol("l1.rectangle.roundedbottom")! }
+	static var l1RectangleRoundedbottomFill: SFSymbol { SFSymbol("l1.rectangle.roundedbottom.fill")! }
+	static var l2RectangleRoundedtop: SFSymbol { SFSymbol("l2.rectangle.roundedtop")! }
+	static var l2RectangleRoundedtopFill: SFSymbol { SFSymbol("l2.rectangle.roundedtop.fill")! }
+	static var rRectangleRoundedbottom: SFSymbol { SFSymbol("r.rectangle.roundedbottom")! }
+	static var rRectangleRoundedbottomFill: SFSymbol { SFSymbol("r.rectangle.roundedbottom.fill")! }
+	static var r1RectangleRoundedbottom: SFSymbol { SFSymbol("r1.rectangle.roundedbottom")! }
+	static var r1RectangleRoundedbottomFill: SFSymbol { SFSymbol("r1.rectangle.roundedbottom.fill")! }
+	static var r2RectangleRoundedtop: SFSymbol { SFSymbol("r2.rectangle.roundedtop")! }
+	static var r2RectangleRoundedtopFill: SFSymbol { SFSymbol("r2.rectangle.roundedtop.fill")! }
+	static var lbRectangleRoundedbottom: SFSymbol { SFSymbol("lb.rectangle.roundedbottom")! }
+	static var lbRectangleRoundedbottomFill: SFSymbol { SFSymbol("lb.rectangle.roundedbottom.fill")! }
+	static var rbRectangleRoundedbottom: SFSymbol { SFSymbol("rb.rectangle.roundedbottom")! }
+	static var rbRectangleRoundedbottomFill: SFSymbol { SFSymbol("rb.rectangle.roundedbottom.fill")! }
+	static var ltRectangleRoundedtop: SFSymbol { SFSymbol("lt.rectangle.roundedtop")! }
+	static var ltRectangleRoundedtopFill: SFSymbol { SFSymbol("lt.rectangle.roundedtop.fill")! }
+	static var rtRectangleRoundedtop: SFSymbol { SFSymbol("rt.rectangle.roundedtop")! }
+	static var rtRectangleRoundedtopFill: SFSymbol { SFSymbol("rt.rectangle.roundedtop.fill")! }
+	static var zlRectangleRoundedtop: SFSymbol { SFSymbol("zl.rectangle.roundedtop")! }
+	static var zlRectangleRoundedtopFill: SFSymbol { SFSymbol("zl.rectangle.roundedtop.fill")! }
+	static var zrRectangleRoundedtop: SFSymbol { SFSymbol("zr.rectangle.roundedtop")! }
+	static var zrRectangleRoundedtopFill: SFSymbol { SFSymbol("zr.rectangle.roundedtop.fill")! }
+	static var paintpalette: SFSymbol { SFSymbol("paintpalette")! }
+	static var paintpaletteFill: SFSymbol { SFSymbol("paintpalette.fill")! }
+	static var figureWalk: SFSymbol { SFSymbol("figure.walk")! }
+	static var figureWalkCircle: SFSymbol { SFSymbol("figure.walk.circle")! }
+	static var figureWalkCircleFill: SFSymbol { SFSymbol("figure.walk.circle.fill")! }
+	static var figureWalkDiamond: SFSymbol { SFSymbol("figure.walk.diamond")! }
+	static var figureWalkDiamondFill: SFSymbol { SFSymbol("figure.walk.diamond.fill")! }
+	static var figureWave: SFSymbol { SFSymbol("figure.wave")! }
+	static var figureWaveCircle: SFSymbol { SFSymbol("figure.wave.circle")! }
+	static var figureWaveCircleFill: SFSymbol { SFSymbol("figure.wave.circle.fill")! }
+	static var ear: SFSymbol { SFSymbol("ear")! }
+	static var earBadgeCheckmark: SFSymbol { SFSymbol("ear.badge.checkmark")! }
+	static var earTrianglebadgeExclamationmark: SFSymbol { SFSymbol("ear.trianglebadge.exclamationmark")! }
+	static var earFill: SFSymbol { SFSymbol("ear.fill")! }
+	static var hearingaidEar: SFSymbol { SFSymbol("hearingaid.ear")! }
+	static var handRaised: SFSymbol { SFSymbol("hand.raised")! }
+	static var handRaisedFill: SFSymbol { SFSymbol("hand.raised.fill")! }
+	static var handRaisedSlash: SFSymbol { SFSymbol("hand.raised.slash")! }
+	static var handRaisedSlashFill: SFSymbol { SFSymbol("hand.raised.slash.fill")! }
+	static var handThumbsup: SFSymbol { SFSymbol("hand.thumbsup")! }
+	static var handThumbsupFill: SFSymbol { SFSymbol("hand.thumbsup.fill")! }
+	static var handThumbsdown: SFSymbol { SFSymbol("hand.thumbsdown")! }
+	static var handThumbsdownFill: SFSymbol { SFSymbol("hand.thumbsdown.fill")! }
+	static var handPointUpLeft: SFSymbol { SFSymbol("hand.point.up.left")! }
+	static var handPointUpLeftFill: SFSymbol { SFSymbol("hand.point.up.left.fill")! }
+	static var handDraw: SFSymbol { SFSymbol("hand.draw")! }
+	static var handDrawFill: SFSymbol { SFSymbol("hand.draw.fill")! }
+	static var handTap: SFSymbol { SFSymbol("hand.tap")! }
+	static var handTapFill: SFSymbol { SFSymbol("hand.tap.fill")! }
+	static var handPointLeft: SFSymbol { SFSymbol("hand.point.left")! }
+	static var handPointLeftFill: SFSymbol { SFSymbol("hand.point.left.fill")! }
+	static var handPointRight: SFSymbol { SFSymbol("hand.point.right")! }
+	static var handPointRightFill: SFSymbol { SFSymbol("hand.point.right.fill")! }
+	static var handPointUp: SFSymbol { SFSymbol("hand.point.up")! }
+	static var handPointUpFill: SFSymbol { SFSymbol("hand.point.up.fill")! }
+	static var handPointUpBraille: SFSymbol { SFSymbol("hand.point.up.braille")! }
+	static var handPointUpBrailleFill: SFSymbol { SFSymbol("hand.point.up.braille.fill")! }
+	static var handPointDown: SFSymbol { SFSymbol("hand.point.down")! }
+	static var handPointDownFill: SFSymbol { SFSymbol("hand.point.down.fill")! }
+	static var handWave: SFSymbol { SFSymbol("hand.wave")! }
+	static var handWaveFill: SFSymbol { SFSymbol("hand.wave.fill")! }
 	static var rectangleCompressVertical: SFSymbol { SFSymbol("rectangle.compress.vertical")! }
 	static var rectangleExpandVertical: SFSymbol { SFSymbol("rectangle.expand.vertical")! }
 	static var rectangleAndArrowUpRightAndArrowDownLeft: SFSymbol { SFSymbol("rectangle.and.arrow.up.right.and.arrow.down.left")! }
 	static var rectangleAndArrowUpRightAndArrowDownLeftSlash: SFSymbol { SFSymbol("rectangle.and.arrow.up.right.and.arrow.down.left.slash")! }
+	static var square2Stack3d: SFSymbol { SFSymbol("square.2.stack.3d")! }
+	static var square2Stack3dTopFill: SFSymbol { SFSymbol("square.2.stack.3d.top.fill")! }
+	static var square2Stack3dBottomFill: SFSymbol { SFSymbol("square.2.stack.3d.bottom.fill")! }
+	static var square3Stack3d: SFSymbol { SFSymbol("square.3.stack.3d")! }
+	static var square3Stack3dTopFill: SFSymbol { SFSymbol("square.3.stack.3d.top.fill")! }
+	static var square3Stack3dMiddleFill: SFSymbol { SFSymbol("square.3.stack.3d.middle.fill")! }
+	static var square3Stack3dBottomFill: SFSymbol { SFSymbol("square.3.stack.3d.bottom.fill")! }
+	static var cylinderSplit1x2: SFSymbol { SFSymbol("cylinder.split.1x2")! }
+	static var cylinderSplit1x2Fill: SFSymbol { SFSymbol("cylinder.split.1x2.fill")! }
 	static var chartBar: SFSymbol { SFSymbol("chart.bar")! }
 	static var chartBarFill: SFSymbol { SFSymbol("chart.bar.fill")! }
 	static var chartPie: SFSymbol { SFSymbol("chart.pie")! }
 	static var chartPieFill: SFSymbol { SFSymbol("chart.pie.fill")! }
-	static var hourglass: SFSymbol { SFSymbol("hourglass")! }
-	static var hourglassBottomhalfFill: SFSymbol { SFSymbol("hourglass.bottomhalf.fill")! }
-	static var hourglassTophalfFill: SFSymbol { SFSymbol("hourglass.tophalf.fill")! }
-	static var bedDouble: SFSymbol { SFSymbol("bed.double")! }
-	static var bedDoubleFill: SFSymbol { SFSymbol("bed.double.fill")! }
+	static var chartBarXaxis: SFSymbol { SFSymbol("chart.bar.xaxis")! }
+	static var dotSquareshapeSplit2x2: SFSymbol { SFSymbol("dot.squareshape.split.2x2")! }
+	static var squareshapeSplit2x2: SFSymbol { SFSymbol("squareshape.split.2x2")! }
+	static var squareshapeSplit3x3: SFSymbol { SFSymbol("squareshape.split.3x3")! }
 	static var burst: SFSymbol { SFSymbol("burst")! }
 	static var burstFill: SFSymbol { SFSymbol("burst.fill")! }
-	static var waveform: SFSymbol { SFSymbol("waveform")! }
-	static var waveformCircle: SFSymbol { SFSymbol("waveform.circle")! }
-	static var waveformCircleFill: SFSymbol { SFSymbol("waveform.circle.fill")! }
 	static var waveformPathEcg: SFSymbol { SFSymbol("waveform.path.ecg")! }
+	static var waveformPathEcgRectangle: SFSymbol { SFSymbol("waveform.path.ecg.rectangle")! }
+	static var waveformPathEcgRectangleFill: SFSymbol { SFSymbol("waveform.path.ecg.rectangle.fill")! }
 	static var waveformPath: SFSymbol { SFSymbol("waveform.path")! }
 	static var waveformPathBadgePlus: SFSymbol { SFSymbol("waveform.path.badge.plus")! }
 	static var waveformPathBadgeMinus: SFSymbol { SFSymbol("waveform.path.badge.minus")! }
+	static var waveform: SFSymbol { SFSymbol("waveform")! }
+	static var waveformCircle: SFSymbol { SFSymbol("waveform.circle")! }
+	static var waveformCircleFill: SFSymbol { SFSymbol("waveform.circle.fill")! }
+	static var staroflife: SFSymbol { SFSymbol("staroflife")! }
+	static var staroflifeFill: SFSymbol { SFSymbol("staroflife.fill")! }
+	static var staroflifeCircle: SFSymbol { SFSymbol("staroflife.circle")! }
+	static var staroflifeCircleFill: SFSymbol { SFSymbol("staroflife.circle.fill")! }
+	static var simcard: SFSymbol { SFSymbol("simcard")! }
+	static var simcardFill: SFSymbol { SFSymbol("simcard.fill")! }
+	static var simcard2: SFSymbol { SFSymbol("simcard.2")! }
+	static var simcard2Fill: SFSymbol { SFSymbol("simcard.2.fill")! }
+	static var sdcard: SFSymbol { SFSymbol("sdcard")! }
+	static var sdcardFill: SFSymbol { SFSymbol("sdcard.fill")! }
+	static var touchid: SFSymbol { SFSymbol("touchid")! }
+	static var bonjour: SFSymbol { SFSymbol("bonjour")! }
+	static var atom: SFSymbol { SFSymbol("atom")! }
+	static var scalemass: SFSymbol { SFSymbol("scalemass")! }
+	static var scalemassFill: SFSymbol { SFSymbol("scalemass.fill")! }
 	static var headphones: SFSymbol { SFSymbol("headphones")! }
+	static var headphonesCircle: SFSymbol { SFSymbol("headphones.circle")! }
+	static var headphonesCircleFill: SFSymbol { SFSymbol("headphones.circle.fill")! }
 	static var gift: SFSymbol { SFSymbol("gift")! }
 	static var giftFill: SFSymbol { SFSymbol("gift.fill")! }
-	static var app: SFSymbol { SFSymbol("app")! }
-	static var appFill: SFSymbol { SFSymbol("app.fill")! }
+	static var giftCircle: SFSymbol { SFSymbol("gift.circle")! }
+	static var giftCircleFill: SFSymbol { SFSymbol("gift.circle.fill")! }
 	static var plusApp: SFSymbol { SFSymbol("plus.app")! }
 	static var plusAppFill: SFSymbol { SFSymbol("plus.app.fill")! }
+	static var arrowUpRightApp: SFSymbol { SFSymbol("arrow.up.right.app")! }
+	static var arrowUpRightAppFill: SFSymbol { SFSymbol("arrow.up.right.app.fill")! }
+	static var arrowDownApp: SFSymbol { SFSymbol("arrow.down.app")! }
+	static var arrowDownAppFill: SFSymbol { SFSymbol("arrow.down.app.fill")! }
 	static var appBadge: SFSymbol { SFSymbol("app.badge")! }
 	static var appBadgeFill: SFSymbol { SFSymbol("app.badge.fill")! }
 	static var appGift: SFSymbol { SFSymbol("app.gift")! }
 	static var appGiftFill: SFSymbol { SFSymbol("app.gift.fill")! }
-	static var arrowtriangleUp: SFSymbol { SFSymbol("arrowtriangle.up")! }
-	static var arrowtriangleUpFill: SFSymbol { SFSymbol("arrowtriangle.up.fill")! }
-	static var arrowtriangleDown: SFSymbol { SFSymbol("arrowtriangle.down")! }
-	static var arrowtriangleDownFill: SFSymbol { SFSymbol("arrowtriangle.down.fill")! }
-	static var arrowtriangleLeft: SFSymbol { SFSymbol("arrowtriangle.left")! }
-	static var arrowtriangleLeftFill: SFSymbol { SFSymbol("arrowtriangle.left.fill")! }
-	static var arrowtriangleRight: SFSymbol { SFSymbol("arrowtriangle.right")! }
-	static var arrowtriangleRightFill: SFSymbol { SFSymbol("arrowtriangle.right.fill")! }
-	static var arrowtriangleUpCircle: SFSymbol { SFSymbol("arrowtriangle.up.circle")! }
-	static var arrowtriangleUpCircleFill: SFSymbol { SFSymbol("arrowtriangle.up.circle.fill")! }
-	static var arrowtriangleDownCircle: SFSymbol { SFSymbol("arrowtriangle.down.circle")! }
-	static var arrowtriangleDownCircleFill: SFSymbol { SFSymbol("arrowtriangle.down.circle.fill")! }
-	static var arrowtriangleLeftCircle: SFSymbol { SFSymbol("arrowtriangle.left.circle")! }
-	static var arrowtriangleLeftCircleFill: SFSymbol { SFSymbol("arrowtriangle.left.circle.fill")! }
-	static var arrowtriangleRightCircle: SFSymbol { SFSymbol("arrowtriangle.right.circle")! }
-	static var arrowtriangleRightCircleFill: SFSymbol { SFSymbol("arrowtriangle.right.circle.fill")! }
-	static var arrowtriangleUpSquare: SFSymbol { SFSymbol("arrowtriangle.up.square")! }
-	static var arrowtriangleUpSquareFill: SFSymbol { SFSymbol("arrowtriangle.up.square.fill")! }
-	static var arrowtriangleDownSquare: SFSymbol { SFSymbol("arrowtriangle.down.square")! }
-	static var arrowtriangleDownSquareFill: SFSymbol { SFSymbol("arrowtriangle.down.square.fill")! }
-	static var arrowtriangleLeftSquare: SFSymbol { SFSymbol("arrowtriangle.left.square")! }
-	static var arrowtriangleLeftSquareFill: SFSymbol { SFSymbol("arrowtriangle.left.square.fill")! }
-	static var arrowtriangleRightSquare: SFSymbol { SFSymbol("arrowtriangle.right.square")! }
-	static var arrowtriangleRightSquareFill: SFSymbol { SFSymbol("arrowtriangle.right.square.fill")! }
-	static var deleteLeft: SFSymbol { SFSymbol("delete.left")! }
-	static var deleteLeftFill: SFSymbol { SFSymbol("delete.left.fill")! }
-	static var deleteRight: SFSymbol { SFSymbol("delete.right")! }
-	static var deleteRightFill: SFSymbol { SFSymbol("delete.right.fill")! }
-	static var clear: SFSymbol { SFSymbol("clear")! }
-	static var clearFill: SFSymbol { SFSymbol("clear.fill")! }
-	static var shift: SFSymbol { SFSymbol("shift")! }
-	static var shiftFill: SFSymbol { SFSymbol("shift.fill")! }
-	static var capslock: SFSymbol { SFSymbol("capslock")! }
-	static var capslockFill: SFSymbol { SFSymbol("capslock.fill")! }
-	static var eject: SFSymbol { SFSymbol("eject")! }
-	static var ejectFill: SFSymbol { SFSymbol("eject.fill")! }
-	static var command: SFSymbol { SFSymbol("command")! }
-	static var option: SFSymbol { SFSymbol("option")! }
-	static var alt: SFSymbol { SFSymbol("alt")! }
+	static var airplane: SFSymbol { SFSymbol("airplane")! }
+	static var airplaneCircle: SFSymbol { SFSymbol("airplane.circle")! }
+	static var airplaneCircleFill: SFSymbol { SFSymbol("airplane.circle.fill")! }
+	static var studentdesk: SFSymbol { SFSymbol("studentdesk")! }
+	static var hourglass: SFSymbol { SFSymbol("hourglass")! }
+	static var hourglassBadgePlus: SFSymbol { SFSymbol("hourglass.badge.plus")! }
+	static var hourglassBottomhalfFill: SFSymbol { SFSymbol("hourglass.bottomhalf.fill")! }
+	static var hourglassTophalfFill: SFSymbol { SFSymbol("hourglass.tophalf.fill")! }
+	static var banknote: SFSymbol { SFSymbol("banknote")! }
+	static var banknoteFill: SFSymbol { SFSymbol("banknote.fill")! }
+	static var paragraphsign: SFSymbol { SFSymbol("paragraphsign")! }
+	static var purchased: SFSymbol { SFSymbol("purchased")! }
+	static var purchasedCircle: SFSymbol { SFSymbol("purchased.circle")! }
+	static var purchasedCircleFill: SFSymbol { SFSymbol("purchased.circle.fill")! }
+	static var perspective: SFSymbol { SFSymbol("perspective")! }
+	static var aspectratio: SFSymbol { SFSymbol("aspectratio")! }
+	static var aspectratioFill: SFSymbol { SFSymbol("aspectratio.fill")! }
+	static var cameraFilters: SFSymbol { SFSymbol("camera.filters")! }
+	static var skew: SFSymbol { SFSymbol("skew")! }
+	static var arrowLeftAndRightRighttriangleLeftRighttriangleRight: SFSymbol { SFSymbol("arrow.left.and.right.righttriangle.left.righttriangle.right")! }
+	static var arrowLeftAndRightRighttriangleLeftRighttriangleRightFill: SFSymbol { SFSymbol("arrow.left.and.right.righttriangle.left.righttriangle.right.fill")! }
+	static var arrowUpAndDownRighttriangleUpRighttriangleDown: SFSymbol { SFSymbol("arrow.up.and.down.righttriangle.up.righttriangle.down")! }
+	static var arrowUpAndDownRighttriangleUpFillRighttriangleDownFill: SFSymbol { SFSymbol("arrow.up.and.down.righttriangle.up.fill.righttriangle.down.fill")! }
+	static var arrowtriangleLeftAndLineVerticalAndArrowtriangleRight: SFSymbol { SFSymbol("arrowtriangle.left.and.line.vertical.and.arrowtriangle.right")! }
+	static var arrowtriangleLeftFillAndLineVerticalAndArrowtriangleRightFill: SFSymbol { SFSymbol("arrowtriangle.left.fill.and.line.vertical.and.arrowtriangle.right.fill")! }
+	static var arrowtriangleRightAndLineVerticalAndArrowtriangleLeft: SFSymbol { SFSymbol("arrowtriangle.right.and.line.vertical.and.arrowtriangle.left")! }
+	static var arrowtriangleRightFillAndLineVerticalAndArrowtriangleLeftFill: SFSymbol { SFSymbol("arrowtriangle.right.fill.and.line.vertical.and.arrowtriangle.left.fill")! }
+	static var grid: SFSymbol { SFSymbol("grid")! }
+	static var gridCircle: SFSymbol { SFSymbol("grid.circle")! }
+	static var gridCircleFill: SFSymbol { SFSymbol("grid.circle.fill")! }
+	static var burn: SFSymbol { SFSymbol("burn")! }
+	static var lifepreserver: SFSymbol { SFSymbol("lifepreserver")! }
+	static var lifepreserverFill: SFSymbol { SFSymbol("lifepreserver.fill")! }
+	static var recordingtape: SFSymbol { SFSymbol("recordingtape")! }
+	static var eyeglasses: SFSymbol { SFSymbol("eyeglasses")! }
+	static var binoculars: SFSymbol { SFSymbol("binoculars")! }
+	static var binocularsFill: SFSymbol { SFSymbol("binoculars.fill")! }
+	static var battery100: SFSymbol { SFSymbol("battery.100")! }
+	static var battery25: SFSymbol { SFSymbol("battery.25")! }
+	static var battery0: SFSymbol { SFSymbol("battery.0")! }
+	static var battery100Bolt: SFSymbol { SFSymbol("battery.100.bolt")! }
+	static var minusPlusBatteryblock: SFSymbol { SFSymbol("minus.plus.batteryblock")! }
+	static var minusPlusBatteryblockFill: SFSymbol { SFSymbol("minus.plus.batteryblock.fill")! }
+	static var boltFillBatteryblock: SFSymbol { SFSymbol("bolt.fill.batteryblock")! }
+	static var boltFillBatteryblockFill: SFSymbol { SFSymbol("bolt.fill.batteryblock.fill")! }
+	static var lightbulb: SFSymbol { SFSymbol("lightbulb")! }
+	static var lightbulbFill: SFSymbol { SFSymbol("lightbulb.fill")! }
+	static var lightbulbSlash: SFSymbol { SFSymbol("lightbulb.slash")! }
+	static var lightbulbSlashFill: SFSymbol { SFSymbol("lightbulb.slash.fill")! }
+	static var fiberchannel: SFSymbol { SFSymbol("fiberchannel")! }
+	static var squareFillTextGrid1x2: SFSymbol { SFSymbol("square.fill.text.grid.1x2")! }
+	static var listDash: SFSymbol { SFSymbol("list.dash")! }
+	static var listBullet: SFSymbol { SFSymbol("list.bullet")! }
+	static var listTriangle: SFSymbol { SFSymbol("list.triangle")! }
+	static var listBulletIndent: SFSymbol { SFSymbol("list.bullet.indent")! }
+	static var listNumber: SFSymbol { SFSymbol("list.number")! }
+	static var listStar: SFSymbol { SFSymbol("list.star")! }
+	static var increaseIndent: SFSymbol { SFSymbol("increase.indent")! }
+	static var decreaseIndent: SFSymbol { SFSymbol("decrease.indent")! }
+	static var decreaseQuotelevel: SFSymbol { SFSymbol("decrease.quotelevel")! }
+	static var increaseQuotelevel: SFSymbol { SFSymbol("increase.quotelevel")! }
+	static var listBulletBelowRectangle: SFSymbol { SFSymbol("list.bullet.below.rectangle")! }
+	static var textBadgePlus: SFSymbol { SFSymbol("text.badge.plus")! }
+	static var textBadgeMinus: SFSymbol { SFSymbol("text.badge.minus")! }
+	static var textBadgeCheckmark: SFSymbol { SFSymbol("text.badge.checkmark")! }
+	static var textBadgeXmark: SFSymbol { SFSymbol("text.badge.xmark")! }
+	static var textBadgeStar: SFSymbol { SFSymbol("text.badge.star")! }
+	static var textInsert: SFSymbol { SFSymbol("text.insert")! }
+	static var textAppend: SFSymbol { SFSymbol("text.append")! }
+	static var textQuote: SFSymbol { SFSymbol("text.quote")! }
+	static var textAlignleft: SFSymbol { SFSymbol("text.alignleft")! }
+	static var textAligncenter: SFSymbol { SFSymbol("text.aligncenter")! }
+	static var textAlignright: SFSymbol { SFSymbol("text.alignright")! }
+	static var textJustify: SFSymbol { SFSymbol("text.justify")! }
+	static var textJustifyleft: SFSymbol { SFSymbol("text.justifyleft")! }
+	static var textJustifyright: SFSymbol { SFSymbol("text.justifyright")! }
+	static var textRedaction: SFSymbol { SFSymbol("text.redaction")! }
+	static var listAndFilm: SFSymbol { SFSymbol("list.and.film")! }
+	static var lineHorizontal3: SFSymbol { SFSymbol("line.horizontal.3")! }
+	static var lineHorizontal3Decrease: SFSymbol { SFSymbol("line.horizontal.3.decrease")! }
+	static var lineHorizontal3DecreaseCircle: SFSymbol { SFSymbol("line.horizontal.3.decrease.circle")! }
+	static var lineHorizontal3DecreaseCircleFill: SFSymbol { SFSymbol("line.horizontal.3.decrease.circle.fill")! }
+	static var lineHorizontal3Circle: SFSymbol { SFSymbol("line.horizontal.3.circle")! }
+	static var lineHorizontal3CircleFill: SFSymbol { SFSymbol("line.horizontal.3.circle.fill")! }
+	static var lineHorizontal2DecreaseCircle: SFSymbol { SFSymbol("line.horizontal.2.decrease.circle")! }
+	static var lineHorizontal2DecreaseCircleFill: SFSymbol { SFSymbol("line.horizontal.2.decrease.circle.fill")! }
+	static var a: SFSymbol { SFSymbol("a")! }
+	static var abc: SFSymbol { SFSymbol("abc")! }
+	static var textformatAlt: SFSymbol { SFSymbol("textformat.alt")! }
+	static var textformat: SFSymbol { SFSymbol("textformat")! }
+	static var textformatSize: SFSymbol { SFSymbol("textformat.size")! }
+	static var textformatSubscript: SFSymbol { SFSymbol("textformat.subscript")! }
+	static var textformatSuperscript: SFSymbol { SFSymbol("textformat.superscript")! }
+	static var bold: SFSymbol { SFSymbol("bold")! }
+	static var italic: SFSymbol { SFSymbol("italic")! }
+	static var underline: SFSymbol { SFSymbol("underline")! }
+	static var strikethrough: SFSymbol { SFSymbol("strikethrough")! }
+	static var shadow: SFSymbol { SFSymbol("shadow")! }
+	static var boldItalicUnderline: SFSymbol { SFSymbol("bold.italic.underline")! }
+	static var boldUnderline: SFSymbol { SFSymbol("bold.underline")! }
+	static var view2d: SFSymbol { SFSymbol("view.2d")! }
+	static var view3d: SFSymbol { SFSymbol("view.3d")! }
+	static var textCursor: SFSymbol { SFSymbol("text.cursor")! }
+	static var fx: SFSymbol { SFSymbol("fx")! }
+	static var fCursive: SFSymbol { SFSymbol("f.cursive")! }
+	static var fCursiveCircle: SFSymbol { SFSymbol("f.cursive.circle")! }
+	static var fCursiveCircleFill: SFSymbol { SFSymbol("f.cursive.circle.fill")! }
+	static var k: SFSymbol { SFSymbol("k")! }
+	static var sum: SFSymbol { SFSymbol("sum")! }
+	static var percent: SFSymbol { SFSymbol("percent")! }
+	static var function: SFSymbol { SFSymbol("function")! }
+	static var textformatAbc: SFSymbol { SFSymbol("textformat.abc")! }
+	static var textformatAbcDottedunderline: SFSymbol { SFSymbol("textformat.abc.dottedunderline")! }
+	static var fn: SFSymbol { SFSymbol("fn")! }
+	static var textformat123: SFSymbol { SFSymbol("textformat.123")! }
+	static var textbox: SFSymbol { SFSymbol("textbox")! }
+	static var aMagnify: SFSymbol { SFSymbol("a.magnify")! }
+	static var info: SFSymbol { SFSymbol("info")! }
+	static var infoCircle: SFSymbol { SFSymbol("info.circle")! }
+	static var infoCircleFill: SFSymbol { SFSymbol("info.circle.fill")! }
+	static var at: SFSymbol { SFSymbol("at")! }
+	static var atCircle: SFSymbol { SFSymbol("at.circle")! }
+	static var atCircleFill: SFSymbol { SFSymbol("at.circle.fill")! }
+	static var atBadgePlus: SFSymbol { SFSymbol("at.badge.plus")! }
+	static var atBadgeMinus: SFSymbol { SFSymbol("at.badge.minus")! }
+	static var questionmark: SFSymbol { SFSymbol("questionmark")! }
+	static var questionmarkCircle: SFSymbol { SFSymbol("questionmark.circle")! }
+	static var questionmarkCircleFill: SFSymbol { SFSymbol("questionmark.circle.fill")! }
+	static var questionmarkSquare: SFSymbol { SFSymbol("questionmark.square")! }
+	static var questionmarkSquareFill: SFSymbol { SFSymbol("questionmark.square.fill")! }
+	static var questionmarkDiamond: SFSymbol { SFSymbol("questionmark.diamond")! }
+	static var questionmarkDiamondFill: SFSymbol { SFSymbol("questionmark.diamond.fill")! }
+	static var exclamationmark: SFSymbol { SFSymbol("exclamationmark")! }
+	static var exclamationmark2: SFSymbol { SFSymbol("exclamationmark.2")! }
+	static var exclamationmark3: SFSymbol { SFSymbol("exclamationmark.3")! }
+	static var exclamationmarkCircle: SFSymbol { SFSymbol("exclamationmark.circle")! }
+	static var exclamationmarkCircleFill: SFSymbol { SFSymbol("exclamationmark.circle.fill")! }
+	static var exclamationmarkSquare: SFSymbol { SFSymbol("exclamationmark.square")! }
+	static var exclamationmarkSquareFill: SFSymbol { SFSymbol("exclamationmark.square.fill")! }
+	static var exclamationmarkOctagon: SFSymbol { SFSymbol("exclamationmark.octagon")! }
+	static var exclamationmarkOctagonFill: SFSymbol { SFSymbol("exclamationmark.octagon.fill")! }
+	static var exclamationmarkShield: SFSymbol { SFSymbol("exclamationmark.shield")! }
+	static var exclamationmarkShieldFill: SFSymbol { SFSymbol("exclamationmark.shield.fill")! }
+	static var plus: SFSymbol { SFSymbol("plus")! }
+	static var plusCircle: SFSymbol { SFSymbol("plus.circle")! }
+	static var plusCircleFill: SFSymbol { SFSymbol("plus.circle.fill")! }
+	static var plusSquare: SFSymbol { SFSymbol("plus.square")! }
+	static var plusSquareFill: SFSymbol { SFSymbol("plus.square.fill")! }
+	static var plusRectangle: SFSymbol { SFSymbol("plus.rectangle")! }
+	static var plusRectangleFill: SFSymbol { SFSymbol("plus.rectangle.fill")! }
+	static var plusRectanglePortrait: SFSymbol { SFSymbol("plus.rectangle.portrait")! }
+	static var plusRectanglePortraitFill: SFSymbol { SFSymbol("plus.rectangle.portrait.fill")! }
+	static var plusDiamond: SFSymbol { SFSymbol("plus.diamond")! }
+	static var plusDiamondFill: SFSymbol { SFSymbol("plus.diamond.fill")! }
+	static var minus: SFSymbol { SFSymbol("minus")! }
+	static var minusCircle: SFSymbol { SFSymbol("minus.circle")! }
+	static var minusCircleFill: SFSymbol { SFSymbol("minus.circle.fill")! }
+	static var minusSquare: SFSymbol { SFSymbol("minus.square")! }
+	static var minusSquareFill: SFSymbol { SFSymbol("minus.square.fill")! }
+	static var minusRectangle: SFSymbol { SFSymbol("minus.rectangle")! }
+	static var minusRectangleFill: SFSymbol { SFSymbol("minus.rectangle.fill")! }
+	static var minusRectanglePortrait: SFSymbol { SFSymbol("minus.rectangle.portrait")! }
+	static var minusRectanglePortraitFill: SFSymbol { SFSymbol("minus.rectangle.portrait.fill")! }
+	static var minusDiamond: SFSymbol { SFSymbol("minus.diamond")! }
+	static var minusDiamondFill: SFSymbol { SFSymbol("minus.diamond.fill")! }
+	static var plusminus: SFSymbol { SFSymbol("plusminus")! }
+	static var plusminusCircle: SFSymbol { SFSymbol("plusminus.circle")! }
+	static var plusminusCircleFill: SFSymbol { SFSymbol("plusminus.circle.fill")! }
+	static var plusSlashMinus: SFSymbol { SFSymbol("plus.slash.minus")! }
+	static var minusSlashPlus: SFSymbol { SFSymbol("minus.slash.plus")! }
+	static var multiply: SFSymbol { SFSymbol("multiply")! }
+	static var multiplyCircle: SFSymbol { SFSymbol("multiply.circle")! }
+	static var multiplyCircleFill: SFSymbol { SFSymbol("multiply.circle.fill")! }
+	static var multiplySquare: SFSymbol { SFSymbol("multiply.square")! }
+	static var multiplySquareFill: SFSymbol { SFSymbol("multiply.square.fill")! }
+	static var xmarkRectangle: SFSymbol { SFSymbol("xmark.rectangle")! }
+	static var xmarkRectangleFill: SFSymbol { SFSymbol("xmark.rectangle.fill")! }
+	static var xmarkRectanglePortrait: SFSymbol { SFSymbol("xmark.rectangle.portrait")! }
+	static var xmarkRectanglePortraitFill: SFSymbol { SFSymbol("xmark.rectangle.portrait.fill")! }
+	static var xmarkDiamond: SFSymbol { SFSymbol("xmark.diamond")! }
+	static var xmarkDiamondFill: SFSymbol { SFSymbol("xmark.diamond.fill")! }
+	static var xmarkShield: SFSymbol { SFSymbol("xmark.shield")! }
+	static var xmarkShieldFill: SFSymbol { SFSymbol("xmark.shield.fill")! }
+	static var xmarkOctagon: SFSymbol { SFSymbol("xmark.octagon")! }
+	static var xmarkOctagonFill: SFSymbol { SFSymbol("xmark.octagon.fill")! }
+	static var divide: SFSymbol { SFSymbol("divide")! }
+	static var divideCircle: SFSymbol { SFSymbol("divide.circle")! }
+	static var divideCircleFill: SFSymbol { SFSymbol("divide.circle.fill")! }
+	static var divideSquare: SFSymbol { SFSymbol("divide.square")! }
+	static var divideSquareFill: SFSymbol { SFSymbol("divide.square.fill")! }
+	static var equal: SFSymbol { SFSymbol("equal")! }
+	static var equalCircle: SFSymbol { SFSymbol("equal.circle")! }
+	static var equalCircleFill: SFSymbol { SFSymbol("equal.circle.fill")! }
+	static var equalSquare: SFSymbol { SFSymbol("equal.square")! }
+	static var equalSquareFill: SFSymbol { SFSymbol("equal.square.fill")! }
+	static var lessthan: SFSymbol { SFSymbol("lessthan")! }
+	static var lessthanCircle: SFSymbol { SFSymbol("lessthan.circle")! }
+	static var lessthanCircleFill: SFSymbol { SFSymbol("lessthan.circle.fill")! }
+	static var lessthanSquare: SFSymbol { SFSymbol("lessthan.square")! }
+	static var lessthanSquareFill: SFSymbol { SFSymbol("lessthan.square.fill")! }
+	static var greaterthan: SFSymbol { SFSymbol("greaterthan")! }
+	static var greaterthanCircle: SFSymbol { SFSymbol("greaterthan.circle")! }
+	static var greaterthanCircleFill: SFSymbol { SFSymbol("greaterthan.circle.fill")! }
+	static var greaterthanSquare: SFSymbol { SFSymbol("greaterthan.square")! }
+	static var greaterthanSquareFill: SFSymbol { SFSymbol("greaterthan.square.fill")! }
+	static var chevronLeftSlashChevronRight: SFSymbol { SFSymbol("chevron.left.slash.chevron.right")! }
+	static var curlybraces: SFSymbol { SFSymbol("curlybraces")! }
+	static var curlybracesSquare: SFSymbol { SFSymbol("curlybraces.square")! }
+	static var curlybracesSquareFill: SFSymbol { SFSymbol("curlybraces.square.fill")! }
+	static var number: SFSymbol { SFSymbol("number")! }
+	static var numberCircle: SFSymbol { SFSymbol("number.circle")! }
+	static var numberCircleFill: SFSymbol { SFSymbol("number.circle.fill")! }
+	static var numberSquare: SFSymbol { SFSymbol("number.square")! }
+	static var numberSquareFill: SFSymbol { SFSymbol("number.square.fill")! }
+	static var xSquareroot: SFSymbol { SFSymbol("x.squareroot")! }
+	static var xmark: SFSymbol { SFSymbol("xmark")! }
+	static var xmarkCircle: SFSymbol { SFSymbol("xmark.circle")! }
+	static var xmarkCircleFill: SFSymbol { SFSymbol("xmark.circle.fill")! }
+	static var xmarkSquare: SFSymbol { SFSymbol("xmark.square")! }
+	static var xmarkSquareFill: SFSymbol { SFSymbol("xmark.square.fill")! }
+	static var checkmark: SFSymbol { SFSymbol("checkmark")! }
+	static var checkmarkCircle: SFSymbol { SFSymbol("checkmark.circle")! }
+	static var checkmarkCircleFill: SFSymbol { SFSymbol("checkmark.circle.fill")! }
+	static var checkmarkSquare: SFSymbol { SFSymbol("checkmark.square")! }
+	static var checkmarkSquareFill: SFSymbol { SFSymbol("checkmark.square.fill")! }
+	static var checkmarkRectangle: SFSymbol { SFSymbol("checkmark.rectangle")! }
+	static var checkmarkRectangleFill: SFSymbol { SFSymbol("checkmark.rectangle.fill")! }
+	static var checkmarkRectanglePortrait: SFSymbol { SFSymbol("checkmark.rectangle.portrait")! }
+	static var checkmarkRectanglePortraitFill: SFSymbol { SFSymbol("checkmark.rectangle.portrait.fill")! }
+	static var checkmarkShield: SFSymbol { SFSymbol("checkmark.shield")! }
+	static var checkmarkShieldFill: SFSymbol { SFSymbol("checkmark.shield.fill")! }
+	static var chevronUp: SFSymbol { SFSymbol("chevron.up")! }
+	static var chevronUpCircle: SFSymbol { SFSymbol("chevron.up.circle")! }
+	static var chevronUpCircleFill: SFSymbol { SFSymbol("chevron.up.circle.fill")! }
+	static var chevronUpSquare: SFSymbol { SFSymbol("chevron.up.square")! }
+	static var chevronUpSquareFill: SFSymbol { SFSymbol("chevron.up.square.fill")! }
+	static var chevronDown: SFSymbol { SFSymbol("chevron.down")! }
+	static var chevronDownCircle: SFSymbol { SFSymbol("chevron.down.circle")! }
+	static var chevronDownCircleFill: SFSymbol { SFSymbol("chevron.down.circle.fill")! }
+	static var chevronDownSquare: SFSymbol { SFSymbol("chevron.down.square")! }
+	static var chevronDownSquareFill: SFSymbol { SFSymbol("chevron.down.square.fill")! }
+	static var chevronLeft: SFSymbol { SFSymbol("chevron.left")! }
+	static var chevronLeftCircle: SFSymbol { SFSymbol("chevron.left.circle")! }
+	static var chevronLeftCircleFill: SFSymbol { SFSymbol("chevron.left.circle.fill")! }
+	static var chevronLeftSquare: SFSymbol { SFSymbol("chevron.left.square")! }
+	static var chevronLeftSquareFill: SFSymbol { SFSymbol("chevron.left.square.fill")! }
+	static var chevronRight: SFSymbol { SFSymbol("chevron.right")! }
+	static var chevronRightCircle: SFSymbol { SFSymbol("chevron.right.circle")! }
+	static var chevronRightCircleFill: SFSymbol { SFSymbol("chevron.right.circle.fill")! }
+	static var chevronRightSquare: SFSymbol { SFSymbol("chevron.right.square")! }
+	static var chevronRightSquareFill: SFSymbol { SFSymbol("chevron.right.square.fill")! }
+	static var chevronLeft2: SFSymbol { SFSymbol("chevron.left.2")! }
+	static var chevronRight2: SFSymbol { SFSymbol("chevron.right.2")! }
 	static var control: SFSymbol { SFSymbol("control")! }
 	static var projective: SFSymbol { SFSymbol("projective")! }
-	static var escape: SFSymbol { SFSymbol("escape")! }
-	static var power: SFSymbol { SFSymbol("power")! }
-	static var globe: SFSymbol { SFSymbol("globe")! }
+	static var chevronUpChevronDown: SFSymbol { SFSymbol("chevron.up.chevron.down")! }
+	static var chevronCompactUp: SFSymbol { SFSymbol("chevron.compact.up")! }
+	static var chevronCompactDown: SFSymbol { SFSymbol("chevron.compact.down")! }
+	static var chevronCompactLeft: SFSymbol { SFSymbol("chevron.compact.left")! }
+	static var chevronCompactRight: SFSymbol { SFSymbol("chevron.compact.right")! }
 	static var arrowUp: SFSymbol { SFSymbol("arrow.up")! }
 	static var arrowUpCircle: SFSymbol { SFSymbol("arrow.up.circle")! }
 	static var arrowUpCircleFill: SFSymbol { SFSymbol("arrow.up.circle.fill")! }
@@ -1075,15 +1802,16 @@ public extension SFSymbol {
 	static var arrowDownRightCircleFill: SFSymbol { SFSymbol("arrow.down.right.circle.fill")! }
 	static var arrowDownRightSquare: SFSymbol { SFSymbol("arrow.down.right.square")! }
 	static var arrowDownRightSquareFill: SFSymbol { SFSymbol("arrow.down.right.square.fill")! }
-	static var arrowUpToLine: SFSymbol { SFSymbol("arrow.up.to.line")! }
-	static var arrowDownToLine: SFSymbol { SFSymbol("arrow.down.to.line")! }
-	static var arrowLeftToLine: SFSymbol { SFSymbol("arrow.left.to.line")! }
-	static var arrowRightToLine: SFSymbol { SFSymbol("arrow.right.to.line")! }
-	static var arrowUpToLineAlt: SFSymbol { SFSymbol("arrow.up.to.line.alt")! }
-	static var arrowDownToLineAlt: SFSymbol { SFSymbol("arrow.down.to.line.alt")! }
-	static var arrowLeftToLineAlt: SFSymbol { SFSymbol("arrow.left.to.line.alt")! }
-	static var arrowRightToLineAlt: SFSymbol { SFSymbol("arrow.right.to.line.alt")! }
-	static var `return`: SFSymbol { SFSymbol("return")! }
+	static var arrowUpArrowDown: SFSymbol { SFSymbol("arrow.up.arrow.down")! }
+	static var arrowUpArrowDownCircle: SFSymbol { SFSymbol("arrow.up.arrow.down.circle")! }
+	static var arrowUpArrowDownCircleFill: SFSymbol { SFSymbol("arrow.up.arrow.down.circle.fill")! }
+	static var arrowUpArrowDownSquare: SFSymbol { SFSymbol("arrow.up.arrow.down.square")! }
+	static var arrowUpArrowDownSquareFill: SFSymbol { SFSymbol("arrow.up.arrow.down.square.fill")! }
+	static var arrowRightArrowLeft: SFSymbol { SFSymbol("arrow.right.arrow.left")! }
+	static var arrowRightArrowLeftCircle: SFSymbol { SFSymbol("arrow.right.arrow.left.circle")! }
+	static var arrowRightArrowLeftCircleFill: SFSymbol { SFSymbol("arrow.right.arrow.left.circle.fill")! }
+	static var arrowRightArrowLeftSquare: SFSymbol { SFSymbol("arrow.right.arrow.left.square")! }
+	static var arrowRightArrowLeftSquareFill: SFSymbol { SFSymbol("arrow.right.arrow.left.square.fill")! }
 	static var arrowTurnRightUp: SFSymbol { SFSymbol("arrow.turn.right.up")! }
 	static var arrowTurnRightDown: SFSymbol { SFSymbol("arrow.turn.right.down")! }
 	static var arrowTurnDownLeft: SFSymbol { SFSymbol("arrow.turn.down.left")! }
@@ -1113,6 +1841,8 @@ public extension SFSymbol {
 	static var arrowUturnRightCircleFill: SFSymbol { SFSymbol("arrow.uturn.right.circle.fill")! }
 	static var arrowUturnRightSquare: SFSymbol { SFSymbol("arrow.uturn.right.square")! }
 	static var arrowUturnRightSquareFill: SFSymbol { SFSymbol("arrow.uturn.right.square.fill")! }
+	static var arrowUpAndDownAndArrowLeftAndRight: SFSymbol { SFSymbol("arrow.up.and.down.and.arrow.left.and.right")! }
+	static var arrowUpLeftAndDownRightAndArrowUpRightAndDownLeft: SFSymbol { SFSymbol("arrow.up.left.and.down.right.and.arrow.up.right.and.down.left")! }
 	static var arrowUpAndDown: SFSymbol { SFSymbol("arrow.up.and.down")! }
 	static var arrowUpAndDownCircle: SFSymbol { SFSymbol("arrow.up.and.down.circle")! }
 	static var arrowUpAndDownCircleFill: SFSymbol { SFSymbol("arrow.up.and.down.circle.fill")! }
@@ -1123,570 +1853,555 @@ public extension SFSymbol {
 	static var arrowLeftAndRightCircleFill: SFSymbol { SFSymbol("arrow.left.and.right.circle.fill")! }
 	static var arrowLeftAndRightSquare: SFSymbol { SFSymbol("arrow.left.and.right.square")! }
 	static var arrowLeftAndRightSquareFill: SFSymbol { SFSymbol("arrow.left.and.right.square.fill")! }
-	static var arrowUpArrowDown: SFSymbol { SFSymbol("arrow.up.arrow.down")! }
-	static var arrowUpArrowDownCircle: SFSymbol { SFSymbol("arrow.up.arrow.down.circle")! }
-	static var arrowUpArrowDownCircleFill: SFSymbol { SFSymbol("arrow.up.arrow.down.circle.fill")! }
-	static var arrowUpArrowDownSquare: SFSymbol { SFSymbol("arrow.up.arrow.down.square")! }
-	static var arrowUpArrowDownSquareFill: SFSymbol { SFSymbol("arrow.up.arrow.down.square.fill")! }
-	static var arrowRightArrowLeft: SFSymbol { SFSymbol("arrow.right.arrow.left")! }
-	static var arrowRightArrowLeftCircle: SFSymbol { SFSymbol("arrow.right.arrow.left.circle")! }
-	static var arrowRightArrowLeftCircleFill: SFSymbol { SFSymbol("arrow.right.arrow.left.circle.fill")! }
-	static var arrowRightArrowLeftSquare: SFSymbol { SFSymbol("arrow.right.arrow.left.square")! }
-	static var arrowRightArrowLeftSquareFill: SFSymbol { SFSymbol("arrow.right.arrow.left.square.fill")! }
+	static var arrowUpToLineAlt: SFSymbol { SFSymbol("arrow.up.to.line.alt")! }
+	static var arrowUpToLine: SFSymbol { SFSymbol("arrow.up.to.line")! }
+	static var arrowDownToLineAlt: SFSymbol { SFSymbol("arrow.down.to.line.alt")! }
+	static var arrowDownToLine: SFSymbol { SFSymbol("arrow.down.to.line")! }
+	static var arrowLeftToLineAlt: SFSymbol { SFSymbol("arrow.left.to.line.alt")! }
+	static var arrowLeftToLine: SFSymbol { SFSymbol("arrow.left.to.line")! }
+	static var arrowRightToLineAlt: SFSymbol { SFSymbol("arrow.right.to.line.alt")! }
+	static var arrowRightToLine: SFSymbol { SFSymbol("arrow.right.to.line")! }
+	static var `return`: SFSymbol { SFSymbol( "return")! }
 	static var arrowClockwise: SFSymbol { SFSymbol("arrow.clockwise")! }
 	static var arrowClockwiseCircle: SFSymbol { SFSymbol("arrow.clockwise.circle")! }
 	static var arrowClockwiseCircleFill: SFSymbol { SFSymbol("arrow.clockwise.circle.fill")! }
 	static var arrowCounterclockwise: SFSymbol { SFSymbol("arrow.counterclockwise")! }
 	static var arrowCounterclockwiseCircle: SFSymbol { SFSymbol("arrow.counterclockwise.circle")! }
 	static var arrowCounterclockwiseCircleFill: SFSymbol { SFSymbol("arrow.counterclockwise.circle.fill")! }
+	static var arrowUpLeftAndArrowDownRight: SFSymbol { SFSymbol("arrow.up.left.and.arrow.down.right")! }
+	static var arrowUpLeftAndArrowDownRightCircle: SFSymbol { SFSymbol("arrow.up.left.and.arrow.down.right.circle")! }
+	static var arrowUpLeftAndArrowDownRightCircleFill: SFSymbol { SFSymbol("arrow.up.left.and.arrow.down.right.circle.fill")! }
+	static var arrowDownRightAndArrowUpLeft: SFSymbol { SFSymbol("arrow.down.right.and.arrow.up.left")! }
 	static var arrow2Squarepath: SFSymbol { SFSymbol("arrow.2.squarepath")! }
-	static var arrow2Circlepath: SFSymbol { SFSymbol("arrow.2.circlepath")! }
-	static var arrow2CirclepathCircle: SFSymbol { SFSymbol("arrow.2.circlepath.circle")! }
-	static var arrow2CirclepathCircleFill: SFSymbol { SFSymbol("arrow.2.circlepath.circle.fill")! }
+	static var arrowTriangle2Circlepath: SFSymbol { SFSymbol("arrow.triangle.2.circlepath")! }
+	static var arrowTriangle2CirclepathCircle: SFSymbol { SFSymbol("arrow.triangle.2.circlepath.circle")! }
+	static var arrowTriangle2CirclepathCircleFill: SFSymbol { SFSymbol("arrow.triangle.2.circlepath.circle.fill")! }
+	static var exclamationmarkArrowTriangle2Circlepath: SFSymbol { SFSymbol("exclamationmark.arrow.triangle.2.circlepath")! }
+	static var arrowTriangleCapsulepath: SFSymbol { SFSymbol("arrow.triangle.capsulepath")! }
 	static var arrow3Trianglepath: SFSymbol { SFSymbol("arrow.3.trianglepath")! }
-	static var leafArrowCirclepath: SFSymbol { SFSymbol("leaf.arrow.circlepath")! }
-	static var arrowUpRightDiamond: SFSymbol { SFSymbol("arrow.up.right.diamond")! }
-	static var arrowUpRightDiamondFill: SFSymbol { SFSymbol("arrow.up.right.diamond.fill")! }
-	static var arrowMerge: SFSymbol { SFSymbol("arrow.merge")! }
-	static var arrowSwap: SFSymbol { SFSymbol("arrow.swap")! }
-	static var arrowBranch: SFSymbol { SFSymbol("arrow.branch")! }
-	static var rays: SFSymbol { SFSymbol("rays")! }
-	static var cursorRays: SFSymbol { SFSymbol("cursor.rays")! }
-	static var slowmo: SFSymbol { SFSymbol("slowmo")! }
-	static var timelapse: SFSymbol { SFSymbol("timelapse")! }
-	static var keyboard: SFSymbol { SFSymbol("keyboard")! }
-	static var keyboardChevronCompactDown: SFSymbol { SFSymbol("keyboard.chevron.compact.down")! }
-	static var grid: SFSymbol { SFSymbol("grid")! }
-	static var gridCircle: SFSymbol { SFSymbol("grid.circle")! }
-	static var gridCircleFill: SFSymbol { SFSymbol("grid.circle.fill")! }
-	static var rectangle3Offgrid: SFSymbol { SFSymbol("rectangle.3.offgrid")! }
-	static var rectangle3OffgridFill: SFSymbol { SFSymbol("rectangle.3.offgrid.fill")! }
-	static var rectangleGrid3X2: SFSymbol { SFSymbol("rectangle.grid.3x2")! }
-	static var rectangleGrid3X2Fill: SFSymbol { SFSymbol("rectangle.grid.3x2.fill")! }
-	static var squareGrid3X2: SFSymbol { SFSymbol("square.grid.3x2")! }
-	static var squareGrid3X2Fill: SFSymbol { SFSymbol("square.grid.3x2.fill")! }
-	static var squareGrid2X2: SFSymbol { SFSymbol("square.grid.2x2")! }
-	static var squareGrid2X2Fill: SFSymbol { SFSymbol("square.grid.2x2.fill")! }
-	static var rectangleGrid2X2: SFSymbol { SFSymbol("rectangle.grid.2x2")! }
-	static var rectangleGrid2X2Fill: SFSymbol { SFSymbol("rectangle.grid.2x2.fill")! }
-	static var squareGrid4X3Fill: SFSymbol { SFSymbol("square.grid.4x3.fill")! }
-	static var circleGrid2X2: SFSymbol { SFSymbol("circle.grid.2x2")! }
-	static var circleGrid2X2Fill: SFSymbol { SFSymbol("circle.grid.2x2.fill")! }
-	static var circleGrid3X3: SFSymbol { SFSymbol("circle.grid.3x3")! }
-	static var circleGrid3X3Fill: SFSymbol { SFSymbol("circle.grid.3x3.fill")! }
-	static var circleGridHex: SFSymbol { SFSymbol("circle.grid.hex")! }
-	static var circleGridHexFill: SFSymbol { SFSymbol("circle.grid.hex.fill")! }
-	static var rectangleGrid1X2: SFSymbol { SFSymbol("rectangle.grid.1x2")! }
-	static var rectangleGrid1X2Fill: SFSymbol { SFSymbol("rectangle.grid.1x2.fill")! }
-	static var signature: SFSymbol { SFSymbol("signature")! }
-	static var burn: SFSymbol { SFSymbol("burn")! }
-	static var square: SFSymbol { SFSymbol("square")! }
-	static var squareFill: SFSymbol { SFSymbol("square.fill")! }
-	static var squareLefthalfFill: SFSymbol { SFSymbol("square.lefthalf.fill")! }
-	static var squareRighthalfFill: SFSymbol { SFSymbol("square.righthalf.fill")! }
-	static var circle: SFSymbol { SFSymbol("circle")! }
-	static var circleFill: SFSymbol { SFSymbol("circle.fill")! }
-	static var circleLefthalfFill: SFSymbol { SFSymbol("circle.lefthalf.fill")! }
-	static var circleRighthalfFill: SFSymbol { SFSymbol("circle.righthalf.fill")! }
-	static var triangle: SFSymbol { SFSymbol("triangle")! }
-	static var triangleFill: SFSymbol { SFSymbol("triangle.fill")! }
-	static var triangleLefthalfFill: SFSymbol { SFSymbol("triangle.lefthalf.fill")! }
-	static var triangleRighthalfFill: SFSymbol { SFSymbol("triangle.righthalf.fill")! }
+	static var arrowTriangleTurnUpRightDiamond: SFSymbol { SFSymbol("arrow.triangle.turn.up.right.diamond")! }
+	static var arrowTriangleTurnUpRightDiamondFill: SFSymbol { SFSymbol("arrow.triangle.turn.up.right.diamond.fill")! }
+	static var arrowTriangleTurnUpRightCircle: SFSymbol { SFSymbol("arrow.triangle.turn.up.right.circle")! }
+	static var arrowTriangleTurnUpRightCircleFill: SFSymbol { SFSymbol("arrow.triangle.turn.up.right.circle.fill")! }
+	static var arrowTriangleMerge: SFSymbol { SFSymbol("arrow.triangle.merge")! }
+	static var arrowTriangleSwap: SFSymbol { SFSymbol("arrow.triangle.swap")! }
+	static var arrowTriangleBranch: SFSymbol { SFSymbol("arrow.triangle.branch")! }
+	static var arrowTrianglePull: SFSymbol { SFSymbol("arrow.triangle.pull")! }
+	static var arrowtriangleUp: SFSymbol { SFSymbol("arrowtriangle.up")! }
+	static var arrowtriangleUpFill: SFSymbol { SFSymbol("arrowtriangle.up.fill")! }
+	static var arrowtriangleUpCircle: SFSymbol { SFSymbol("arrowtriangle.up.circle")! }
+	static var arrowtriangleUpCircleFill: SFSymbol { SFSymbol("arrowtriangle.up.circle.fill")! }
+	static var arrowtriangleUpSquare: SFSymbol { SFSymbol("arrowtriangle.up.square")! }
+	static var arrowtriangleUpSquareFill: SFSymbol { SFSymbol("arrowtriangle.up.square.fill")! }
+	static var arrowtriangleDown: SFSymbol { SFSymbol("arrowtriangle.down")! }
+	static var arrowtriangleDownFill: SFSymbol { SFSymbol("arrowtriangle.down.fill")! }
+	static var arrowtriangleDownCircle: SFSymbol { SFSymbol("arrowtriangle.down.circle")! }
+	static var arrowtriangleDownCircleFill: SFSymbol { SFSymbol("arrowtriangle.down.circle.fill")! }
+	static var arrowtriangleDownSquare: SFSymbol { SFSymbol("arrowtriangle.down.square")! }
+	static var arrowtriangleDownSquareFill: SFSymbol { SFSymbol("arrowtriangle.down.square.fill")! }
+	static var arrowtriangleLeft: SFSymbol { SFSymbol("arrowtriangle.left")! }
+	static var arrowtriangleLeftFill: SFSymbol { SFSymbol("arrowtriangle.left.fill")! }
+	static var arrowtriangleLeftCircle: SFSymbol { SFSymbol("arrowtriangle.left.circle")! }
+	static var arrowtriangleLeftCircleFill: SFSymbol { SFSymbol("arrowtriangle.left.circle.fill")! }
+	static var arrowtriangleLeftSquare: SFSymbol { SFSymbol("arrowtriangle.left.square")! }
+	static var arrowtriangleLeftSquareFill: SFSymbol { SFSymbol("arrowtriangle.left.square.fill")! }
+	static var arrowtriangleRight: SFSymbol { SFSymbol("arrowtriangle.right")! }
+	static var arrowtriangleRightFill: SFSymbol { SFSymbol("arrowtriangle.right.fill")! }
+	static var arrowtriangleRightCircle: SFSymbol { SFSymbol("arrowtriangle.right.circle")! }
+	static var arrowtriangleRightCircleFill: SFSymbol { SFSymbol("arrowtriangle.right.circle.fill")! }
+	static var arrowtriangleRightSquare: SFSymbol { SFSymbol("arrowtriangle.right.square")! }
+	static var arrowtriangleRightSquareFill: SFSymbol { SFSymbol("arrowtriangle.right.square.fill")! }
+	static var slashCircle: SFSymbol { SFSymbol("slash.circle")! }
+	static var slashCircleFill: SFSymbol { SFSymbol("slash.circle.fill")! }
+	static var asteriskCircle: SFSymbol { SFSymbol("asterisk.circle")! }
+	static var asteriskCircleFill: SFSymbol { SFSymbol("asterisk.circle.fill")! }
 	static var aCircle: SFSymbol { SFSymbol("a.circle")! }
 	static var aCircleFill: SFSymbol { SFSymbol("a.circle.fill")! }
-	static var bCircle: SFSymbol { SFSymbol("b.circle")! }
-	static var bCircleFill: SFSymbol { SFSymbol("b.circle.fill")! }
-	static var cCircle: SFSymbol { SFSymbol("c.circle")! }
-	static var cCircleFill: SFSymbol { SFSymbol("c.circle.fill")! }
-	static var dCircle: SFSymbol { SFSymbol("d.circle")! }
-	static var dCircleFill: SFSymbol { SFSymbol("d.circle.fill")! }
-	static var eCircle: SFSymbol { SFSymbol("e.circle")! }
-	static var eCircleFill: SFSymbol { SFSymbol("e.circle.fill")! }
-	static var fCircle: SFSymbol { SFSymbol("f.circle")! }
-	static var fCircleFill: SFSymbol { SFSymbol("f.circle.fill")! }
-	static var gCircle: SFSymbol { SFSymbol("g.circle")! }
-	static var gCircleFill: SFSymbol { SFSymbol("g.circle.fill")! }
-	static var hCircle: SFSymbol { SFSymbol("h.circle")! }
-	static var hCircleFill: SFSymbol { SFSymbol("h.circle.fill")! }
-	static var iCircle: SFSymbol { SFSymbol("i.circle")! }
-	static var iCircleFill: SFSymbol { SFSymbol("i.circle.fill")! }
-	static var jCircle: SFSymbol { SFSymbol("j.circle")! }
-	static var jCircleFill: SFSymbol { SFSymbol("j.circle.fill")! }
-	static var kCircle: SFSymbol { SFSymbol("k.circle")! }
-	static var kCircleFill: SFSymbol { SFSymbol("k.circle.fill")! }
-	static var lCircle: SFSymbol { SFSymbol("l.circle")! }
-	static var lCircleFill: SFSymbol { SFSymbol("l.circle.fill")! }
-	static var mCircle: SFSymbol { SFSymbol("m.circle")! }
-	static var mCircleFill: SFSymbol { SFSymbol("m.circle.fill")! }
-	static var nCircle: SFSymbol { SFSymbol("n.circle")! }
-	static var nCircleFill: SFSymbol { SFSymbol("n.circle.fill")! }
-	static var oCircle: SFSymbol { SFSymbol("o.circle")! }
-	static var oCircleFill: SFSymbol { SFSymbol("o.circle.fill")! }
-	static var pCircle: SFSymbol { SFSymbol("p.circle")! }
-	static var pCircleFill: SFSymbol { SFSymbol("p.circle.fill")! }
-	static var qCircle: SFSymbol { SFSymbol("q.circle")! }
-	static var qCircleFill: SFSymbol { SFSymbol("q.circle.fill")! }
-	static var rCircle: SFSymbol { SFSymbol("r.circle")! }
-	static var rCircleFill: SFSymbol { SFSymbol("r.circle.fill")! }
-	static var sCircle: SFSymbol { SFSymbol("s.circle")! }
-	static var sCircleFill: SFSymbol { SFSymbol("s.circle.fill")! }
-	static var tCircle: SFSymbol { SFSymbol("t.circle")! }
-	static var tCircleFill: SFSymbol { SFSymbol("t.circle.fill")! }
-	static var uCircle: SFSymbol { SFSymbol("u.circle")! }
-	static var uCircleFill: SFSymbol { SFSymbol("u.circle.fill")! }
-	static var vCircle: SFSymbol { SFSymbol("v.circle")! }
-	static var vCircleFill: SFSymbol { SFSymbol("v.circle.fill")! }
-	static var wCircle: SFSymbol { SFSymbol("w.circle")! }
-	static var wCircleFill: SFSymbol { SFSymbol("w.circle.fill")! }
-	static var xCircle: SFSymbol { SFSymbol("x.circle")! }
-	static var xCircleFill: SFSymbol { SFSymbol("x.circle.fill")! }
-	static var yCircle: SFSymbol { SFSymbol("y.circle")! }
-	static var yCircleFill: SFSymbol { SFSymbol("y.circle.fill")! }
-	static var zCircle: SFSymbol { SFSymbol("z.circle")! }
-	static var zCircleFill: SFSymbol { SFSymbol("z.circle.fill")! }
-	static var _0Circle: SFSymbol { SFSymbol("0.circle")! }
-	static var _0CircleFill: SFSymbol { SFSymbol("0.circle.fill")! }
-	static var _1Circle: SFSymbol { SFSymbol("1.circle")! }
-	static var _1CircleFill: SFSymbol { SFSymbol("1.circle.fill")! }
-	static var _2Circle: SFSymbol { SFSymbol("2.circle")! }
-	static var _2CircleFill: SFSymbol { SFSymbol("2.circle.fill")! }
-	static var _3Circle: SFSymbol { SFSymbol("3.circle")! }
-	static var _3CircleFill: SFSymbol { SFSymbol("3.circle.fill")! }
-	static var _4Circle: SFSymbol { SFSymbol("4.circle")! }
-	static var _4CircleFill: SFSymbol { SFSymbol("4.circle.fill")! }
-	static var _4AltCircle: SFSymbol { SFSymbol("4.alt.circle")! }
-	static var _4AltCircleFill: SFSymbol { SFSymbol("4.alt.circle.fill")! }
-	static var _5Circle: SFSymbol { SFSymbol("5.circle")! }
-	static var _5CircleFill: SFSymbol { SFSymbol("5.circle.fill")! }
-	static var _6Circle: SFSymbol { SFSymbol("6.circle")! }
-	static var _6CircleFill: SFSymbol { SFSymbol("6.circle.fill")! }
-	static var _6AltCircle: SFSymbol { SFSymbol("6.alt.circle")! }
-	static var _6AltCircleFill: SFSymbol { SFSymbol("6.alt.circle.fill")! }
-	static var _7Circle: SFSymbol { SFSymbol("7.circle")! }
-	static var _7CircleFill: SFSymbol { SFSymbol("7.circle.fill")! }
-	static var _8Circle: SFSymbol { SFSymbol("8.circle")! }
-	static var _8CircleFill: SFSymbol { SFSymbol("8.circle.fill")! }
-	static var _9Circle: SFSymbol { SFSymbol("9.circle")! }
-	static var _9CircleFill: SFSymbol { SFSymbol("9.circle.fill")! }
-	static var _9AltCircle: SFSymbol { SFSymbol("9.alt.circle")! }
-	static var _9AltCircleFill: SFSymbol { SFSymbol("9.alt.circle.fill")! }
-	static var questionmarkCircle: SFSymbol { SFSymbol("questionmark.circle")! }
-	static var questionmarkCircleFill: SFSymbol { SFSymbol("questionmark.circle.fill")! }
-	static var exclamationmarkCircle: SFSymbol { SFSymbol("exclamationmark.circle")! }
-	static var exclamationmarkCircleFill: SFSymbol { SFSymbol("exclamationmark.circle.fill")! }
 	static var aSquare: SFSymbol { SFSymbol("a.square")! }
 	static var aSquareFill: SFSymbol { SFSymbol("a.square.fill")! }
+	static var bCircle: SFSymbol { SFSymbol("b.circle")! }
+	static var bCircleFill: SFSymbol { SFSymbol("b.circle.fill")! }
 	static var bSquare: SFSymbol { SFSymbol("b.square")! }
 	static var bSquareFill: SFSymbol { SFSymbol("b.square.fill")! }
+	static var cCircle: SFSymbol { SFSymbol("c.circle")! }
+	static var cCircleFill: SFSymbol { SFSymbol("c.circle.fill")! }
 	static var cSquare: SFSymbol { SFSymbol("c.square")! }
 	static var cSquareFill: SFSymbol { SFSymbol("c.square.fill")! }
+	static var dCircle: SFSymbol { SFSymbol("d.circle")! }
+	static var dCircleFill: SFSymbol { SFSymbol("d.circle.fill")! }
 	static var dSquare: SFSymbol { SFSymbol("d.square")! }
 	static var dSquareFill: SFSymbol { SFSymbol("d.square.fill")! }
+	static var eCircle: SFSymbol { SFSymbol("e.circle")! }
+	static var eCircleFill: SFSymbol { SFSymbol("e.circle.fill")! }
 	static var eSquare: SFSymbol { SFSymbol("e.square")! }
 	static var eSquareFill: SFSymbol { SFSymbol("e.square.fill")! }
+	static var fCircle: SFSymbol { SFSymbol("f.circle")! }
+	static var fCircleFill: SFSymbol { SFSymbol("f.circle.fill")! }
 	static var fSquare: SFSymbol { SFSymbol("f.square")! }
 	static var fSquareFill: SFSymbol { SFSymbol("f.square.fill")! }
+	static var gCircle: SFSymbol { SFSymbol("g.circle")! }
+	static var gCircleFill: SFSymbol { SFSymbol("g.circle.fill")! }
 	static var gSquare: SFSymbol { SFSymbol("g.square")! }
 	static var gSquareFill: SFSymbol { SFSymbol("g.square.fill")! }
+	static var hCircle: SFSymbol { SFSymbol("h.circle")! }
+	static var hCircleFill: SFSymbol { SFSymbol("h.circle.fill")! }
 	static var hSquare: SFSymbol { SFSymbol("h.square")! }
 	static var hSquareFill: SFSymbol { SFSymbol("h.square.fill")! }
+	static var iCircle: SFSymbol { SFSymbol("i.circle")! }
+	static var iCircleFill: SFSymbol { SFSymbol("i.circle.fill")! }
 	static var iSquare: SFSymbol { SFSymbol("i.square")! }
 	static var iSquareFill: SFSymbol { SFSymbol("i.square.fill")! }
+	static var jCircle: SFSymbol { SFSymbol("j.circle")! }
+	static var jCircleFill: SFSymbol { SFSymbol("j.circle.fill")! }
 	static var jSquare: SFSymbol { SFSymbol("j.square")! }
 	static var jSquareFill: SFSymbol { SFSymbol("j.square.fill")! }
+	static var kCircle: SFSymbol { SFSymbol("k.circle")! }
+	static var kCircleFill: SFSymbol { SFSymbol("k.circle.fill")! }
 	static var kSquare: SFSymbol { SFSymbol("k.square")! }
 	static var kSquareFill: SFSymbol { SFSymbol("k.square.fill")! }
+	static var lCircle: SFSymbol { SFSymbol("l.circle")! }
+	static var lCircleFill: SFSymbol { SFSymbol("l.circle.fill")! }
 	static var lSquare: SFSymbol { SFSymbol("l.square")! }
 	static var lSquareFill: SFSymbol { SFSymbol("l.square.fill")! }
+	static var mCircle: SFSymbol { SFSymbol("m.circle")! }
+	static var mCircleFill: SFSymbol { SFSymbol("m.circle.fill")! }
 	static var mSquare: SFSymbol { SFSymbol("m.square")! }
 	static var mSquareFill: SFSymbol { SFSymbol("m.square.fill")! }
+	static var nCircle: SFSymbol { SFSymbol("n.circle")! }
+	static var nCircleFill: SFSymbol { SFSymbol("n.circle.fill")! }
 	static var nSquare: SFSymbol { SFSymbol("n.square")! }
 	static var nSquareFill: SFSymbol { SFSymbol("n.square.fill")! }
+	static var oCircle: SFSymbol { SFSymbol("o.circle")! }
+	static var oCircleFill: SFSymbol { SFSymbol("o.circle.fill")! }
 	static var oSquare: SFSymbol { SFSymbol("o.square")! }
 	static var oSquareFill: SFSymbol { SFSymbol("o.square.fill")! }
+	static var pCircle: SFSymbol { SFSymbol("p.circle")! }
+	static var pCircleFill: SFSymbol { SFSymbol("p.circle.fill")! }
 	static var pSquare: SFSymbol { SFSymbol("p.square")! }
 	static var pSquareFill: SFSymbol { SFSymbol("p.square.fill")! }
+	static var qCircle: SFSymbol { SFSymbol("q.circle")! }
+	static var qCircleFill: SFSymbol { SFSymbol("q.circle.fill")! }
 	static var qSquare: SFSymbol { SFSymbol("q.square")! }
 	static var qSquareFill: SFSymbol { SFSymbol("q.square.fill")! }
+	static var rCircle: SFSymbol { SFSymbol("r.circle")! }
+	static var rCircleFill: SFSymbol { SFSymbol("r.circle.fill")! }
 	static var rSquare: SFSymbol { SFSymbol("r.square")! }
 	static var rSquareFill: SFSymbol { SFSymbol("r.square.fill")! }
+	static var sCircle: SFSymbol { SFSymbol("s.circle")! }
+	static var sCircleFill: SFSymbol { SFSymbol("s.circle.fill")! }
 	static var sSquare: SFSymbol { SFSymbol("s.square")! }
 	static var sSquareFill: SFSymbol { SFSymbol("s.square.fill")! }
+	static var tCircle: SFSymbol { SFSymbol("t.circle")! }
+	static var tCircleFill: SFSymbol { SFSymbol("t.circle.fill")! }
 	static var tSquare: SFSymbol { SFSymbol("t.square")! }
 	static var tSquareFill: SFSymbol { SFSymbol("t.square.fill")! }
+	static var uCircle: SFSymbol { SFSymbol("u.circle")! }
+	static var uCircleFill: SFSymbol { SFSymbol("u.circle.fill")! }
 	static var uSquare: SFSymbol { SFSymbol("u.square")! }
 	static var uSquareFill: SFSymbol { SFSymbol("u.square.fill")! }
+	static var vCircle: SFSymbol { SFSymbol("v.circle")! }
+	static var vCircleFill: SFSymbol { SFSymbol("v.circle.fill")! }
 	static var vSquare: SFSymbol { SFSymbol("v.square")! }
 	static var vSquareFill: SFSymbol { SFSymbol("v.square.fill")! }
+	static var wCircle: SFSymbol { SFSymbol("w.circle")! }
+	static var wCircleFill: SFSymbol { SFSymbol("w.circle.fill")! }
 	static var wSquare: SFSymbol { SFSymbol("w.square")! }
 	static var wSquareFill: SFSymbol { SFSymbol("w.square.fill")! }
+	static var xCircle: SFSymbol { SFSymbol("x.circle")! }
+	static var xCircleFill: SFSymbol { SFSymbol("x.circle.fill")! }
 	static var xSquare: SFSymbol { SFSymbol("x.square")! }
 	static var xSquareFill: SFSymbol { SFSymbol("x.square.fill")! }
+	static var yCircle: SFSymbol { SFSymbol("y.circle")! }
+	static var yCircleFill: SFSymbol { SFSymbol("y.circle.fill")! }
 	static var ySquare: SFSymbol { SFSymbol("y.square")! }
 	static var ySquareFill: SFSymbol { SFSymbol("y.square.fill")! }
+	static var zCircle: SFSymbol { SFSymbol("z.circle")! }
+	static var zCircleFill: SFSymbol { SFSymbol("z.circle.fill")! }
 	static var zSquare: SFSymbol { SFSymbol("z.square")! }
 	static var zSquareFill: SFSymbol { SFSymbol("z.square.fill")! }
-	static var _0Square: SFSymbol { SFSymbol("0.square")! }
-	static var _0SquareFill: SFSymbol { SFSymbol("0.square.fill")! }
-	static var _1Square: SFSymbol { SFSymbol("1.square")! }
-	static var _1SquareFill: SFSymbol { SFSymbol("1.square.fill")! }
-	static var _2Square: SFSymbol { SFSymbol("2.square")! }
-	static var _2SquareFill: SFSymbol { SFSymbol("2.square.fill")! }
-	static var _3Square: SFSymbol { SFSymbol("3.square")! }
-	static var _3SquareFill: SFSymbol { SFSymbol("3.square.fill")! }
-	static var _4Square: SFSymbol { SFSymbol("4.square")! }
-	static var _4SquareFill: SFSymbol { SFSymbol("4.square.fill")! }
-	static var _4AltSquare: SFSymbol { SFSymbol("4.alt.square")! }
-	static var _4AltSquareFill: SFSymbol { SFSymbol("4.alt.square.fill")! }
-	static var _5Square: SFSymbol { SFSymbol("5.square")! }
-	static var _5SquareFill: SFSymbol { SFSymbol("5.square.fill")! }
-	static var _6Square: SFSymbol { SFSymbol("6.square")! }
-	static var _6SquareFill: SFSymbol { SFSymbol("6.square.fill")! }
-	static var _6AltSquare: SFSymbol { SFSymbol("6.alt.square")! }
-	static var _6AltSquareFill: SFSymbol { SFSymbol("6.alt.square.fill")! }
-	static var _7Square: SFSymbol { SFSymbol("7.square")! }
-	static var _7SquareFill: SFSymbol { SFSymbol("7.square.fill")! }
-	static var _8Square: SFSymbol { SFSymbol("8.square")! }
-	static var _8SquareFill: SFSymbol { SFSymbol("8.square.fill")! }
-	static var _9Square: SFSymbol { SFSymbol("9.square")! }
-	static var _9SquareFill: SFSymbol { SFSymbol("9.square.fill")! }
-	static var _9AltSquare: SFSymbol { SFSymbol("9.alt.square")! }
-	static var _9AltSquareFill: SFSymbol { SFSymbol("9.alt.square.fill")! }
-	static var questionmarkSquare: SFSymbol { SFSymbol("questionmark.square")! }
-	static var questionmarkSquareFill: SFSymbol { SFSymbol("questionmark.square.fill")! }
-	static var exclamationmarkSquare: SFSymbol { SFSymbol("exclamationmark.square")! }
-	static var exclamationmarkSquareFill: SFSymbol { SFSymbol("exclamationmark.square.fill")! }
 	static var dollarsignCircle: SFSymbol { SFSymbol("dollarsign.circle")! }
 	static var dollarsignCircleFill: SFSymbol { SFSymbol("dollarsign.circle.fill")! }
-	static var centsignCircle: SFSymbol { SFSymbol("centsign.circle")! }
-	static var centsignCircleFill: SFSymbol { SFSymbol("centsign.circle.fill")! }
-	static var yensignCircle: SFSymbol { SFSymbol("yensign.circle")! }
-	static var yensignCircleFill: SFSymbol { SFSymbol("yensign.circle.fill")! }
-	static var sterlingsignCircle: SFSymbol { SFSymbol("sterlingsign.circle")! }
-	static var sterlingsignCircleFill: SFSymbol { SFSymbol("sterlingsign.circle.fill")! }
-	static var francsignCircle: SFSymbol { SFSymbol("francsign.circle")! }
-	static var francsignCircleFill: SFSymbol { SFSymbol("francsign.circle.fill")! }
-	static var florinsignCircle: SFSymbol { SFSymbol("florinsign.circle")! }
-	static var florinsignCircleFill: SFSymbol { SFSymbol("florinsign.circle.fill")! }
-	static var turkishlirasignCircle: SFSymbol { SFSymbol("turkishlirasign.circle")! }
-	static var turkishlirasignCircleFill: SFSymbol { SFSymbol("turkishlirasign.circle.fill")! }
-	static var rublesignCircle: SFSymbol { SFSymbol("rublesign.circle")! }
-	static var rublesignCircleFill: SFSymbol { SFSymbol("rublesign.circle.fill")! }
-	static var eurosignCircle: SFSymbol { SFSymbol("eurosign.circle")! }
-	static var eurosignCircleFill: SFSymbol { SFSymbol("eurosign.circle.fill")! }
-	static var dongsignCircle: SFSymbol { SFSymbol("dongsign.circle")! }
-	static var dongsignCircleFill: SFSymbol { SFSymbol("dongsign.circle.fill")! }
-	static var indianrupeesignCircle: SFSymbol { SFSymbol("indianrupeesign.circle")! }
-	static var indianrupeesignCircleFill: SFSymbol { SFSymbol("indianrupeesign.circle.fill")! }
-	static var tengesignCircle: SFSymbol { SFSymbol("tengesign.circle")! }
-	static var tengesignCircleFill: SFSymbol { SFSymbol("tengesign.circle.fill")! }
-	static var pesetasignCircle: SFSymbol { SFSymbol("pesetasign.circle")! }
-	static var pesetasignCircleFill: SFSymbol { SFSymbol("pesetasign.circle.fill")! }
-	static var pesosignCircle: SFSymbol { SFSymbol("pesosign.circle")! }
-	static var pesosignCircleFill: SFSymbol { SFSymbol("pesosign.circle.fill")! }
-	static var kipsignCircle: SFSymbol { SFSymbol("kipsign.circle")! }
-	static var kipsignCircleFill: SFSymbol { SFSymbol("kipsign.circle.fill")! }
-	static var wonsignCircle: SFSymbol { SFSymbol("wonsign.circle")! }
-	static var wonsignCircleFill: SFSymbol { SFSymbol("wonsign.circle.fill")! }
-	static var lirasignCircle: SFSymbol { SFSymbol("lirasign.circle")! }
-	static var lirasignCircleFill: SFSymbol { SFSymbol("lirasign.circle.fill")! }
-	static var australsignCircle: SFSymbol { SFSymbol("australsign.circle")! }
-	static var australsignCircleFill: SFSymbol { SFSymbol("australsign.circle.fill")! }
-	static var hryvniasignCircle: SFSymbol { SFSymbol("hryvniasign.circle")! }
-	static var hryvniasignCircleFill: SFSymbol { SFSymbol("hryvniasign.circle.fill")! }
-	static var nairasignCircle: SFSymbol { SFSymbol("nairasign.circle")! }
-	static var nairasignCircleFill: SFSymbol { SFSymbol("nairasign.circle.fill")! }
-	static var guaranisignCircle: SFSymbol { SFSymbol("guaranisign.circle")! }
-	static var guaranisignCircleFill: SFSymbol { SFSymbol("guaranisign.circle.fill")! }
-	static var coloncurrencysignCircle: SFSymbol { SFSymbol("coloncurrencysign.circle")! }
-	static var coloncurrencysignCircleFill: SFSymbol { SFSymbol("coloncurrencysign.circle.fill")! }
-	static var cedisignCircle: SFSymbol { SFSymbol("cedisign.circle")! }
-	static var cedisignCircleFill: SFSymbol { SFSymbol("cedisign.circle.fill")! }
-	static var cruzeirosignCircle: SFSymbol { SFSymbol("cruzeirosign.circle")! }
-	static var cruzeirosignCircleFill: SFSymbol { SFSymbol("cruzeirosign.circle.fill")! }
-	static var tugriksignCircle: SFSymbol { SFSymbol("tugriksign.circle")! }
-	static var tugriksignCircleFill: SFSymbol { SFSymbol("tugriksign.circle.fill")! }
-	static var millsignCircle: SFSymbol { SFSymbol("millsign.circle")! }
-	static var millsignCircleFill: SFSymbol { SFSymbol("millsign.circle.fill")! }
-	static var sheqelsignCircle: SFSymbol { SFSymbol("sheqelsign.circle")! }
-	static var sheqelsignCircleFill: SFSymbol { SFSymbol("sheqelsign.circle.fill")! }
-	static var manatsignCircle: SFSymbol { SFSymbol("manatsign.circle")! }
-	static var manatsignCircleFill: SFSymbol { SFSymbol("manatsign.circle.fill")! }
-	static var rupeesignCircle: SFSymbol { SFSymbol("rupeesign.circle")! }
-	static var rupeesignCircleFill: SFSymbol { SFSymbol("rupeesign.circle.fill")! }
-	static var bahtsignCircle: SFSymbol { SFSymbol("bahtsign.circle")! }
-	static var bahtsignCircleFill: SFSymbol { SFSymbol("bahtsign.circle.fill")! }
-	static var larisignCircle: SFSymbol { SFSymbol("larisign.circle")! }
-	static var larisignCircleFill: SFSymbol { SFSymbol("larisign.circle.fill")! }
-	static var bitcoinsignCircle: SFSymbol { SFSymbol("bitcoinsign.circle")! }
-	static var bitcoinsignCircleFill: SFSymbol { SFSymbol("bitcoinsign.circle.fill")! }
 	static var dollarsignSquare: SFSymbol { SFSymbol("dollarsign.square")! }
 	static var dollarsignSquareFill: SFSymbol { SFSymbol("dollarsign.square.fill")! }
+	static var centsignCircle: SFSymbol { SFSymbol("centsign.circle")! }
+	static var centsignCircleFill: SFSymbol { SFSymbol("centsign.circle.fill")! }
 	static var centsignSquare: SFSymbol { SFSymbol("centsign.square")! }
 	static var centsignSquareFill: SFSymbol { SFSymbol("centsign.square.fill")! }
+	static var yensignCircle: SFSymbol { SFSymbol("yensign.circle")! }
+	static var yensignCircleFill: SFSymbol { SFSymbol("yensign.circle.fill")! }
 	static var yensignSquare: SFSymbol { SFSymbol("yensign.square")! }
 	static var yensignSquareFill: SFSymbol { SFSymbol("yensign.square.fill")! }
+	static var sterlingsignCircle: SFSymbol { SFSymbol("sterlingsign.circle")! }
+	static var sterlingsignCircleFill: SFSymbol { SFSymbol("sterlingsign.circle.fill")! }
 	static var sterlingsignSquare: SFSymbol { SFSymbol("sterlingsign.square")! }
 	static var sterlingsignSquareFill: SFSymbol { SFSymbol("sterlingsign.square.fill")! }
+	static var francsignCircle: SFSymbol { SFSymbol("francsign.circle")! }
+	static var francsignCircleFill: SFSymbol { SFSymbol("francsign.circle.fill")! }
 	static var francsignSquare: SFSymbol { SFSymbol("francsign.square")! }
 	static var francsignSquareFill: SFSymbol { SFSymbol("francsign.square.fill")! }
+	static var florinsignCircle: SFSymbol { SFSymbol("florinsign.circle")! }
+	static var florinsignCircleFill: SFSymbol { SFSymbol("florinsign.circle.fill")! }
 	static var florinsignSquare: SFSymbol { SFSymbol("florinsign.square")! }
 	static var florinsignSquareFill: SFSymbol { SFSymbol("florinsign.square.fill")! }
+	static var turkishlirasignCircle: SFSymbol { SFSymbol("turkishlirasign.circle")! }
+	static var turkishlirasignCircleFill: SFSymbol { SFSymbol("turkishlirasign.circle.fill")! }
 	static var turkishlirasignSquare: SFSymbol { SFSymbol("turkishlirasign.square")! }
 	static var turkishlirasignSquareFill: SFSymbol { SFSymbol("turkishlirasign.square.fill")! }
+	static var rublesignCircle: SFSymbol { SFSymbol("rublesign.circle")! }
+	static var rublesignCircleFill: SFSymbol { SFSymbol("rublesign.circle.fill")! }
 	static var rublesignSquare: SFSymbol { SFSymbol("rublesign.square")! }
 	static var rublesignSquareFill: SFSymbol { SFSymbol("rublesign.square.fill")! }
+	static var eurosignCircle: SFSymbol { SFSymbol("eurosign.circle")! }
+	static var eurosignCircleFill: SFSymbol { SFSymbol("eurosign.circle.fill")! }
 	static var eurosignSquare: SFSymbol { SFSymbol("eurosign.square")! }
 	static var eurosignSquareFill: SFSymbol { SFSymbol("eurosign.square.fill")! }
+	static var dongsignCircle: SFSymbol { SFSymbol("dongsign.circle")! }
+	static var dongsignCircleFill: SFSymbol { SFSymbol("dongsign.circle.fill")! }
 	static var dongsignSquare: SFSymbol { SFSymbol("dongsign.square")! }
 	static var dongsignSquareFill: SFSymbol { SFSymbol("dongsign.square.fill")! }
+	static var indianrupeesignCircle: SFSymbol { SFSymbol("indianrupeesign.circle")! }
+	static var indianrupeesignCircleFill: SFSymbol { SFSymbol("indianrupeesign.circle.fill")! }
 	static var indianrupeesignSquare: SFSymbol { SFSymbol("indianrupeesign.square")! }
 	static var indianrupeesignSquareFill: SFSymbol { SFSymbol("indianrupeesign.square.fill")! }
+	static var tengesignCircle: SFSymbol { SFSymbol("tengesign.circle")! }
+	static var tengesignCircleFill: SFSymbol { SFSymbol("tengesign.circle.fill")! }
 	static var tengesignSquare: SFSymbol { SFSymbol("tengesign.square")! }
 	static var tengesignSquareFill: SFSymbol { SFSymbol("tengesign.square.fill")! }
+	static var pesetasignCircle: SFSymbol { SFSymbol("pesetasign.circle")! }
+	static var pesetasignCircleFill: SFSymbol { SFSymbol("pesetasign.circle.fill")! }
 	static var pesetasignSquare: SFSymbol { SFSymbol("pesetasign.square")! }
 	static var pesetasignSquareFill: SFSymbol { SFSymbol("pesetasign.square.fill")! }
+	static var pesosignCircle: SFSymbol { SFSymbol("pesosign.circle")! }
+	static var pesosignCircleFill: SFSymbol { SFSymbol("pesosign.circle.fill")! }
 	static var pesosignSquare: SFSymbol { SFSymbol("pesosign.square")! }
 	static var pesosignSquareFill: SFSymbol { SFSymbol("pesosign.square.fill")! }
+	static var kipsignCircle: SFSymbol { SFSymbol("kipsign.circle")! }
+	static var kipsignCircleFill: SFSymbol { SFSymbol("kipsign.circle.fill")! }
 	static var kipsignSquare: SFSymbol { SFSymbol("kipsign.square")! }
 	static var kipsignSquareFill: SFSymbol { SFSymbol("kipsign.square.fill")! }
+	static var wonsignCircle: SFSymbol { SFSymbol("wonsign.circle")! }
+	static var wonsignCircleFill: SFSymbol { SFSymbol("wonsign.circle.fill")! }
 	static var wonsignSquare: SFSymbol { SFSymbol("wonsign.square")! }
 	static var wonsignSquareFill: SFSymbol { SFSymbol("wonsign.square.fill")! }
+	static var lirasignCircle: SFSymbol { SFSymbol("lirasign.circle")! }
+	static var lirasignCircleFill: SFSymbol { SFSymbol("lirasign.circle.fill")! }
 	static var lirasignSquare: SFSymbol { SFSymbol("lirasign.square")! }
 	static var lirasignSquareFill: SFSymbol { SFSymbol("lirasign.square.fill")! }
+	static var australsignCircle: SFSymbol { SFSymbol("australsign.circle")! }
+	static var australsignCircleFill: SFSymbol { SFSymbol("australsign.circle.fill")! }
 	static var australsignSquare: SFSymbol { SFSymbol("australsign.square")! }
 	static var australsignSquareFill: SFSymbol { SFSymbol("australsign.square.fill")! }
+	static var hryvniasignCircle: SFSymbol { SFSymbol("hryvniasign.circle")! }
+	static var hryvniasignCircleFill: SFSymbol { SFSymbol("hryvniasign.circle.fill")! }
 	static var hryvniasignSquare: SFSymbol { SFSymbol("hryvniasign.square")! }
 	static var hryvniasignSquareFill: SFSymbol { SFSymbol("hryvniasign.square.fill")! }
+	static var nairasignCircle: SFSymbol { SFSymbol("nairasign.circle")! }
+	static var nairasignCircleFill: SFSymbol { SFSymbol("nairasign.circle.fill")! }
 	static var nairasignSquare: SFSymbol { SFSymbol("nairasign.square")! }
 	static var nairasignSquareFill: SFSymbol { SFSymbol("nairasign.square.fill")! }
+	static var guaranisignCircle: SFSymbol { SFSymbol("guaranisign.circle")! }
+	static var guaranisignCircleFill: SFSymbol { SFSymbol("guaranisign.circle.fill")! }
 	static var guaranisignSquare: SFSymbol { SFSymbol("guaranisign.square")! }
 	static var guaranisignSquareFill: SFSymbol { SFSymbol("guaranisign.square.fill")! }
+	static var coloncurrencysignCircle: SFSymbol { SFSymbol("coloncurrencysign.circle")! }
+	static var coloncurrencysignCircleFill: SFSymbol { SFSymbol("coloncurrencysign.circle.fill")! }
 	static var coloncurrencysignSquare: SFSymbol { SFSymbol("coloncurrencysign.square")! }
 	static var coloncurrencysignSquareFill: SFSymbol { SFSymbol("coloncurrencysign.square.fill")! }
+	static var cedisignCircle: SFSymbol { SFSymbol("cedisign.circle")! }
+	static var cedisignCircleFill: SFSymbol { SFSymbol("cedisign.circle.fill")! }
 	static var cedisignSquare: SFSymbol { SFSymbol("cedisign.square")! }
 	static var cedisignSquareFill: SFSymbol { SFSymbol("cedisign.square.fill")! }
+	static var cruzeirosignCircle: SFSymbol { SFSymbol("cruzeirosign.circle")! }
+	static var cruzeirosignCircleFill: SFSymbol { SFSymbol("cruzeirosign.circle.fill")! }
 	static var cruzeirosignSquare: SFSymbol { SFSymbol("cruzeirosign.square")! }
 	static var cruzeirosignSquareFill: SFSymbol { SFSymbol("cruzeirosign.square.fill")! }
+	static var tugriksignCircle: SFSymbol { SFSymbol("tugriksign.circle")! }
+	static var tugriksignCircleFill: SFSymbol { SFSymbol("tugriksign.circle.fill")! }
 	static var tugriksignSquare: SFSymbol { SFSymbol("tugriksign.square")! }
 	static var tugriksignSquareFill: SFSymbol { SFSymbol("tugriksign.square.fill")! }
+	static var millsignCircle: SFSymbol { SFSymbol("millsign.circle")! }
+	static var millsignCircleFill: SFSymbol { SFSymbol("millsign.circle.fill")! }
 	static var millsignSquare: SFSymbol { SFSymbol("millsign.square")! }
 	static var millsignSquareFill: SFSymbol { SFSymbol("millsign.square.fill")! }
+	static var sheqelsignCircle: SFSymbol { SFSymbol("sheqelsign.circle")! }
+	static var sheqelsignCircleFill: SFSymbol { SFSymbol("sheqelsign.circle.fill")! }
 	static var sheqelsignSquare: SFSymbol { SFSymbol("sheqelsign.square")! }
 	static var sheqelsignSquareFill: SFSymbol { SFSymbol("sheqelsign.square.fill")! }
+	static var manatsignCircle: SFSymbol { SFSymbol("manatsign.circle")! }
+	static var manatsignCircleFill: SFSymbol { SFSymbol("manatsign.circle.fill")! }
 	static var manatsignSquare: SFSymbol { SFSymbol("manatsign.square")! }
 	static var manatsignSquareFill: SFSymbol { SFSymbol("manatsign.square.fill")! }
+	static var rupeesignCircle: SFSymbol { SFSymbol("rupeesign.circle")! }
+	static var rupeesignCircleFill: SFSymbol { SFSymbol("rupeesign.circle.fill")! }
 	static var rupeesignSquare: SFSymbol { SFSymbol("rupeesign.square")! }
 	static var rupeesignSquareFill: SFSymbol { SFSymbol("rupeesign.square.fill")! }
+	static var bahtsignCircle: SFSymbol { SFSymbol("bahtsign.circle")! }
+	static var bahtsignCircleFill: SFSymbol { SFSymbol("bahtsign.circle.fill")! }
 	static var bahtsignSquare: SFSymbol { SFSymbol("bahtsign.square")! }
 	static var bahtsignSquareFill: SFSymbol { SFSymbol("bahtsign.square.fill")! }
+	static var larisignCircle: SFSymbol { SFSymbol("larisign.circle")! }
+	static var larisignCircleFill: SFSymbol { SFSymbol("larisign.circle.fill")! }
 	static var larisignSquare: SFSymbol { SFSymbol("larisign.square")! }
 	static var larisignSquareFill: SFSymbol { SFSymbol("larisign.square.fill")! }
+	static var bitcoinsignCircle: SFSymbol { SFSymbol("bitcoinsign.circle")! }
+	static var bitcoinsignCircleFill: SFSymbol { SFSymbol("bitcoinsign.circle.fill")! }
 	static var bitcoinsignSquare: SFSymbol { SFSymbol("bitcoinsign.square")! }
 	static var bitcoinsignSquareFill: SFSymbol { SFSymbol("bitcoinsign.square.fill")! }
-	static var _00Circle: SFSymbol { SFSymbol("00.circle")! }
-	static var _00CircleFill: SFSymbol { SFSymbol("00.circle.fill")! }
-	static var _01Circle: SFSymbol { SFSymbol("01.circle")! }
-	static var _01CircleFill: SFSymbol { SFSymbol("01.circle.fill")! }
-	static var _02Circle: SFSymbol { SFSymbol("02.circle")! }
-	static var _02CircleFill: SFSymbol { SFSymbol("02.circle.fill")! }
-	static var _03Circle: SFSymbol { SFSymbol("03.circle")! }
-	static var _03CircleFill: SFSymbol { SFSymbol("03.circle.fill")! }
-	static var _04Circle: SFSymbol { SFSymbol("04.circle")! }
-	static var _04CircleFill: SFSymbol { SFSymbol("04.circle.fill")! }
-	static var _05Circle: SFSymbol { SFSymbol("05.circle")! }
-	static var _05CircleFill: SFSymbol { SFSymbol("05.circle.fill")! }
-	static var _06Circle: SFSymbol { SFSymbol("06.circle")! }
-	static var _06CircleFill: SFSymbol { SFSymbol("06.circle.fill")! }
-	static var _07Circle: SFSymbol { SFSymbol("07.circle")! }
-	static var _07CircleFill: SFSymbol { SFSymbol("07.circle.fill")! }
-	static var _08Circle: SFSymbol { SFSymbol("08.circle")! }
-	static var _08CircleFill: SFSymbol { SFSymbol("08.circle.fill")! }
-	static var _09Circle: SFSymbol { SFSymbol("09.circle")! }
-	static var _09CircleFill: SFSymbol { SFSymbol("09.circle.fill")! }
-	static var _10Circle: SFSymbol { SFSymbol("10.circle")! }
-	static var _10CircleFill: SFSymbol { SFSymbol("10.circle.fill")! }
-	static var _11Circle: SFSymbol { SFSymbol("11.circle")! }
-	static var _11CircleFill: SFSymbol { SFSymbol("11.circle.fill")! }
-	static var _12Circle: SFSymbol { SFSymbol("12.circle")! }
-	static var _12CircleFill: SFSymbol { SFSymbol("12.circle.fill")! }
-	static var _13Circle: SFSymbol { SFSymbol("13.circle")! }
-	static var _13CircleFill: SFSymbol { SFSymbol("13.circle.fill")! }
-	static var _14Circle: SFSymbol { SFSymbol("14.circle")! }
-	static var _14CircleFill: SFSymbol { SFSymbol("14.circle.fill")! }
-	static var _15Circle: SFSymbol { SFSymbol("15.circle")! }
-	static var _15CircleFill: SFSymbol { SFSymbol("15.circle.fill")! }
-	static var _16Circle: SFSymbol { SFSymbol("16.circle")! }
-	static var _16CircleFill: SFSymbol { SFSymbol("16.circle.fill")! }
-	static var _17Circle: SFSymbol { SFSymbol("17.circle")! }
-	static var _17CircleFill: SFSymbol { SFSymbol("17.circle.fill")! }
-	static var _18Circle: SFSymbol { SFSymbol("18.circle")! }
-	static var _18CircleFill: SFSymbol { SFSymbol("18.circle.fill")! }
-	static var _19Circle: SFSymbol { SFSymbol("19.circle")! }
-	static var _19CircleFill: SFSymbol { SFSymbol("19.circle.fill")! }
-	static var _20Circle: SFSymbol { SFSymbol("20.circle")! }
-	static var _20CircleFill: SFSymbol { SFSymbol("20.circle.fill")! }
-	static var _21Circle: SFSymbol { SFSymbol("21.circle")! }
-	static var _21CircleFill: SFSymbol { SFSymbol("21.circle.fill")! }
-	static var _22Circle: SFSymbol { SFSymbol("22.circle")! }
-	static var _22CircleFill: SFSymbol { SFSymbol("22.circle.fill")! }
-	static var _23Circle: SFSymbol { SFSymbol("23.circle")! }
-	static var _23CircleFill: SFSymbol { SFSymbol("23.circle.fill")! }
-	static var _24Circle: SFSymbol { SFSymbol("24.circle")! }
-	static var _24CircleFill: SFSymbol { SFSymbol("24.circle.fill")! }
-	static var _25Circle: SFSymbol { SFSymbol("25.circle")! }
-	static var _25CircleFill: SFSymbol { SFSymbol("25.circle.fill")! }
-	static var _26Circle: SFSymbol { SFSymbol("26.circle")! }
-	static var _26CircleFill: SFSymbol { SFSymbol("26.circle.fill")! }
-	static var _27Circle: SFSymbol { SFSymbol("27.circle")! }
-	static var _27CircleFill: SFSymbol { SFSymbol("27.circle.fill")! }
-	static var _28Circle: SFSymbol { SFSymbol("28.circle")! }
-	static var _28CircleFill: SFSymbol { SFSymbol("28.circle.fill")! }
-	static var _29Circle: SFSymbol { SFSymbol("29.circle")! }
-	static var _29CircleFill: SFSymbol { SFSymbol("29.circle.fill")! }
-	static var _30Circle: SFSymbol { SFSymbol("30.circle")! }
-	static var _30CircleFill: SFSymbol { SFSymbol("30.circle.fill")! }
-	static var _31Circle: SFSymbol { SFSymbol("31.circle")! }
-	static var _31CircleFill: SFSymbol { SFSymbol("31.circle.fill")! }
-	static var _32Circle: SFSymbol { SFSymbol("32.circle")! }
-	static var _32CircleFill: SFSymbol { SFSymbol("32.circle.fill")! }
-	static var _33Circle: SFSymbol { SFSymbol("33.circle")! }
-	static var _33CircleFill: SFSymbol { SFSymbol("33.circle.fill")! }
-	static var _34Circle: SFSymbol { SFSymbol("34.circle")! }
-	static var _34CircleFill: SFSymbol { SFSymbol("34.circle.fill")! }
-	static var _35Circle: SFSymbol { SFSymbol("35.circle")! }
-	static var _35CircleFill: SFSymbol { SFSymbol("35.circle.fill")! }
-	static var _36Circle: SFSymbol { SFSymbol("36.circle")! }
-	static var _36CircleFill: SFSymbol { SFSymbol("36.circle.fill")! }
-	static var _37Circle: SFSymbol { SFSymbol("37.circle")! }
-	static var _37CircleFill: SFSymbol { SFSymbol("37.circle.fill")! }
-	static var _38Circle: SFSymbol { SFSymbol("38.circle")! }
-	static var _38CircleFill: SFSymbol { SFSymbol("38.circle.fill")! }
-	static var _39Circle: SFSymbol { SFSymbol("39.circle")! }
-	static var _39CircleFill: SFSymbol { SFSymbol("39.circle.fill")! }
-	static var _40Circle: SFSymbol { SFSymbol("40.circle")! }
-	static var _40CircleFill: SFSymbol { SFSymbol("40.circle.fill")! }
-	static var _41Circle: SFSymbol { SFSymbol("41.circle")! }
-	static var _41CircleFill: SFSymbol { SFSymbol("41.circle.fill")! }
-	static var _42Circle: SFSymbol { SFSymbol("42.circle")! }
-	static var _42CircleFill: SFSymbol { SFSymbol("42.circle.fill")! }
-	static var _43Circle: SFSymbol { SFSymbol("43.circle")! }
-	static var _43CircleFill: SFSymbol { SFSymbol("43.circle.fill")! }
-	static var _44Circle: SFSymbol { SFSymbol("44.circle")! }
-	static var _44CircleFill: SFSymbol { SFSymbol("44.circle.fill")! }
-	static var _45Circle: SFSymbol { SFSymbol("45.circle")! }
-	static var _45CircleFill: SFSymbol { SFSymbol("45.circle.fill")! }
-	static var _46Circle: SFSymbol { SFSymbol("46.circle")! }
-	static var _46CircleFill: SFSymbol { SFSymbol("46.circle.fill")! }
-	static var _47Circle: SFSymbol { SFSymbol("47.circle")! }
-	static var _47CircleFill: SFSymbol { SFSymbol("47.circle.fill")! }
-	static var _48Circle: SFSymbol { SFSymbol("48.circle")! }
-	static var _48CircleFill: SFSymbol { SFSymbol("48.circle.fill")! }
-	static var _49Circle: SFSymbol { SFSymbol("49.circle")! }
-	static var _49CircleFill: SFSymbol { SFSymbol("49.circle.fill")! }
-	static var _50Circle: SFSymbol { SFSymbol("50.circle")! }
-	static var _50CircleFill: SFSymbol { SFSymbol("50.circle.fill")! }
-	static var _00Square: SFSymbol { SFSymbol("00.square")! }
-	static var _00SquareFill: SFSymbol { SFSymbol("00.square.fill")! }
-	static var _01Square: SFSymbol { SFSymbol("01.square")! }
-	static var _01SquareFill: SFSymbol { SFSymbol("01.square.fill")! }
-	static var _02Square: SFSymbol { SFSymbol("02.square")! }
-	static var _02SquareFill: SFSymbol { SFSymbol("02.square.fill")! }
-	static var _03Square: SFSymbol { SFSymbol("03.square")! }
-	static var _03SquareFill: SFSymbol { SFSymbol("03.square.fill")! }
-	static var _04Square: SFSymbol { SFSymbol("04.square")! }
-	static var _04SquareFill: SFSymbol { SFSymbol("04.square.fill")! }
-	static var _05Square: SFSymbol { SFSymbol("05.square")! }
-	static var _05SquareFill: SFSymbol { SFSymbol("05.square.fill")! }
-	static var _06Square: SFSymbol { SFSymbol("06.square")! }
-	static var _06SquareFill: SFSymbol { SFSymbol("06.square.fill")! }
-	static var _07Square: SFSymbol { SFSymbol("07.square")! }
-	static var _07SquareFill: SFSymbol { SFSymbol("07.square.fill")! }
-	static var _08Square: SFSymbol { SFSymbol("08.square")! }
-	static var _08SquareFill: SFSymbol { SFSymbol("08.square.fill")! }
-	static var _09Square: SFSymbol { SFSymbol("09.square")! }
-	static var _09SquareFill: SFSymbol { SFSymbol("09.square.fill")! }
-	static var _10Square: SFSymbol { SFSymbol("10.square")! }
-	static var _10SquareFill: SFSymbol { SFSymbol("10.square.fill")! }
-	static var _11Square: SFSymbol { SFSymbol("11.square")! }
-	static var _11SquareFill: SFSymbol { SFSymbol("11.square.fill")! }
-	static var _12Square: SFSymbol { SFSymbol("12.square")! }
-	static var _12SquareFill: SFSymbol { SFSymbol("12.square.fill")! }
-	static var _13Square: SFSymbol { SFSymbol("13.square")! }
-	static var _13SquareFill: SFSymbol { SFSymbol("13.square.fill")! }
-	static var _14Square: SFSymbol { SFSymbol("14.square")! }
-	static var _14SquareFill: SFSymbol { SFSymbol("14.square.fill")! }
-	static var _15Square: SFSymbol { SFSymbol("15.square")! }
-	static var _15SquareFill: SFSymbol { SFSymbol("15.square.fill")! }
-	static var _16Square: SFSymbol { SFSymbol("16.square")! }
-	static var _16SquareFill: SFSymbol { SFSymbol("16.square.fill")! }
-	static var _17Square: SFSymbol { SFSymbol("17.square")! }
-	static var _17SquareFill: SFSymbol { SFSymbol("17.square.fill")! }
-	static var _18Square: SFSymbol { SFSymbol("18.square")! }
-	static var _18SquareFill: SFSymbol { SFSymbol("18.square.fill")! }
-	static var _19Square: SFSymbol { SFSymbol("19.square")! }
-	static var _19SquareFill: SFSymbol { SFSymbol("19.square.fill")! }
-	static var _20Square: SFSymbol { SFSymbol("20.square")! }
-	static var _20SquareFill: SFSymbol { SFSymbol("20.square.fill")! }
-	static var _21Square: SFSymbol { SFSymbol("21.square")! }
-	static var _21SquareFill: SFSymbol { SFSymbol("21.square.fill")! }
-	static var _22Square: SFSymbol { SFSymbol("22.square")! }
-	static var _22SquareFill: SFSymbol { SFSymbol("22.square.fill")! }
-	static var _23Square: SFSymbol { SFSymbol("23.square")! }
-	static var _23SquareFill: SFSymbol { SFSymbol("23.square.fill")! }
-	static var _24Square: SFSymbol { SFSymbol("24.square")! }
-	static var _24SquareFill: SFSymbol { SFSymbol("24.square.fill")! }
-	static var _25Square: SFSymbol { SFSymbol("25.square")! }
-	static var _25SquareFill: SFSymbol { SFSymbol("25.square.fill")! }
-	static var _26Square: SFSymbol { SFSymbol("26.square")! }
-	static var _26SquareFill: SFSymbol { SFSymbol("26.square.fill")! }
-	static var _27Square: SFSymbol { SFSymbol("27.square")! }
-	static var _27SquareFill: SFSymbol { SFSymbol("27.square.fill")! }
-	static var _28Square: SFSymbol { SFSymbol("28.square")! }
-	static var _28SquareFill: SFSymbol { SFSymbol("28.square.fill")! }
-	static var _29Square: SFSymbol { SFSymbol("29.square")! }
-	static var _29SquareFill: SFSymbol { SFSymbol("29.square.fill")! }
-	static var _30Square: SFSymbol { SFSymbol("30.square")! }
-	static var _30SquareFill: SFSymbol { SFSymbol("30.square.fill")! }
-	static var _31Square: SFSymbol { SFSymbol("31.square")! }
-	static var _31SquareFill: SFSymbol { SFSymbol("31.square.fill")! }
-	static var _32Square: SFSymbol { SFSymbol("32.square")! }
-	static var _32SquareFill: SFSymbol { SFSymbol("32.square.fill")! }
-	static var _33Square: SFSymbol { SFSymbol("33.square")! }
-	static var _33SquareFill: SFSymbol { SFSymbol("33.square.fill")! }
-	static var _34Square: SFSymbol { SFSymbol("34.square")! }
-	static var _34SquareFill: SFSymbol { SFSymbol("34.square.fill")! }
-	static var _35Square: SFSymbol { SFSymbol("35.square")! }
-	static var _35SquareFill: SFSymbol { SFSymbol("35.square.fill")! }
-	static var _36Square: SFSymbol { SFSymbol("36.square")! }
-	static var _36SquareFill: SFSymbol { SFSymbol("36.square.fill")! }
-	static var _37Square: SFSymbol { SFSymbol("37.square")! }
-	static var _37SquareFill: SFSymbol { SFSymbol("37.square.fill")! }
-	static var _38Square: SFSymbol { SFSymbol("38.square")! }
-	static var _38SquareFill: SFSymbol { SFSymbol("38.square.fill")! }
-	static var _39Square: SFSymbol { SFSymbol("39.square")! }
-	static var _39SquareFill: SFSymbol { SFSymbol("39.square.fill")! }
-	static var _40Square: SFSymbol { SFSymbol("40.square")! }
-	static var _40SquareFill: SFSymbol { SFSymbol("40.square.fill")! }
-	static var _41Square: SFSymbol { SFSymbol("41.square")! }
-	static var _41SquareFill: SFSymbol { SFSymbol("41.square.fill")! }
-	static var _42Square: SFSymbol { SFSymbol("42.square")! }
-	static var _42SquareFill: SFSymbol { SFSymbol("42.square.fill")! }
-	static var _43Square: SFSymbol { SFSymbol("43.square")! }
-	static var _43SquareFill: SFSymbol { SFSymbol("43.square.fill")! }
-	static var _44Square: SFSymbol { SFSymbol("44.square")! }
-	static var _44SquareFill: SFSymbol { SFSymbol("44.square.fill")! }
-	static var _45Square: SFSymbol { SFSymbol("45.square")! }
-	static var _45SquareFill: SFSymbol { SFSymbol("45.square.fill")! }
-	static var _46Square: SFSymbol { SFSymbol("46.square")! }
-	static var _46SquareFill: SFSymbol { SFSymbol("46.square.fill")! }
-	static var _47Square: SFSymbol { SFSymbol("47.square")! }
-	static var _47SquareFill: SFSymbol { SFSymbol("47.square.fill")! }
-	static var _48Square: SFSymbol { SFSymbol("48.square")! }
-	static var _48SquareFill: SFSymbol { SFSymbol("48.square.fill")! }
-	static var _49Square: SFSymbol { SFSymbol("49.square")! }
-	static var _49SquareFill: SFSymbol { SFSymbol("49.square.fill")! }
-	static var _50Square: SFSymbol { SFSymbol("50.square")! }
-	static var _50SquareFill: SFSymbol { SFSymbol("50.square.fill")! }
-
+	static var number0Circle: SFSymbol { SFSymbol("0.circle")! }
+	static var number0CircleFill: SFSymbol { SFSymbol("0.circle.fill")! }
+	static var number0Square: SFSymbol { SFSymbol("0.square")! }
+	static var number0SquareFill: SFSymbol { SFSymbol("0.square.fill")! }
+	static var number1Circle: SFSymbol { SFSymbol("1.circle")! }
+	static var number1CircleFill: SFSymbol { SFSymbol("1.circle.fill")! }
+	static var number1Square: SFSymbol { SFSymbol("1.square")! }
+	static var number1SquareFill: SFSymbol { SFSymbol("1.square.fill")! }
+	static var number2Circle: SFSymbol { SFSymbol("2.circle")! }
+	static var number2CircleFill: SFSymbol { SFSymbol("2.circle.fill")! }
+	static var number2Square: SFSymbol { SFSymbol("2.square")! }
+	static var number2SquareFill: SFSymbol { SFSymbol("2.square.fill")! }
+	static var number3Circle: SFSymbol { SFSymbol("3.circle")! }
+	static var number3CircleFill: SFSymbol { SFSymbol("3.circle.fill")! }
+	static var number3Square: SFSymbol { SFSymbol("3.square")! }
+	static var number3SquareFill: SFSymbol { SFSymbol("3.square.fill")! }
+	static var number4Circle: SFSymbol { SFSymbol("4.circle")! }
+	static var number4CircleFill: SFSymbol { SFSymbol("4.circle.fill")! }
+	static var number4Square: SFSymbol { SFSymbol("4.square")! }
+	static var number4SquareFill: SFSymbol { SFSymbol("4.square.fill")! }
+	static var number4AltCircle: SFSymbol { SFSymbol("4.alt.circle")! }
+	static var number4AltCircleFill: SFSymbol { SFSymbol("4.alt.circle.fill")! }
+	static var number4AltSquare: SFSymbol { SFSymbol("4.alt.square")! }
+	static var number4AltSquareFill: SFSymbol { SFSymbol("4.alt.square.fill")! }
+	static var number5Circle: SFSymbol { SFSymbol("5.circle")! }
+	static var number5CircleFill: SFSymbol { SFSymbol("5.circle.fill")! }
+	static var number5Square: SFSymbol { SFSymbol("5.square")! }
+	static var number5SquareFill: SFSymbol { SFSymbol("5.square.fill")! }
+	static var number6Circle: SFSymbol { SFSymbol("6.circle")! }
+	static var number6CircleFill: SFSymbol { SFSymbol("6.circle.fill")! }
+	static var number6Square: SFSymbol { SFSymbol("6.square")! }
+	static var number6SquareFill: SFSymbol { SFSymbol("6.square.fill")! }
+	static var number6AltCircle: SFSymbol { SFSymbol("6.alt.circle")! }
+	static var number6AltCircleFill: SFSymbol { SFSymbol("6.alt.circle.fill")! }
+	static var number6AltSquare: SFSymbol { SFSymbol("6.alt.square")! }
+	static var number6AltSquareFill: SFSymbol { SFSymbol("6.alt.square.fill")! }
+	static var number7Circle: SFSymbol { SFSymbol("7.circle")! }
+	static var number7CircleFill: SFSymbol { SFSymbol("7.circle.fill")! }
+	static var number7Square: SFSymbol { SFSymbol("7.square")! }
+	static var number7SquareFill: SFSymbol { SFSymbol("7.square.fill")! }
+	static var number8Circle: SFSymbol { SFSymbol("8.circle")! }
+	static var number8CircleFill: SFSymbol { SFSymbol("8.circle.fill")! }
+	static var number8Square: SFSymbol { SFSymbol("8.square")! }
+	static var number8SquareFill: SFSymbol { SFSymbol("8.square.fill")! }
+	static var number9Circle: SFSymbol { SFSymbol("9.circle")! }
+	static var number9CircleFill: SFSymbol { SFSymbol("9.circle.fill")! }
+	static var number9Square: SFSymbol { SFSymbol("9.square")! }
+	static var number9SquareFill: SFSymbol { SFSymbol("9.square.fill")! }
+	static var number9AltCircle: SFSymbol { SFSymbol("9.alt.circle")! }
+	static var number9AltCircleFill: SFSymbol { SFSymbol("9.alt.circle.fill")! }
+	static var number9AltSquare: SFSymbol { SFSymbol("9.alt.square")! }
+	static var number9AltSquareFill: SFSymbol { SFSymbol("9.alt.square.fill")! }
+	static var number00Circle: SFSymbol { SFSymbol("00.circle")! }
+	static var number00CircleFill: SFSymbol { SFSymbol("00.circle.fill")! }
+	static var number00Square: SFSymbol { SFSymbol("00.square")! }
+	static var number00SquareFill: SFSymbol { SFSymbol("00.square.fill")! }
+	static var number01Circle: SFSymbol { SFSymbol("01.circle")! }
+	static var number01CircleFill: SFSymbol { SFSymbol("01.circle.fill")! }
+	static var number01Square: SFSymbol { SFSymbol("01.square")! }
+	static var number01SquareFill: SFSymbol { SFSymbol("01.square.fill")! }
+	static var number02Circle: SFSymbol { SFSymbol("02.circle")! }
+	static var number02CircleFill: SFSymbol { SFSymbol("02.circle.fill")! }
+	static var number02Square: SFSymbol { SFSymbol("02.square")! }
+	static var number02SquareFill: SFSymbol { SFSymbol("02.square.fill")! }
+	static var number03Circle: SFSymbol { SFSymbol("03.circle")! }
+	static var number03CircleFill: SFSymbol { SFSymbol("03.circle.fill")! }
+	static var number03Square: SFSymbol { SFSymbol("03.square")! }
+	static var number03SquareFill: SFSymbol { SFSymbol("03.square.fill")! }
+	static var number04Circle: SFSymbol { SFSymbol("04.circle")! }
+	static var number04CircleFill: SFSymbol { SFSymbol("04.circle.fill")! }
+	static var number04Square: SFSymbol { SFSymbol("04.square")! }
+	static var number04SquareFill: SFSymbol { SFSymbol("04.square.fill")! }
+	static var number05Circle: SFSymbol { SFSymbol("05.circle")! }
+	static var number05CircleFill: SFSymbol { SFSymbol("05.circle.fill")! }
+	static var number05Square: SFSymbol { SFSymbol("05.square")! }
+	static var number05SquareFill: SFSymbol { SFSymbol("05.square.fill")! }
+	static var number06Circle: SFSymbol { SFSymbol("06.circle")! }
+	static var number06CircleFill: SFSymbol { SFSymbol("06.circle.fill")! }
+	static var number06Square: SFSymbol { SFSymbol("06.square")! }
+	static var number06SquareFill: SFSymbol { SFSymbol("06.square.fill")! }
+	static var number07Circle: SFSymbol { SFSymbol("07.circle")! }
+	static var number07CircleFill: SFSymbol { SFSymbol("07.circle.fill")! }
+	static var number07Square: SFSymbol { SFSymbol("07.square")! }
+	static var number07SquareFill: SFSymbol { SFSymbol("07.square.fill")! }
+	static var number08Circle: SFSymbol { SFSymbol("08.circle")! }
+	static var number08CircleFill: SFSymbol { SFSymbol("08.circle.fill")! }
+	static var number08Square: SFSymbol { SFSymbol("08.square")! }
+	static var number08SquareFill: SFSymbol { SFSymbol("08.square.fill")! }
+	static var number09Circle: SFSymbol { SFSymbol("09.circle")! }
+	static var number09CircleFill: SFSymbol { SFSymbol("09.circle.fill")! }
+	static var number09Square: SFSymbol { SFSymbol("09.square")! }
+	static var number09SquareFill: SFSymbol { SFSymbol("09.square.fill")! }
+	static var number10Circle: SFSymbol { SFSymbol("10.circle")! }
+	static var number10CircleFill: SFSymbol { SFSymbol("10.circle.fill")! }
+	static var number10Square: SFSymbol { SFSymbol("10.square")! }
+	static var number10SquareFill: SFSymbol { SFSymbol("10.square.fill")! }
+	static var number11Circle: SFSymbol { SFSymbol("11.circle")! }
+	static var number11CircleFill: SFSymbol { SFSymbol("11.circle.fill")! }
+	static var number11Square: SFSymbol { SFSymbol("11.square")! }
+	static var number11SquareFill: SFSymbol { SFSymbol("11.square.fill")! }
+	static var number12Circle: SFSymbol { SFSymbol("12.circle")! }
+	static var number12CircleFill: SFSymbol { SFSymbol("12.circle.fill")! }
+	static var number12Square: SFSymbol { SFSymbol("12.square")! }
+	static var number12SquareFill: SFSymbol { SFSymbol("12.square.fill")! }
+	static var number13Circle: SFSymbol { SFSymbol("13.circle")! }
+	static var number13CircleFill: SFSymbol { SFSymbol("13.circle.fill")! }
+	static var number13Square: SFSymbol { SFSymbol("13.square")! }
+	static var number13SquareFill: SFSymbol { SFSymbol("13.square.fill")! }
+	static var number14Circle: SFSymbol { SFSymbol("14.circle")! }
+	static var number14CircleFill: SFSymbol { SFSymbol("14.circle.fill")! }
+	static var number14Square: SFSymbol { SFSymbol("14.square")! }
+	static var number14SquareFill: SFSymbol { SFSymbol("14.square.fill")! }
+	static var number15Circle: SFSymbol { SFSymbol("15.circle")! }
+	static var number15CircleFill: SFSymbol { SFSymbol("15.circle.fill")! }
+	static var number15Square: SFSymbol { SFSymbol("15.square")! }
+	static var number15SquareFill: SFSymbol { SFSymbol("15.square.fill")! }
+	static var number16Circle: SFSymbol { SFSymbol("16.circle")! }
+	static var number16CircleFill: SFSymbol { SFSymbol("16.circle.fill")! }
+	static var number16Square: SFSymbol { SFSymbol("16.square")! }
+	static var number16SquareFill: SFSymbol { SFSymbol("16.square.fill")! }
+	static var number17Circle: SFSymbol { SFSymbol("17.circle")! }
+	static var number17CircleFill: SFSymbol { SFSymbol("17.circle.fill")! }
+	static var number17Square: SFSymbol { SFSymbol("17.square")! }
+	static var number17SquareFill: SFSymbol { SFSymbol("17.square.fill")! }
+	static var number18Circle: SFSymbol { SFSymbol("18.circle")! }
+	static var number18CircleFill: SFSymbol { SFSymbol("18.circle.fill")! }
+	static var number18Square: SFSymbol { SFSymbol("18.square")! }
+	static var number18SquareFill: SFSymbol { SFSymbol("18.square.fill")! }
+	static var number19Circle: SFSymbol { SFSymbol("19.circle")! }
+	static var number19CircleFill: SFSymbol { SFSymbol("19.circle.fill")! }
+	static var number19Square: SFSymbol { SFSymbol("19.square")! }
+	static var number19SquareFill: SFSymbol { SFSymbol("19.square.fill")! }
+	static var number20Circle: SFSymbol { SFSymbol("20.circle")! }
+	static var number20CircleFill: SFSymbol { SFSymbol("20.circle.fill")! }
+	static var number20Square: SFSymbol { SFSymbol("20.square")! }
+	static var number20SquareFill: SFSymbol { SFSymbol("20.square.fill")! }
+	static var number21Circle: SFSymbol { SFSymbol("21.circle")! }
+	static var number21CircleFill: SFSymbol { SFSymbol("21.circle.fill")! }
+	static var number21Square: SFSymbol { SFSymbol("21.square")! }
+	static var number21SquareFill: SFSymbol { SFSymbol("21.square.fill")! }
+	static var number22Circle: SFSymbol { SFSymbol("22.circle")! }
+	static var number22CircleFill: SFSymbol { SFSymbol("22.circle.fill")! }
+	static var number22Square: SFSymbol { SFSymbol("22.square")! }
+	static var number22SquareFill: SFSymbol { SFSymbol("22.square.fill")! }
+	static var number23Circle: SFSymbol { SFSymbol("23.circle")! }
+	static var number23CircleFill: SFSymbol { SFSymbol("23.circle.fill")! }
+	static var number23Square: SFSymbol { SFSymbol("23.square")! }
+	static var number23SquareFill: SFSymbol { SFSymbol("23.square.fill")! }
+	static var number24Circle: SFSymbol { SFSymbol("24.circle")! }
+	static var number24CircleFill: SFSymbol { SFSymbol("24.circle.fill")! }
+	static var number24Square: SFSymbol { SFSymbol("24.square")! }
+	static var number24SquareFill: SFSymbol { SFSymbol("24.square.fill")! }
+	static var number25Circle: SFSymbol { SFSymbol("25.circle")! }
+	static var number25CircleFill: SFSymbol { SFSymbol("25.circle.fill")! }
+	static var number25Square: SFSymbol { SFSymbol("25.square")! }
+	static var number25SquareFill: SFSymbol { SFSymbol("25.square.fill")! }
+	static var number26Circle: SFSymbol { SFSymbol("26.circle")! }
+	static var number26CircleFill: SFSymbol { SFSymbol("26.circle.fill")! }
+	static var number26Square: SFSymbol { SFSymbol("26.square")! }
+	static var number26SquareFill: SFSymbol { SFSymbol("26.square.fill")! }
+	static var number27Circle: SFSymbol { SFSymbol("27.circle")! }
+	static var number27CircleFill: SFSymbol { SFSymbol("27.circle.fill")! }
+	static var number27Square: SFSymbol { SFSymbol("27.square")! }
+	static var number27SquareFill: SFSymbol { SFSymbol("27.square.fill")! }
+	static var number28Circle: SFSymbol { SFSymbol("28.circle")! }
+	static var number28CircleFill: SFSymbol { SFSymbol("28.circle.fill")! }
+	static var number28Square: SFSymbol { SFSymbol("28.square")! }
+	static var number28SquareFill: SFSymbol { SFSymbol("28.square.fill")! }
+	static var number29Circle: SFSymbol { SFSymbol("29.circle")! }
+	static var number29CircleFill: SFSymbol { SFSymbol("29.circle.fill")! }
+	static var number29Square: SFSymbol { SFSymbol("29.square")! }
+	static var number29SquareFill: SFSymbol { SFSymbol("29.square.fill")! }
+	static var number30Circle: SFSymbol { SFSymbol("30.circle")! }
+	static var number30CircleFill: SFSymbol { SFSymbol("30.circle.fill")! }
+	static var number30Square: SFSymbol { SFSymbol("30.square")! }
+	static var number30SquareFill: SFSymbol { SFSymbol("30.square.fill")! }
+	static var number31Circle: SFSymbol { SFSymbol("31.circle")! }
+	static var number31CircleFill: SFSymbol { SFSymbol("31.circle.fill")! }
+	static var number31Square: SFSymbol { SFSymbol("31.square")! }
+	static var number31SquareFill: SFSymbol { SFSymbol("31.square.fill")! }
+	static var number32Circle: SFSymbol { SFSymbol("32.circle")! }
+	static var number32CircleFill: SFSymbol { SFSymbol("32.circle.fill")! }
+	static var number32Square: SFSymbol { SFSymbol("32.square")! }
+	static var number32SquareFill: SFSymbol { SFSymbol("32.square.fill")! }
+	static var number33Circle: SFSymbol { SFSymbol("33.circle")! }
+	static var number33CircleFill: SFSymbol { SFSymbol("33.circle.fill")! }
+	static var number33Square: SFSymbol { SFSymbol("33.square")! }
+	static var number33SquareFill: SFSymbol { SFSymbol("33.square.fill")! }
+	static var number34Circle: SFSymbol { SFSymbol("34.circle")! }
+	static var number34CircleFill: SFSymbol { SFSymbol("34.circle.fill")! }
+	static var number34Square: SFSymbol { SFSymbol("34.square")! }
+	static var number34SquareFill: SFSymbol { SFSymbol("34.square.fill")! }
+	static var number35Circle: SFSymbol { SFSymbol("35.circle")! }
+	static var number35CircleFill: SFSymbol { SFSymbol("35.circle.fill")! }
+	static var number35Square: SFSymbol { SFSymbol("35.square")! }
+	static var number35SquareFill: SFSymbol { SFSymbol("35.square.fill")! }
+	static var number36Circle: SFSymbol { SFSymbol("36.circle")! }
+	static var number36CircleFill: SFSymbol { SFSymbol("36.circle.fill")! }
+	static var number36Square: SFSymbol { SFSymbol("36.square")! }
+	static var number36SquareFill: SFSymbol { SFSymbol("36.square.fill")! }
+	static var number37Circle: SFSymbol { SFSymbol("37.circle")! }
+	static var number37CircleFill: SFSymbol { SFSymbol("37.circle.fill")! }
+	static var number37Square: SFSymbol { SFSymbol("37.square")! }
+	static var number37SquareFill: SFSymbol { SFSymbol("37.square.fill")! }
+	static var number38Circle: SFSymbol { SFSymbol("38.circle")! }
+	static var number38CircleFill: SFSymbol { SFSymbol("38.circle.fill")! }
+	static var number38Square: SFSymbol { SFSymbol("38.square")! }
+	static var number38SquareFill: SFSymbol { SFSymbol("38.square.fill")! }
+	static var number39Circle: SFSymbol { SFSymbol("39.circle")! }
+	static var number39CircleFill: SFSymbol { SFSymbol("39.circle.fill")! }
+	static var number39Square: SFSymbol { SFSymbol("39.square")! }
+	static var number39SquareFill: SFSymbol { SFSymbol("39.square.fill")! }
+	static var number40Circle: SFSymbol { SFSymbol("40.circle")! }
+	static var number40CircleFill: SFSymbol { SFSymbol("40.circle.fill")! }
+	static var number40Square: SFSymbol { SFSymbol("40.square")! }
+	static var number40SquareFill: SFSymbol { SFSymbol("40.square.fill")! }
+	static var number41Circle: SFSymbol { SFSymbol("41.circle")! }
+	static var number41CircleFill: SFSymbol { SFSymbol("41.circle.fill")! }
+	static var number41Square: SFSymbol { SFSymbol("41.square")! }
+	static var number41SquareFill: SFSymbol { SFSymbol("41.square.fill")! }
+	static var number42Circle: SFSymbol { SFSymbol("42.circle")! }
+	static var number42CircleFill: SFSymbol { SFSymbol("42.circle.fill")! }
+	static var number42Square: SFSymbol { SFSymbol("42.square")! }
+	static var number42SquareFill: SFSymbol { SFSymbol("42.square.fill")! }
+	static var number43Circle: SFSymbol { SFSymbol("43.circle")! }
+	static var number43CircleFill: SFSymbol { SFSymbol("43.circle.fill")! }
+	static var number43Square: SFSymbol { SFSymbol("43.square")! }
+	static var number43SquareFill: SFSymbol { SFSymbol("43.square.fill")! }
+	static var number44Circle: SFSymbol { SFSymbol("44.circle")! }
+	static var number44CircleFill: SFSymbol { SFSymbol("44.circle.fill")! }
+	static var number44Square: SFSymbol { SFSymbol("44.square")! }
+	static var number44SquareFill: SFSymbol { SFSymbol("44.square.fill")! }
+	static var number45Circle: SFSymbol { SFSymbol("45.circle")! }
+	static var number45CircleFill: SFSymbol { SFSymbol("45.circle.fill")! }
+	static var number45Square: SFSymbol { SFSymbol("45.square")! }
+	static var number45SquareFill: SFSymbol { SFSymbol("45.square.fill")! }
+	static var number46Circle: SFSymbol { SFSymbol("46.circle")! }
+	static var number46CircleFill: SFSymbol { SFSymbol("46.circle.fill")! }
+	static var number46Square: SFSymbol { SFSymbol("46.square")! }
+	static var number46SquareFill: SFSymbol { SFSymbol("46.square.fill")! }
+	static var number47Circle: SFSymbol { SFSymbol("47.circle")! }
+	static var number47CircleFill: SFSymbol { SFSymbol("47.circle.fill")! }
+	static var number47Square: SFSymbol { SFSymbol("47.square")! }
+	static var number47SquareFill: SFSymbol { SFSymbol("47.square.fill")! }
+	static var number48Circle: SFSymbol { SFSymbol("48.circle")! }
+	static var number48CircleFill: SFSymbol { SFSymbol("48.circle.fill")! }
+	static var number48Square: SFSymbol { SFSymbol("48.square")! }
+	static var number48SquareFill: SFSymbol { SFSymbol("48.square.fill")! }
+	static var number49Circle: SFSymbol { SFSymbol("49.circle")! }
+	static var number49CircleFill: SFSymbol { SFSymbol("49.circle.fill")! }
+	static var number49Square: SFSymbol { SFSymbol("49.square")! }
+	static var number49SquareFill: SFSymbol { SFSymbol("49.square.fill")! }
+	static var number50Circle: SFSymbol { SFSymbol("50.circle")! }
+	static var number50CircleFill: SFSymbol { SFSymbol("50.circle.fill")! }
+	static var number50Square: SFSymbol { SFSymbol("50.square")! }
+	static var number50SquareFill: SFSymbol { SFSymbol("50.square.fill")! }
+	static var applelogo: SFSymbol { SFSymbol("applelogo")! }
 }
