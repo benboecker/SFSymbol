@@ -16,11 +16,11 @@ public extension SFSymbol {
 		public let style: Style
 	}
 	
-	enum Weight: Hashable {
+	enum Weight: Hashable, CaseIterable {
 		case ultraLight, thin, light, regular, medium, semibold, bold, heavy, black
 	}
 	
-	enum Size: Hashable {
+	enum Size: Hashable, CaseIterable {
 		case small, medium, large
 	}
 	
