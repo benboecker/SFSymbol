@@ -10,21 +10,21 @@ import UIKit
 
 
 public extension SFSymbol {
-	struct Configuration {
-		let weight: Weight
-		let size: Size
-		let style: Style
+	struct Configuration: Hashable {
+		public let weight: Weight
+		public let size: Size
+		public let style: Style
 	}
 	
-	enum Weight {
+	enum Weight: Hashable {
 		case ultraLight, thin, light, regular, medium, semibold, bold, heavy, black
 	}
 	
-	enum Size {
+	enum Size: Hashable {
 		case small, medium, large
 	}
 	
-	enum Style {
+	enum Style: Hashable {
 		case monochrome
 		case hierarchical(color: UIColor)
 		case palette(colors: [UIColor])

@@ -1,7 +1,7 @@
 import UIKit
 
 
-public struct SFSymbol {
+public struct SFSymbol: Hashable {
 	public let name: String
 	public let config: Configuration
 }
