@@ -24,8 +24,8 @@ public extension SFSymbol {
 			.apply(config.style)
 	}
 	
-	func symbol(weight: Weight, size: Size, style: Style) -> SFSymbol {
-		SFSymbol(name: name, config: Configuration(weight: weight, size: size, style: style))
+	func symbol(weight: Weight? = nil, size: Size? = nil, style: Style? = nil) -> SFSymbol {
+		SFSymbol(name: name, config: Configuration(weight: weight ?? config.weight, size: size ?? config.size, style: style ?? config.style))
 	}
 	
 	var ultraLight: SFSymbol {
