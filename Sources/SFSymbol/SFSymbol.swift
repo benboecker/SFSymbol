@@ -1,3 +1,5 @@
+
+import Foundation
 import UIKit
 
 
@@ -26,6 +28,12 @@ public extension SFSymbol {
 	
 	func symbol(weight: Weight? = nil, size: Size? = nil, style: Style? = nil) -> SFSymbol {
 		SFSymbol(name: name, config: Configuration(weight: weight ?? config.weight, size: size ?? config.size, style: style ?? config.style))
+	}
+	
+	func image(ofSize value: Double) -> UIImage {
+		let font = UIFont.systemFont(ofSize: value)
+		let c = UIImage.SymbolConfiguration(font: font)
+		return image.applyingSymbolConfiguration(c)!
 	}
 	
 	var ultraLight: SFSymbol {
