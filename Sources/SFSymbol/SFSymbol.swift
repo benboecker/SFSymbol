@@ -8,6 +8,12 @@ public struct SFSymbol: Hashable {
 	public let config: Configuration
 }
 
+public extension SFSymbol {
+	init(from name: String) {
+		self.init(name: name, config: Configuration(weight: .regular, size: .medium, style: .monochrome))
+	}
+}
+
 extension SFSymbol {
 	init(_ name: String, config: Configuration = Configuration(weight: .regular, size: .medium, style: .monochrome)) {
 		self.name = name
